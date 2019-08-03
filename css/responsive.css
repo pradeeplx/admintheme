@@ -1,0 +1,2580 @@
+
+@media all and (max-width:1200px){
+    .add-to-cart-area {
+        right: 38px;
+    }
+    .promocode-area .promo-close {
+        top: 30px;
+        right: 40px;
+    }
+}
+@media all and (max-width:1199px){
+    .promocode {
+        top: 246px;
+    }
+    .promo-show {
+        top: 246px;
+    }
+    .add-to-cart-area {
+        top: 140px;
+        right: 125px;
+    }
+    .topbar-contact ul li a {
+        margin-left: 2px;
+        font-size: 13px;
+    }
+    .topbar-contact ul li {
+        margin-left: 10px;
+    }
+    .search-header .header-login ul li:first-child {
+        margin-right: 30px;
+    }
+    .header-login ul li:nth-child(3) {
+        margin-right: 30px;
+    }
+    .header-menu ul li a {
+        padding: 12px 40px;
+    }
+    .header-menu ul li {
+        margin-right: 15px;
+    }
+    .banner-info h1 {
+        line-height: 40px;
+    }
+    .banner-info {
+        margin: 70px 0;
+    }
+    .offer.owl-carousel .owl-nav button.owl-next {
+        right: 80px;
+    }
+    .offer.owl-carousel .owl-nav button.owl-prev {
+        left: 80px;
+    }
+    .single-info .info-img {
+        height: 80px;
+    }
+    .single-info .info-img img {
+        width: 60%;
+    }
+    .section-padding {
+        padding: 50px 0px;
+    }
+    .award-img ul li {
+        margin-left: 20px;
+    }
+    .form-area h2 {
+        font-size: 27px;
+    }
+    .footer-contact ul li {
+        font-size: 12px;
+    }
+    .footer-newsletter form input {
+        font-size: 11px;
+    }
+    .footer-social h5 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .footer-social ul li a {
+        height: 24px;
+        width: 24px;
+        font-size: 10px;
+    }
+    .footer-social ul li {
+        margin-right: 6px;
+    }
+
+    /* Lipid Profile Test Area */
+
+    .lipid-profile-tab ul li:last-child {
+        width: 50.5%;
+    }
+    .lipid-test h4 {
+        font-size: 26px;
+    }
+    .lipid-cart a, .patient-cart a {
+        padding: 10px 18px;
+    }
+    .show-more-details {
+        max-height: 600px;
+    }
+
+    .show-more-details2 {
+        max-height: 825px;
+    }
+    .member-modal.modal-dialog {
+        margin: 0;
+    }
+    .member-modal .modal-body {
+        border-radius: 0;
+    }
+    .member-modal-img {
+        margin-bottom: 20px;
+    }
+    .member-modal-img img {
+        width: auto;
+    }
+    .member-modal .close {
+        top: 0px;
+    }
+
+    /* Cart Page Start */
+    .add-more a {
+        font-size: 12px;
+    }
+    .select-preference {
+        margin-left: 1%;
+    }
+    .cart-promo-apply {
+        width: 35%;
+        margin-left: 2%;
+    }
+    .cart-promo-apply form input {
+        padding: 8px 68px 8px 10px;
+        font-size: 11px;
+    }
+    .cart-promo-apply p {
+        font-size: 11px;
+    }
+    .cart-test-price table tbody td {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    .cart-test-table ul.cart-table-info li {
+        font-size: 14px;
+    }
+    .cart-table-title span {
+        font-size: 16px;
+    }
+    .cart-login-form form.firstForm a {
+        margin-left: 25px;
+    }
+    .new-register h6 {
+        font-size: 16px;
+    }
+    .patientInput label {
+        font-size: 13px;
+    }
+
+
+    .patientInput input {
+        width: 76%;
+        margin-right: 0 !important;
+    }
+    .res_input_none {
+        display: none;
+    }
+    .patient-DOB .selectDate, .patient-preference .selectDate {
+        right: 0;
+    }
+    .patient-locality input {
+        width: 76%;
+        margin-left: 40px;
+    }
+    .patient-gender span {
+        margin-left: 0;
+    }
+    .patient-gender {
+        margin-top: 25px;
+    }
+    .form-check-inline {
+        margin-right: 20px !important;
+    }
+    .patient-preference .selectDate {
+        right: 0;
+    }
+    .preferenceSelect {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    .patient-preference #time-slot {
+        width: 76%;
+        margin-left: 24%;
+    }
+    .patient-pincode-area {
+        flex-direction: column;
+    }
+    .patient-pincode {
+        width: 100%;
+    }
+    .patient-locality {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .patient-pincode input {
+        width: 76%;
+        margin-left: 9%;
+    }
+    .patient-save-address input[type="checkbox"] {
+        display: none;
+    }
+    .checkout-price {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .confirm-checkout #confirmCheck {
+        padding: 16px 9px;
+        margin-top: 30px;
+    }
+    /* Cart Page End */
+
+
+}
+@media all and (max-width:992px){
+    .add-to-cart-area {
+        right: 24px;
+    }
+}
+
+@media all and (max-width:991px){
+    .content-head .row > div {
+        order: 1;
+    }
+
+    .content-head .row > div:nth-child(2) {
+        order: 3;
+    }
+
+    .content-head .row > div:nth-child(3) {
+        order: 2;
+    }
+
+    .content-head .row > div:nth-child(4) {
+        order: 4;
+    }
+
+    .lipid-menu ul li {
+        display: inline-block;
+    }
+
+    .patient-cart.text-right a {
+        padding: 7px 10px;
+        font-size: 10px;
+    }
+
+    .patient-cart.text-right {
+        margin-top: 0;
+    }
+    div.columns-4 ul.products li.product {
+        width: 48%;
+        margin: 0 1%;
+    }
+    button.popup-search {
+        display: block;
+        background: transparent;
+        border: none;
+        opacity: 0;
+        visibility: hidden;
+        line-height: 11px;
+    }
+    button.popup-search:focus {
+        outline: 0 none;
+    }
+    button.popup-search.show {
+        opacity: 1;
+        visibility: visible;
+    }
+    .search-error .booktest-form {
+        margin-bottom: 30px;
+    }
+
+    .hiding-search {
+        display: none;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background: rgba(47, 68, 110, 0.9);
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .hiding-search.search-show {
+        display: block;
+    }
+    .hiding-search-form {
+        position: relative;
+        width: 75%;
+        margin: 100px auto;
+    }
+    .hiding-search-form .search-close {
+        color: #fff;
+        position: absolute;
+        top: -50px;
+        right: 0;
+        cursor: pointer;
+    }
+    .hiding-search-form input {
+        border: none;
+        padding: 14px 60px 15px 50px;
+        border-radius: 10px;
+        box-shadow: 0 2px 14px -7px #000;
+        width: 100%;
+    }
+    .search-form2 form.hiding-search-form input {
+        width: 100%;
+        background-color: #fff;
+        height: 40px;
+        padding: 0px 60px 0px 50px;
+        border-radius: 10px;
+        font-size: 100%;
+        color: inherit;
+        cursor: auto;
+    }
+    .hiding-search-form button[type="submit"] {
+        cursor: pointer;
+        outline: none;
+        background: #FFE644;
+        border: none;
+        padding: 8px 14px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .hiding-search-form button[type="submit"] i {
+        line-height: normal;
+    }
+
+    .billing-details table tr td {
+        padding: 0 25px 12px 0;
+    }
+    .patientInput input {
+        width: 74%;
+        margin-right: 0 !important;
+    }
+    .patient-locality input {
+        width: 74%;
+        margin-left: 14px;
+    }
+    .patient-pincode input {
+        width: 74%;
+        margin-left: 4%;
+    }
+    
+    .booking-status-head ul {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .booking-status-head ul li {
+        width: 30%;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+    .order-title ul li:first-child {
+        margin-left: -30px;
+    }
+    .order-info ul {
+        flex-wrap: wrap;
+    }
+    .order-info ul li:first-child {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .booking-order-details {
+        border-top: 1px solid #5897D5;
+        margin-top: 20px;
+        padding-top: 30px;
+    }
+    .billing-details {
+        border-top: 1px solid #5897D5;
+        margin-top: 20px;
+        padding-top: 30px;
+    }
+
+    .profile-area {
+        margin-top: 174px;
+    }
+    .promocode {
+        top: 164px;
+    }
+   .promo-show {
+        top: 160px;
+    }
+    .add-to-cart-area {
+        top: 102px;
+        right: 127px;
+    }
+    .topbar-title {
+        display: none;
+    }
+    .topbar-contact {
+        text-align: center;
+    }
+    .topbar-contact ul li {
+        margin-left: 30px;
+    }
+    .topbar-contact ul li a {
+        margin-left: 5px;
+    }
+    .header-logo a img {
+        width: 200px;
+    }
+    .header-body {
+        padding: 15px 0;
+    }
+    .single-promo-offer {
+        height: 120px;
+    }
+    .single-promo-offer h2 {
+        font-size: 30px;
+    }
+
+    .search-header form.search-form {
+        display: none;
+    }
+    .search-form2 {
+        display: block;
+    }
+    .search-form2 button {
+        background: transparent;
+        border: none;
+        color: #1b1f27;
+        cursor: pointer;
+        outline: none;
+    }
+    .search-header .header-login ul li:first-child {
+        margin-right: 30px;
+    }
+    .header-login ul li:nth-child(3) {
+        margin-right: 30px;
+    }
+
+    .header-login ul li a.cart-notify span.badge {
+        height: 16px;
+        width: 16px;;
+        top: -6px;
+        right: -2px;
+    }
+    .header-login ul li:first-child {
+        margin-right: 50px;
+    }
+    .header-login ul li img {
+        width: 20px;
+    }
+    .header-menu {
+        padding: 15px 0;
+    }
+    .header-menu ul li {
+        margin-right: 5px;
+    }
+    .header-menu ul li a {
+        padding: 8px 24px;
+        font-size: 12px;
+    }
+    .canvas-menu-area {
+        width: 375px;
+    }
+    
+    .margin_hide {
+        margin-top: 165px;
+    }
+    .banner-info h1 {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 30px;
+    }
+    .banner-info {
+        margin: 60px 0;
+    }
+    .cart-area .single-package {
+        margin-bottom: 15px;
+    }
+    .single-offer {
+        width: 550px;
+        padding: 35px 40px;
+    }
+    .single-offer h3 {
+        font-size: 26px;
+    }
+    .single-offer h3 span {
+        font-size: 30px;
+    }
+    .single-offer p {
+        margin-left: 130px;
+        font-size: 14px;
+    }
+    .offer.owl-carousel .owl-nav button.owl-next {
+        right: 55px;
+        top: 35%;
+    }
+    .offer.owl-carousel .owl-nav button.owl-prev {
+        left: 55px;
+        top: 35%;
+    }
+    .offer.owl-carousel button.owl-dot {
+        margin-right: 12px;
+    }
+    .offer.owl-carousel .owl-dots {
+        margin-top: 25px;
+    }
+    .package-head h2 {
+        font-size: 25px;
+    }
+    .package-head {
+        margin-bottom: 35px;
+    }
+    .package-head a {
+        font-size: 14px;
+        padding: 8px 35px;
+    }
+    .section-head {
+        margin-bottom: 50px;
+    }
+    .single-info .info-img {
+        height: 100px;
+        width: 17%;
+    }
+    .single-info {
+        margin-bottom: 30px;
+    }
+    .testimonial-area::after {
+        content: none;
+    }
+    .collection-mockup {
+        display: none;
+    }
+    .award-img {
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .award-img ul li {
+        margin-left: 50px;
+    }
+    .single-blog {
+        cursor: e-resize;
+    }
+    .bolg-area .col-md-6:last-child {
+        margin-top: 20px;
+    }
+    .footer-contact ul li {
+        margin-bottom: 10px;
+    }
+    .footer-area .col-sm-6:nth-child(1),
+    .footer-area .col-sm-6:nth-child(2) {
+        margin-bottom: 30px;
+    }
+    .footer-social {
+        margin-top: 20px;
+    }
+    .footer-area {
+        padding: 50px 0;
+    }
+    .service-area {
+        padding: 50px 0;
+    }
+    .offer-area {
+        padding: 50px 0;
+    }
+    .package-meta ul li {
+        margin-bottom: 10px;
+        display: block;
+    }
+    .why-choose-us .col-lg-6:last-child .single-info {
+        margin-bottom: 0px;
+    }
+
+    /* Book A Test Page Responsive Area */
+
+    .booktest-menu {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .booktest-form {
+        margin-bottom: 50px;
+    }
+    .booktest-banner .package-meta .cart {
+        bottom: 70px;
+    }
+    .visit {
+        width: 75%;
+    }
+
+    /* Lipid profile Test */
+    .lipid-profile-content {
+        padding: 35px 50px;
+    }
+    .lipid-profile-tab ul li {
+        padding: 14px 0;
+        font-size: 18px;
+    }
+    .lipid-profile-tab ul li:last-child {
+        width: 50%;
+    }
+    .lipid-profile-area .test-recommended {
+        padding: 4px 18px;
+        top: 51px;
+        left: -51px;
+        font-size: 12px;
+    }
+    .lipid-test {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .lipid-menu {
+        text-align: left;
+    }
+    .lipid-rate h3 {
+        font-size: 25px;
+    }
+    .lipid-menu ul li a {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    .lipid-menu ul li img {
+        width: 25px;
+        margin-right: 5px;
+    }
+    .lipid-cart {
+        display: none;
+    }
+    .doctors .col-lg-4:nth-last-of-type(n) .lipid-date {
+        margin-bottom: 15px;
+    }
+    .lipid-test-details::before {
+        content: none;
+    }
+    .test-intro-area {
+        margin-left: 0;
+        padding-top: 20px;
+        border-top: 1px solid #5897d5;
+        margin-top: 20px;
+    }
+    .lipid-test-details {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .test-intro {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid transparent;
+    }
+    .show-more-details {
+        max-height: 460px;
+    }
+    .show-more-details2 {
+        max-height: 660px;
+    }
+    .show-more, .less-more {
+        bottom: 45px;
+        right: 50px;
+    }
+    .lipid-cart a, .patient-cart a {
+        padding: 10px 18px;
+        font-size: 12px;
+    }
+    .lipid-cart a i, .patient-cart a i {
+        margin-right: 4px;
+        font-size: 20px;
+    }
+    .test-intro.test-order, .test-intro.test-result, .test-result-accordion {
+        border-bottom: 1px solid #5897d5;
+        padding: 20px 0;
+    }
+    .test-result-accordion {
+        padding-bottom: 0;
+        border-bottom: 1px solid transparent;
+    }
+    .card-header {
+        padding: 12px 20px 12px 30px !important;
+    }
+    .doctors .content-head-info {
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+    }
+    .recommended .package-offer {
+        padding: 16px 16px 16px 15px;
+    }
+    .recommended .col-md-6:last-child .single-package {
+        margin-bottom: 0px;
+    }
+    .content-head {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    /* Profile Catagory Details */
+
+    .components-included ul li {
+        width: 33%;
+    }
+
+    /* Comprehinsive Profile */
+
+    .single-comprehensive-profile {
+        width: calc(25% - 20px);
+    }
+    .comprehensive-profile {
+        margin-bottom: 60px;
+    }
+    
+    .left-catagory {
+        display: flex;
+        align-items: center;
+    }
+    .catagory-img {
+        height: 90px;
+        width: 90px;
+    }
+    .catagory-img img {
+        width: 85%;
+    }
+
+    /* About Page */
+
+    .about-banner-area {
+        background: none;
+        background-color: #fff;
+    }
+    .banner-doctors img {
+        width: 60%;
+    }
+    .legacy-img {
+        display: block;
+        text-align: right;
+        margin-bottom: 30px;
+    }
+    .legacy-img img {
+        width: 60%;
+    }
+    .banner-doctors {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .journey-tab-area::before {
+        content: none;
+    }
+    .journey-tab .journey-tab-content {
+        padding: 30px;
+    }
+    .single-labs-offer img {
+        width: 60px;
+    }
+    .single-labs-offer span {
+        font-size: 16px;
+    }
+    .member-img {
+        height: 160px;
+        width: 160px;
+    }
+    .team-member-area a {
+        margin-top: 60px;
+    }
+    .about-banner-service p {
+        margin-top: 10px;
+    }
+    .about-banner-area {
+        padding: 80px 0 20px;
+    }
+    .team-view {
+        max-height: 250px;
+    }
+
+    /* Back To Top */
+
+    .cd-top.js-cd-top.cd-top--show {
+        top: 500px;
+    }
+
+    /* Cart Error Page */
+
+    .cart-menu ul li a {
+        padding: 10px 30px;
+    }
+    .cart-area {
+        margin-top: 104px;
+    }
+
+    /* Cart Error Page */
+
+    /* my cart area start */
+
+    .add-more {
+        width: 35%;
+    }
+    .select-preference {
+        margin-left: 5%;
+        width: 60%;
+    }
+    .cart-promo-apply {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .total-payable ul li {
+        font-size: 14px;
+    }
+    .total-payable ul li:last-child {
+        font-size: 16px;
+    }
+    .cart-test-price {
+        padding: 30px 10px;
+    }
+    .total-payable {
+        padding: 14px 10px;
+    }
+    .cart-footer p {
+        font-size: 12px;
+    }
+    .cart-footer {
+        padding: 20px 0 10px;
+        margin-top: 30px;
+    }
+    .cart-footer a {
+        padding: 10px 35px;
+    }
+    .cart-test-table ul.cart-table-info {
+        padding: 8px 2px;
+    }
+    .cart-test-table ul.cart-table-info li img {
+        width: 20px;
+    }
+    .cart-test-table ul.cart-table-info li i {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .cart-table-title span {
+        font-size: 14px;
+    }
+    .cart-login-form form.firstForm input {
+        padding: 16px 10px;
+        font-size: 13px;
+    }
+    .mobileVerify button {
+        height: 47px;
+        width: 45px;
+        font-size: 16px;
+    }
+    .cart-login-form form.firstForm a {
+        color: #2F446E;
+        font-weight: 600;
+        display: inline-block;
+        margin-left: 0;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    /* my cart area End */
+
+     .header-login ul li:nth-child(2) {
+        margin-right: 30px;
+    }
+}
+
+@media all and (max-width:768px){
+    .add-to-cart-area {
+        top: 102px;
+        right: 15px;
+    }
+}
+@media all and (max-width:767px){
+    .hiding-search-form button[type="submit"]{
+        padding: 6px 14px;
+    }
+    .page-template-template-team .team-member-area{
+        padding-top: 180px;
+    }
+    .recommended .package-meta {
+        margin-top: -25px;
+    }
+    .recommended .package-offer {
+        top: 15px;
+    }
+    .recommended .single-package h5 {
+        margin-bottom: 0;
+        margin-left: 320px;
+    }
+    .user-booked .single-package h5 {
+        margin-bottom: 0;
+        margin-left: 320px;
+    }
+    .user-booked .package-meta {
+        margin-top: -25px;
+    }
+        .cart-test-table ul.cart-table-info {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .cart-test-table ul.cart-table-info li:nth-child(1) {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .add-more {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .select-preference {
+        margin-left: 0;
+        width: 100%;
+    }
+    .preferenceForm .form-check {
+        margin-top: 20px;
+        display: inline-block;
+        margin-right: 20px !important;
+    }
+    .cart-footer {
+        flex-direction: column;
+    }
+    .cart-footer a {
+        margin-top: 20px;
+    }
+    .res_input_none {
+        display: none;
+    }
+    .patientInput input {
+        width: 76%;
+        margin-right: 0 !important;
+    }
+    .patient-DOB .selectDate, .patient-preference .selectDate {
+        right: 0;
+    }
+    .patient-gender span {
+        margin-left: 0;
+    }
+    .patient-gender {
+        margin-top: 20px;
+    }
+    .patient-gender .form-check {
+        margin-left: 50px;
+    }
+    .patient-preference .selectDate {
+        right: 0;
+    }
+    .preferenceSelect {
+        width: 77%;
+        margin-left: 23%;
+        margin-top: 20px;
+    }
+    .patient-adress-title {
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .patient-adress-title h6 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .patient-adress-title p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .home-checkbox ul {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .home-checkbox ul li {
+        margin-right: 60px;
+        margin-bottom: 20px;
+    }
+    .patient-pincode-area {
+        flex-direction: column;
+    }
+    .patient-pincode {
+        width: 100%;
+    }
+    .patient-pincode input {
+        width: 76%;
+        margin-left: 11%;
+    }
+    .patient-locality {
+        width: 100%;
+    }
+    .patient-save-address input[type="checkbox"] {
+        display: none;
+    }
+    .payment-mode-title {
+        flex-direction: column;
+    }
+    .payment-mode-title p {
+        margin-top: 15px;
+    }
+    .patient-locality input {
+        width: 76%;
+        margin-left: 54px;
+        margin-top: 25px;
+    }
+    .checkout-price {
+        flex-direction: column;
+    }
+    .confirm-checkout {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .bl {
+        border-left: none;
+    }
+    
+
+
+    .total-price {
+        width: 100%;
+    }
+    .member-modal-img {
+        width: 300px;
+    }
+    .member-modal .modal-body {
+        background: #fff;
+    }
+    .cart-login-form form.firstForm a {
+        margin-left: 232px;
+        margin-top: 0px;
+    }
+    .profile-area {
+        margin-top: 0px;
+    }
+    .rev-mobile {
+        flex-direction: column-reverse;
+    }
+    .promocode {
+        top: 209px
+    }
+    .promo-show {
+        top: 209px;
+    }
+    .single-promo-offer {
+        margin-bottom: 30px;
+    }
+    .promocode-area .row .col-md-3 {
+        padding-left: 15px;
+    }
+    .promocode-area .row .col-6:nth-child(3) .single-promo-offer,
+    .promocode-area .row .col-6:nth-child(4) .single-promo-offer {
+        margin-bottom: 0px;
+    }
+    .add-to-cart-area {
+        top: 110px;
+        right: 105px;
+    }
+    .header-login ul li:nth-child(3) {
+        margin-right: 30px;
+    }
+    .header-login ul li:first-child {
+        margin-right: 30px;
+    }
+    .header-login ul li a.cart-notify span {
+        height: 14px;
+        width: 14px;
+        font-size: 10px;
+        top: -3px;
+        right: 3px;
+    }
+    .header-menu {
+        text-align: left;
+    }
+    .menu-area ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header-menu ul li {
+        margin-right: 2%;
+        width: 48%;
+        margin-bottom: 15px;
+    }
+    .header-menu ul li:nth-child(3),
+    .header-menu ul li:nth-child(4) {
+        margin-bottom: 0;
+    }
+    .header-menu ul li a {
+        padding: 0;
+        font-size: 12px;
+        width: 100%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .canvas-menu-area .login-hide {
+        display: block;
+        color: #fff !important;
+    }
+    .canvas-menu-area .login-hide a {
+        color: #fff !important;
+    }
+    .canvas-menu-area {
+        padding: 35px;
+    }
+    .canvas-menu ul li.download-reports a {
+        margin: 10px 0;
+    }
+
+    .margin_hide {
+        margin-top: 218px;
+    }
+    .about-banner-area {
+        padding: 35px 0 20px;
+    }
+    .banner-area {
+        background-color: #f5f6fa;
+        background-image: none !important;
+    }
+    .responsive-img {
+        display: block;
+        text-align: right;
+    }
+    .responsive-img img {
+        width: 80%;
+    }
+    .promocode {
+        font-size: 10px;
+        border-bottom: 21px solid #FF6E73;
+        border-top: 19px solid #FF6E73;
+        line-height: 13px;
+    }
+    
+    .login-hide {
+        display: none;
+    }
+    .search-form2 form.hide input {
+        width: 195px;
+    }
+    .package-head h2 {
+        font-size: 20px;
+    }
+    .package-head a {
+        font-size: 12px;
+        padding: 6px 28px;
+    }
+    .package-details .col-lg-3, .package-details .col-md-6 {
+        padding-right: 15px !important;
+    }
+    .single-package {
+        margin-bottom: 15px;
+        height: 220px;
+    }
+    .single-package a {
+        display: block;
+    }
+    .single-package p {
+        display: inline-block;
+    }
+    .single-package h5 {
+        font-weight: 800;
+        color: #2F446E;
+        display: inline-block;
+        margin-left: 145px;
+        float: right;
+    }
+ 
+    .package-meta .cart {
+        right: 65px;
+    }
+    .section-head {
+        margin-bottom: 30px;
+    }
+    .why-choose-us {
+        margin: 0;
+    }
+    .single-info .info-img {
+        height: 84px;
+    }
+    .whatsapp-connect {
+        padding: 10px 0;
+    }
+    .whatsapp-connect p {
+        font-size: 14px;
+    }
+    .whatsapp-connect p a {
+        font-size: 16px;
+    }
+    .whatsapp-connect i {
+        font-size: 16px;
+    }
+    .single-blog {
+        position: relative;
+        height: 390px;
+        cursor: e-resize;
+    }
+    .blog-info ul li:last-child {
+        margin-left: 185px;
+    }
+     /* Book A Test Page Responsive Area */
+
+    .booktest-banner .package-meta .cart {
+        bottom: 90px;
+    }
+    .visit h2 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .visit p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .visit ul li {
+        font-size: 15px;
+    }
+    .booktest-menu ul li {
+        margin-left: 30px;
+    }
+    .booktest-menu {
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    /* Lipid Profile Area */
+    .breadcam-area {
+        margin: 20px 0 40px;
+    }
+    .lipid-profile-content {
+        padding: 30px 15px;
+    }
+    .lipid-profile-tab ul li {
+        padding: 12px 0;
+        font-size: 16px;
+    }
+    .lipid-profile-tab ul li.active::after {
+        height: 18px;
+        width: 18px;
+        left: 46%;
+    }
+    .lipid-profile-area .test-recommended {
+        padding: 2px 16px;
+        top: 44px;
+        left: -44px;
+        font-size: 10px;
+    }
+    .lipid-test h4 {
+        font-size: 22px;
+    }
+    .lipid-test {
+        margin-bottom: 20px;
+    }
+    .lipid-sample ul li img, .lipid-date ul li img, .test-intro ul li img, .test-result-accordion ul li img, .about-test ul li img {
+        width: 25px;
+        margin-right: 5px;
+    }
+    .about-test p, .test-order p, .test-result p {
+        margin: 5px 0 0 34px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .accordion {
+        margin: 15px 0 0 34px;
+    }
+    .card-body {
+        padding: 10px 14px;
+    }
+    .accordion .card .card-header h5 {
+        font-size: 16px;
+    }
+    .patient-cart {
+        margin-top: 20px;
+    }
+    .test-intro span {
+        font-size: 15px;
+        margin: 10px 0 0 50px;
+    }
+    .show-more-details {
+        max-height: 395px;
+    }
+    .show-more, .less-more {
+        right: 18px;
+    }
+    .recommended .single-package h4 {
+        margin-bottom: 20px;
+    }
+    .recommended .package-meta .cart {
+        bottom: 50px !important;
+    }
+    .recommended .price-off {
+        margin-top: 0px;
+    }
+    .user-booked .single-package h4 {
+        margin-bottom: 20px;
+    }
+    .pagination-area ul li.prev, .pagination-area ul li.next {
+        margin-right: 25px;
+        font-size: 15px;
+    }
+    .pagination-area ul li.next {
+        margin-left: 25px;
+        margin-right: 0;
+    }
+    .pagination-area ul li {
+        height: 25px;
+        width: 25px;
+        margin-right: 5px;
+    }
+    .pagination-area ul li.dots {
+        margin-right: 5px;
+    }
+
+    /* Profile Catagory Details */
+
+    .components-included ul li {
+        width: 50%;
+    }
+    
+    /* Comprehinsive Profile */
+
+    .comprehesive-profile-head {
+        margin: 40px auto;
+        width: 90%;
+    }
+    .comprehensive-profile-title h2 {
+        font-size: 26px;
+    }
+    .comprehesive-profile-head p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .comprehesive-profile-head h6 {
+        line-height: 25px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .single-comprehensive-profile {
+        width: calc(33% - 20px);
+    }
+    .comprehensive-profile {
+        margin-bottom: 40px;
+    }
+    .com-profile-catagory {
+        padding: 40px 20px;
+    }
+
+    /* About Page */
+
+    .banner-member-info h3 {
+        margin-bottom: 20px;
+    }
+    .banner-member-info p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .banner-member-info span {
+        font-size: 14px;
+        margin-bottom: 60px;
+    }
+    .banner-member-info h3 {
+        margin-bottom: 20px;
+        font-size: 26px;
+    }
+    .journey-tab .journey-tab-content h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .journey-tab .journey-tab-content p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .journey-tab .journey-tab-content {
+        width: 100%;
+    }
+    .journey-tab .nav-link {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .lab-service-intro h3 {
+        font-size: 26px;
+        margin-bottom: 25px;
+        line-height: 30px;
+    }
+    .lab-service-intro p {
+        font-size: 18px;
+        margin-bottom: 30px;
+        line-height: 30px;
+    }
+    .lab-service-intro ul li {
+        width: 100%;
+        margin: 0px 0px 15px 0px;
+    }
+    .single-labs-offer span {
+        font-size: 14px;
+    }
+    .single-member {
+        margin-bottom: 30px;
+    }
+    .team-member-area .col-md-4:last-child .single-member {
+        margin-bottom: 0px;
+    }
+    .team-member-area a {
+        padding: 12px 40px;
+    }
+    .team-member-area .view-all, .team-member-area .less-all {
+        font-size: 14px;
+    }
+    .member-award-img {
+        width: 20%;
+    }
+    .member-award-info {
+        width: 100%;
+    }
+    .member-award-info p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .member-award-info span {
+        font-size: 14px;
+    }
+
+    
+    /* Cart Error Page */
+
+    .cart-menu ul li a {
+        padding: 6px 8px;
+    }
+    .cart-menu {
+        margin-bottom: 35px;
+    }
+    .cart-menu ul {
+        display: block;
+        align-items: center;
+    }
+    .cartErrorSection .error-img img {
+        width: 30%;
+    }
+
+    /* Cart Error Page */
+
+     /* my cart area start */
+     .cart-test-price {
+        padding: 30px 20px;
+        margin-top: 30px;
+    }
+    .total-payable {
+        padding: 14px 20px;
+    }
+    .total-payable ul li {
+        font-size: 16px;
+    }
+    .total-payable ul li:last-child {
+        font-size: 18px;
+    }
+    .cart-promo-apply p {
+        font-size: 14px;
+    }
+    .cart-promo-apply form input {
+        padding: 8px 68px 8px 10px;
+        font-size: 14px;
+    }
+    .cart-footer p {
+        font-size: 14px;
+    }
+    .cart-login-form form.firstForm .mobileVerify {
+        margin-top: 20px;
+    }
+    .new-register-area {
+        overflow: hidden;
+        text-align: center;
+        padding: 30px 0;
+        border-left: 1px solid transparent;
+        border-top: 1px solid #5897d5;
+        margin-top: 10px;
+    }
+     /* my cart area end */
+
+
+     /* Login Page Start */
+     .mid-text-tab {
+        padding: 10px 0;
+    }
+    .resend-opt {
+        float: none;
+        margin-bottom: 40px;
+    }
+     /* Login Page End */
+
+     /* Profile Page Start */
+    .profile-tab-menu {
+        background: transparent;
+        text-align: center;
+    }
+    .profile-tab-menu ul li {
+        display: inline-block;
+        border-bottom: none;
+        padding: 0px 5px;
+    }
+    .profile-tab-menu ul li a {
+        color: #9A9A9A;
+        font-weight: 600;
+        padding-left: 0;
+        border: 2px solid transparent;
+        background: #FFF;
+        padding: 12px 22px;
+        border-radius: 100px;
+    }
+    .profile-tab-menu ul li.active a {
+        color: #2680EB;
+        border: 2px solid #2680EB;
+    }
+    .profile-right-option {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .save-profile-right {
+        margin-top: 0;
+    }
+    .modal-dialog {
+        max-width: 560px;
+    }
+    .ordered-heading p {
+        font-size: 11px;
+    }
+    .single-saved-address {
+        margin-bottom: 20px;
+    }
+    .profile-area {
+        background-size: cover;
+    }
+     /* Profile Page End */
+     .cart-area {
+        background: #f5f6fa;
+    }
+    .banner-info h1 {
+        display: none;
+    }
+
+    .banner-info > p {
+        text-align: left;
+        color: #2F446E;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    .responsive-img {
+        display: block;
+    }
+    .single-offer {
+        width: 100% !important;
+    }
+    .offer-area {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .whatsapp-connect>p {
+        text-align: left;
+    }
+    .single-testimonial span a {
+        font-style: normal;
+    }
+    div.columns-4 ul.products li.product {
+        width: 100%;
+        margin: 0;
+    }
+
+    .booktest-banner .package-meta .cart, div.package-meta .cart {
+        right: 26px;
+        bottom: 80px;
+    }
+
+    .single-package > p {
+        display: none;
+    }
+    .booktest-menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        line-height: 29px;
+    }
+
+    .booktest-menu ul li {
+        flex-basis: 30%;
+        margin: 0;
+    }
+
+    .booktest-menu ul li a {
+        font-size: 15px;
+    }
+    .booktest-select::after{
+        top: 2px;
+    }
+    nav.woocommerce-pagination ul {
+        text-align: center;
+    }
+    ul.page-numbers {
+        text-align: center;
+    }
+    nav.woocommerce-breadcrumb a, nav.woocommerce-breadcrumb {
+        color: #2f446e;
+        font-weight: 700;
+    }
+    .promocode-area .container .row {
+        flex-wrap: inherit;
+    }
+
+    .promocode-area .container .row > div {
+        flex: 0 0 80%;
+    }
+
+    .promocode-area .container {
+        overflow-x: scroll;
+    }
+}
+
+@media all and (max-width:576px){
+    .add-to-cart-area {
+        right: 7px;
+    }
+}
+@media all and (max-width:575px){
+    .footer-newsletter h6 {
+        margin-bottom: 10px;
+    }
+
+    .footer-social {
+        margin-top: 0;
+        padding-left: 15px
+    }
+    .footer-newsletter > div {
+        width: 50%;
+    }
+
+    .header-login ul li:nth-child(2), .header-login ul li:nth-child(3), .search-header .header-login ul li:first-child {
+        margin-right: 12px;
+    }
+    .blog-info ul li:last-child {
+        margin-left: 40px;
+    }
+    .patient-preference #time-slot {
+        width: 100%;
+        margin-left: 0;
+    }
+    .booking-status-head ul li {
+        width: 45%;
+        margin-right: 0;
+    }
+    .patientInput label {
+        font-size: 11px;
+        width: 20%;
+    }
+    .patient-gender .form-check {
+        margin-left: 15px;
+    }
+    .patient-pincode label {
+        font-size: 11px;
+    }
+    .patient-locality label {
+        font-size: 11px;
+    }
+    .patient-pincode input {
+        margin-left: 10px;
+    }
+    .patient-locality input {
+        margin-left: 10px;
+    }
+    .confirm-checkout #confirmCheck {
+        padding: 12px 22px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .cart-area .user-booked .package-meta .cart {
+        bottom: 70px;
+    }
+    .order-info ul li {
+        font-size: 12px;
+    }
+    .order-title ul li:first-child {
+        margin-left: 0;
+    }
+    .single-promo-offer {
+        margin-bottom: 0;
+        height: 300px;
+    }
+    .member-modal-img {
+        width: 200px;
+        height: 225px;
+    }
+    .member-modal-img img {
+        width: 75%;
+    }
+    .member-img {
+        height: 130px;
+        width: 130px;
+    }
+    .member-img img {
+        width: 60%;
+    }
+    .member-info p {
+        font-size: 16px;
+    }
+    .member-info span {
+        font-size: 14px;
+    }
+    .journey-tab .row.main-journey {
+        display: none;
+    }
+    .journey-tab .row.responsive-caro {
+        display: block;
+    }
+    .journey-tab .owl-carousel .owl-nav button.owl-next,
+    .journey-tab .owl-carousel .owl-nav button.owl-prev {
+        color: #2680EB;
+        font-size: 40px;
+        position: absolute;
+        outline: none;
+    }
+    .journey-tab .owl-carousel .owl-nav button.owl-prev {
+        top: -100px;
+        left: 40px;
+    }
+    .journey-tab .owl-carousel .owl-nav button.owl-next {
+        top: 45%;
+        right: 20px;
+    }
+    .team-view {
+        max-height: 235px;
+    }
+    .about-banner-service-area {
+        text-align: left;
+    }
+    .about-banner-service p {
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .service-img img {
+        width: 70px;
+    }
+    .cart-login-form form.firstForm a {
+        margin-left: 60px;
+    }
+    .cartErrorSection .error-img img {
+        width: 60%;
+    }
+    .cartErrorSection h6 {
+        padding: 40px 0;
+    }
+    .cartErrorSection a#addMore {
+        background: #FFE644;
+        color: #1b1f27;
+        padding: 10px 35px;
+        border-radius: 30px;
+        margin: 40px 0;
+    }
+    .add-to-cart-area {
+        padding: 25px;
+    }
+    .add-to-cart-head p {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .add-to-cart-head a i {
+        font-size: 28px;
+        margin-right: 5px;
+    }
+    .add-to-cart-head a {
+        font-size: 16px;
+    }
+    .add-to-cart-details a {
+        font-size: 16px;
+    }
+    .add-to-cart-details p {
+        font-size: 16px;
+    }
+    .add-to-cart-details h6 {
+        font-size: 16px;
+    }
+    .add-to-cart-details button {
+        height: 20px;
+        width: 20px;
+    }
+    .add-to-cart-details button i {
+        font-size: 14px;
+    }
+    .cart-check-btn a {
+        font-size: 14px;
+        padding: 10px 35px;
+    }
+    .cd-top.js-cd-top.cd-top--show {
+        top: 450px;
+    }
+    .promocode {
+        top: 209px;
+    }
+    .margin_hide {
+        margin-top: 205px;
+    }
+   .promo-show {
+        top: 209px;
+    }
+    .add-to-cart-area {
+        top: 106px;
+        right: 0px;
+        width: 100%;
+    }
+    .add-to-cart-area::before {
+        right: 13%;
+    }
+    .topbar-contact ul li a {
+        margin-left: 0px;
+        font-size: 9px;
+    }
+    .topbar-contact ul li i {
+        font-size: 10px;
+    }
+    .topbar-contact ul li {
+        margin-left: 10px;
+    }
+    .canvas-login li {
+        color: #fff;
+    }
+    .header-login ul li a.bars {
+        font-size: 20px;
+    }
+    .canvas-menu-area {
+        padding: 25px;
+        width: 100%;
+    }
+    .canvas-menu-area .canvas-close {
+        top: 15px;
+        right: 25px;
+    }
+    .canvas-menu-area .canvas-close i {
+        font-size: 22px;
+    }
+    .canvas-menu ul li {
+        margin-bottom: 10px;
+    }
+    .canvas-menu-area  .footer-newsletter h6 {
+        margin-bottom: 15px;
+    }
+    
+    .about-banner-area {
+        padding: 25px 0 20px;
+    }
+    .banner-info h1 {
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .banner-info p {
+        line-height: 22px;
+        font-size: 16px;
+    }
+    .banner-info form {
+        margin-top: 40px;
+    }
+    form.search-form input {
+        padding: 15px 60px 14px 25px;
+    }
+    .single-offer {
+        width: 300px;
+        padding: 15px 20px;
+    }
+    .single-offer h3 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    .single-offer h3 span {
+        font-size: 22px;
+    }
+    .single-offer p {
+        margin-left: 5px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .single-offer a {
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+    .single-package h5 {
+        margin-left: 25px;
+        font-size: 18px;
+    }
+    .single-package p {
+        font-size: 13px;
+    }
+    .package-head {
+        align-items: center;
+        justify-content: space-between;
+    }
+    .package-head a {
+        padding: 7px 24px;
+    }
+    .package-meta ul li {
+        margin-right: 20px;
+    }
+    .single-info .info-img {
+        height: 70px;
+        width: 20%;
+        margin-right: 10px;
+    }
+    .section-head h2 {
+        font-size: 24px;
+    }
+    .blood-collection {
+        text-align: center;
+    }
+    .blood-collection h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    .blood-collection h6 {
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+    .single-collection p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .single-collection {
+        margin-bottom: 20px;
+    }
+    .single-collection:nth-child(3),
+    .single-collection:nth-child(4) {
+        margin-bottom: 0;
+    }
+    .award-img {
+        justify-content: flex-start;
+    }
+    .blog-heading h2 {
+        font-size: 24px;
+    }
+    .whatsapp-connect {
+        display: block;
+        position: relative;
+    }
+    .whatsapp-connect i {
+        font-size: 30px;
+        position: absolute;
+        top: 33%;
+        left: 12%;
+    }
+    .whatsapp-connect p a {
+        display: block;
+    }
+    .canvas-menu-area .footer-newsletter {
+        display: block;
+    }
+    .footer-newsletter {
+        display: flex;
+        justify-content: space-between;
+        align-items: first baseline;
+    }
+    .copyright-area ul li {
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .copyright-area ul li a {
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .single-info .info-img img {
+        width: 70%;
+    }
+    .single-info .info-text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .single-info .info-text h6 {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+    .section-padding {
+        padding: 40px 0px;
+    }
+    .blood-collection h2 {
+        margin-bottom: 15px;
+    }
+    .blood-collection h6 {
+        margin-bottom: 30px;
+    }
+    .award-img ul li {
+        margin-left: 30px;
+    }
+    .award-img ul li:first-child {
+        margin-left: 0px;
+    }
+    .blog-heading h2 {
+        margin-bottom: 30px;
+    }
+    .form-area form input {
+        padding: 12px 20px;
+    }
+    .form-area form button[type="submit"] {
+        margin: 20px auto 0;
+    }
+    
+    form.search-form button[type="submit"] img {
+        width: 88%;
+    }
+    .footer-area .col-12:nth-child(1),
+    .footer-area .col-12:nth-child(2) {
+        margin-bottom: 40px;
+    }
+    .footer-area .col-6 {
+        margin-bottom: 40px;
+    }
+    .footer-newsletter form input {
+        font-size: 12px;
+    }
+    .copyright-area {
+        padding-top: 20px;
+    }
+    .footer-area {
+        padding: 40px 0;
+    }
+    .cd-top.js-cd-top.cd-top--show {
+        right: 30px;
+        font-size: 16px;
+        height: 30px;
+        width: 30px;
+    }
+    .pagination-area {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .booktest-banner .package-details {
+        padding-bottom: 20px;
+    }
+    .pagination-area ul li.prev, .pagination-area ul li.next {
+        margin-right: 10px;
+    }
+    .pagination-area ul li.next {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .pagination-area ul li {
+        height: 20px;
+        width: 20px;
+        font-size: 12px;
+    }
+
+
+    /* Book A Test Page Responsive Area */
+        
+    .visit {
+        width: 90%;
+    }
+    .visit h2 {
+        font-size: 20px;
+    }
+    .visit p {
+        font-size: 16px;
+    }
+    .visit ul li {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .visit ul li::before {
+        content: '';
+        height: 7px;
+        width: 7px;
+        background: #fff;
+        border-radius: 50%;
+        position: absolute;
+        top: 8px;
+        left: -20px;
+    }
+    .booktest-menu ul li a {
+        font-size: 12px;
+    }
+    .booktest-menu ul li a img {
+        width: 15px;
+    }
+    .booktest-menu ul li {
+        margin-left: 10px;
+    }
+    .booktest-select {
+        width: 140px;
+        position: relative;
+        margin-left: 10px !important;
+    }
+    .booktest-select #test-select {
+        padding: 4px 0px 4px 8px;
+        font-size: 12px;
+    }
+    .booktest-select::after {
+        height: 27px;
+        width: 20px;
+    }
+    .booktest-select::before {
+        top: 8px;
+        right: 8px;
+    }
+
+    /* Lipid Profile Area */
+    .lipid-profile-tab ul li:last-child {
+        width: 49%;
+    }
+    .lipid-test {
+        margin-bottom: 15px;
+    }
+    .lipid-test h4 {
+        font-size: 18px;
+    }
+    .lipid-rate h3 {
+        font-size: 16px;
+    }
+    .lipid-menu ul li {
+        margin-bottom: 5px;
+        display: block;
+    }
+    .lipid-menu ul li a {
+        margin-right: 0;
+    }
+    .lipid-profile-tab ul li {
+        padding: 8px 0;
+        font-size: 15px;
+    }
+    .lipid-profile-tab ul li.active::after {
+        height: 15px;
+        width: 15px;
+    }
+    .content-head {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .lipid-date {
+        text-align: left;
+        margin-top: 10px;
+    }
+    .lipid-sample ul li, .lipid-date ul li, .test-intro ul li, .test-result-accordion ul li, .about-test ul li {
+        font-size: 15px;
+    }
+    .content-head-info {
+        margin-bottom: 10px;
+    }
+    .about-test p, .test-order p, .test-result p {
+        margin: 5px 0 0 5px;
+    }
+    .show-more, .less-more {
+        bottom: 38px;
+        right: 18px;
+        font-size: 12px;
+    }
+    .show-more-details {
+        max-height: 515px;
+    }
+    .lipid-cart a, .patient-cart a {
+        padding: 8px 20px;
+    }
+    .patient-cart {
+        text-align: center;
+    }
+    .test-intro span {
+        margin: 10px 0 0 30px;
+    }
+    .accordion {
+        margin: 15px 0 0 5px;
+    }
+    .accordion .card .card-header h5 {
+        font-size: 14px;
+    }
+    .accordion .card .card-header h5::after {
+        top: 6px;
+    }
+    .doctors .col-lg-4:nth-last-of-type(n) .lipid-date {
+        margin-bottom: 5px;
+    }
+    .package-head {
+        margin-bottom: 25px;
+    }
+    .recommended .package-offer {
+        padding: 10px 15px 10px 15px;
+        font-size: 14px;
+        top: 15px;
+    }
+    .recommended .single-package h5 {
+        margin-left: 185px;
+    }
+    .user-booked .single-package h5 {
+        margin-left: 185px;
+    }
+    .recommended .single-package {
+        height: 240px;
+    }
+    .user-booked .single-package {
+        height: 240px;
+    }
+    .user-booked .package-meta .cart {
+        bottom: 70px;
+    }
+
+    /* Profile Catagory Details */
+
+    .components-included ul li {
+        width: 100%;
+    }
+    .components-included {
+        margin: 20px 0 30px 5px;
+    }
+    .show-more-details2 {
+        max-height: 580px;
+    }
+
+    /* Comprehensive Profile */
+
+    .comprehesive-profile-head {
+        margin: 40px 20px;
+        width: 100%;
+        text-align: left;
+    }
+    .comprehesive-profile-head h6 {
+        line-height: 22px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .comprehesive-profile-head p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .single-comprehensive-profile {
+        width: calc(50% - 20px);
+    }
+    .comprehensive-profile-title h2 {
+        font-size: 22px;
+    }
+    .com-profile-catagory {
+        padding: 30px 10px;
+        margin-bottom: 50px;
+    }
+    .catagory-img {
+        height: 80px;
+        width: 80px;
+    }
+    .catagory-intro h6 {
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .catagory-intro p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    /* About Page */
+
+    
+    .about-banner-area {
+        padding: 60px 0 20px;
+    }
+    .service-img {
+        height: 90px;
+    }
+    .journey-tab .row {
+        flex-direction: column-reverse;
+    }
+    .journey-tab .nav-link {
+        width: 25%;
+    }
+    .journey-tab .nav {
+        margin-bottom: 25px;
+    }
+    .lab-service-intro ul li {
+        margin: 0px 0px 15px 20px;
+    }
+    .team-member-area .section-head h2 {
+        font-size: 25px;
+    }
+    .banner-member-info h3 {
+        font-size: 22px;
+    }
+    .journey-tab h3.title {
+        font-size: 25px;
+    }
+    .lab-service-offer h3 {
+        font-size: 25px;
+    }
+    .lab-service-intro h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .lab-service-intro p {
+        font-size: 16px;
+        margin-bottom: 25px;
+        line-height: 22px;
+    } 
+    .member-modal-intro h5 {
+        font-size: 24px;
+    }
+    .member-modal-intro h6 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .member-modal-intro p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        line-height: 22px;
+    }
+    .member-modal-intro span {
+        margin-bottom: 10px;
+    }
+    .single-member-award {
+        width: 100%;
+    }
+    .member-award-info {
+        width: 83%;
+    }
+    .member-award-img {
+        width: 17%;
+    }
+    .member-award-info p {
+        margin-bottom: 5px !important;
+    }
+
+        
+    /* Cart Error Page */
+    .cart-area {
+        margin-top: 91px;
+    }
+    .cart-menu ul li a {
+        padding: 8px 15px;
+    }
+    .cart-menu ul {
+        display: block;
+    }
+    .cart-menu ul li {
+        text-align: left;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .cart-menu ul li::after {
+        width: 2px;
+        height: 20px;
+        top: 100%;
+        left: 35px;
+        z-index: 1;
+    }
+
+    /* Cart Error Page */
+
+    /* my cart area start */
+    .add-more a {
+        padding: 8px 14px;
+    }
+    .cart-test-table ul.cart-table-info li {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .cart-footer a {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    .cart-footer p {
+        font-size: 12px;
+    }
+    .new-register p {
+        padding: 30px 0;
+    }
+    .cart-login-title h2 {
+        font-size: 20px;
+    }
+    /* my cart area end */
+
+    /* Login Page Start */
+    .log-tab-heading h4 {
+        font-size: 16px;
+    }
+    .login-tabs-area button {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    /* Login Page End */
+
+    /* Veryfy Page Start */
+    .login-page.ver h4 {
+        padding: 12px;
+        font-size: 16px;
+    }
+    .log-tab-submit input {
+        padding: 10px 30px;
+    }
+    .reset-pass-content {
+        padding: 40px 6%;
+    }
+    .enter-opt-area {
+        width: 100%;
+    }
+    .veryfy-content {
+        padding: 20px 25px;
+    }
+    .login-section.ver {
+        background-size: cover;
+    }
+    /* Veryfy Page End */
+
+    /* Profile Page Start */
+    .profile-tab-menu ul li a {
+        font-weight: 400;
+        border: 1px solid #FFF;
+        padding: 2px 4px;
+        box-sizing: border-box;
+        font-size: 12px;
+    }
+    .profile-tab-menu ul li {
+        padding: 0px 2px;
+    }
+
+    .log-out-button a {
+        padding: 6px 14px;
+        font-size: 10px;
+    }
+    .log-out-button a img {
+        width: 15px;
+        margin-right: 2px;
+    }
+    .profile-head-title h2 {
+        font-size: 16px;
+    }
+    .ordered-product table tr td img.lab-img {
+        margin-left: 0px;
+    }
+    /* Profile Page End */
+
+}
+
+
+@media all and (max-width:415px){
+    .add-to-cart-area {
+        top: 95px;
+    }
+    .add-to-cart-area::before {
+        right: 20%;
+    }
+    .package-head h2 {
+        font-size: 14px;
+    }
+    .header-menu ul li a {
+        font-size: 10px;
+    }
+}
+@media all and (max-width:360px){
+
+    .blog-info ul li {
+        font-size: 12px;
+    }
+    .blog-info ul li:last-child {
+        font-size: 13px;
+        margin-left: 25px;
+    }
+    .cart-login-form form.firstForm a {
+        margin-left: 28px;
+    }
+    .cart-check-btn a {
+        font-size: 12px;
+        padding: 10px 30px;
+    }
+    .promocode {
+        top: 165px;
+    }
+    .margin_hide {
+        margin-top: 165px;
+    }
+    .promo-show{
+        top: 167px;
+    }
+    .responsive-header {
+        margin-top: 51px;
+    }
+    .add-to-cart-area {
+        top: 52px;
+    }
+    .add-to-cart-area::before {
+        right: 21%;
+    }
+    .add-to-cart-area {
+        padding: 25px;
+    }
+    .canvas-menu-area {
+        top: 0;
+    }
+    .topbar-area {
+        display: none;
+    } 
+    .breadcam-area span a {
+        font-size: 12px;
+    }
+    .breadcam-area {
+        margin: 20px 0 30px;
+    }
+    .package-meta ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .package-head a {
+        padding: 5px 20px;
+        font-size: 11px;
+    }
+    .single-testimonial h6 {
+        font-size: 18px;
+    }
+    .single-testimonial span {
+        font-size: 14px;
+    }
+    .single-testimonial p {
+        font-size: 15px;
+    }
+    .blood-collection h2 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .blood-collection h6 {
+        font-size: 16px;
+    }
+    .package-meta .cart {
+        height: 30px;
+        width: 30px;
+    }
+    .package-meta .cart a i {
+        font-size: 18px;
+    }
+    .lipid-sample ul li, .lipid-date ul li, .test-intro ul li, .test-result-accordion ul li, .about-test ul li {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .test-intro span {
+        margin: 10px 0 0 24px;
+    }
+    .card-header {
+        padding: 12px 12px 12px 16px !important;
+    }
+    .accordion .card .card-header h5::after {
+        height: 5px;
+        width: 5px;
+        top: 5px;
+        left: -10px;
+    }
+    .accordion .card .card-header h5 {
+        font-size: 13px;
+    }
+    .lipid-cart a, .patient-cart a {
+        padding: 6px 18px;
+        font-size: 10px;
+    }
+    .lipid-cart a i, .patient-cart a i {
+        font-size: 16px;
+    }
+    .show-more-details {
+        max-height: 535px;
+    }
+
+    /* Search Page */
+
+    .search-title h3 {
+        font-size: 18px;
+        font-weight: 700;
+        color: #1b1f27;
+    }
+
+    /* Comprehinsive Profile */
+
+
+    .com-profile-catagory {
+        flex-direction: column;
+    }
+    .left-catagory {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .catagory-intro h6 {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .catagory-intro p {
+        font-size: 14px;
+    }
+    .cart-area {
+        margin-top: 50px;
+    }
+    
+}
+
