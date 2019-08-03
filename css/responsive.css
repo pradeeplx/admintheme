@@ -2082,7 +2082,7 @@
         font-size: 12px;
     }
     .booktest-select::after {
-        height: 27px;
+        height: 20px;
         width: 20px;
     }
     .booktest-select::before {

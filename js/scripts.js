@@ -166,6 +166,9 @@ jQuery(document).ready(function($){
       $('.add-to-cart-area').fadeToggle(500);
       return false;
     });
+    $('body').click(function(){
+      $('.add-to-cart-area').fadeToggle(500);
+    });
 
     // OFFER
     $('.offer').owlCarousel({
@@ -189,6 +192,7 @@ jQuery(document).ready(function($){
       dots: true,
       nav: false,
       items:3,
+      autoplay:true,
       responsive:{
         0:{
           items:1

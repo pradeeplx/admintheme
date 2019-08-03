@@ -441,6 +441,14 @@ img {
 	top: 20px;
 	right: 30px;
 }
+.canvas-close {
+	float: right; 
+	background: none; 
+	color: white; 
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
 .canvas-menu ul li {
 	display: block;
 	margin-bottom: 15px;
@@ -1620,7 +1628,7 @@ form.search-form  button i {
 }
 .booktest-select::after {
 	content: '';
-	height: 34px;
+	height: 27px;
 	width: 25px;
 	background: #fff;
 	position: absolute;

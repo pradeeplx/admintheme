@@ -345,9 +345,10 @@
 	<!-- Add To Cart Area Start -->
 
 	<div class="add-to-cart-area">
-			<div class="add-to-cart-head">				
-				<a href="<?php echo esc_url(home_url('/cart')); ?>"> <i class="material-icons">add_shopping_cart</i> <span class="badge"><?php  echo $woocommerce->cart->cart_contents_count; ?></span></a>
-				<p>Total: <span>Rs. <?php $totalamount = $woocommerce->cart->cart_contents_total;echo $totalamount; ?>/-</span></p>
+			<div class="add-to-cart-head">
+				<p class="text-center mt-0"><?php $cartVal = $woocommerce->cart->cart_contents_total; if($cartVal == '0') { echo 'Hey, Your cart is empty.';} ?></p>	
+				<a href="<?php echo esc_url(home_url('/cart')); ?>"> <i class="material-icons">add_shopping_cart</i> <span class="badge"><?php  echo $woocommerce->cart->cart_contents_count; ?></span></a><button class="canvas-close bg-none text-right"><i class="material-icons">close</i></button>
+				<p>Cart Total: <span>Rs. <?php $totalamount = $woocommerce->cart->cart_contents_total;echo $totalamount; ?>/-</span></p>
 			</div>
 				<div class="add-to-cart-body">
 			
@@ -381,7 +382,7 @@
 							<?php
 								// @codingStandardsIgnoreLine
 								echo apply_filters( 'woocommerce_cart_item_remove_link', sprintf(
-									'<a href="%s" class="remove" aria-label="%s" data-product_id="%s" data-product_sku="%s"><i class="fa fa-trash-alt"></i></a>',
+									'<a href="%s" class="remove" aria-label="%s" data-product_id="%s" data-product_sku="%s"><i class="fas fa-trash-alt"></i></a>',
 									esc_url( wc_get_cart_remove_url( $item ) ),
 									__( 'Remove this item', 'woocommerce' ),
 									esc_attr( $values['product_id'] ),
