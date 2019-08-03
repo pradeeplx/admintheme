@@ -614,6 +614,7 @@ form.search-form input {
 	-webkit-box-shadow: 0 2px 14px -7px #000;
 	        box-shadow: 0 2px 14px -7px #000;
 	width: 100%;
+	font-size: 14px;
 }
 form.search-form  input::-webkit-input-placeholder {
 	color: #9A9A9A;
@@ -4627,6 +4628,58 @@ button.popup-search {
 
 #uploadPreview {
 	cursor: pointer;
+}
+
+.topbar-contact .fa-envelope ~ a {
+	font-weight: 600!important;
+}
+
+.search-error {
+	height: 400px;
+	background: none;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	transition: all .5s;
+}
+.search-error .icon {
+	height: 145px;
+	width: 145px;
+	border-radius: 100%;
+	background: #cbdff7;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	text-align: center;
+}
+.search-error .icon i {
+	font-size: 72px;
+	color: #fff;
+	margin: 0 auto;
+}
+.search-error h3 {
+	margin-top: 15px;
+	font-weight: bold;
+	color: #1B1F27;
+	font-family: Open Sans;
+	font-size: 30px;
+}
+@media screen and (max-width: 767px) {
+	.search-error h3 {
+		font-size: 20px;
+		text-align: center;
+	}
+	.search-error {
+		justify-content: center;
+	}
+	.search-error .icon {
+		height: 120px;
+		width: 120px;
+	}
+	.search-error .icon i {
+		font-size: 56px;
+	}
+
 }
 
 /*========== END FIRST PROJECT PAGES CSS============ */

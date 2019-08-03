@@ -20,4 +20,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 ?>
-<p class="woocommerce-info"><?php _e( 'No products were found matching your selection.', 'woocommerce' ); ?></p>
+<div class="search-error">
+	<div class="icon"><i class="fas fa-times"></i></div>
+	<h3>No search result found</h3>
+	<h3>Please try some different keywork</h3>
+</div>

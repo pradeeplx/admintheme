@@ -67,6 +67,7 @@ jQuery(document).ready(function($){
     return false;
   });
 
+  $('ul.page-numbers li .current').parents('li').css({color: '#007BFF', borderColor: '#007BFF',background: '#fff'});
   
  $('#login-tap').click(function(){
     $('.staps').hide();

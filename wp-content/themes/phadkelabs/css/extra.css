@@ -46,13 +46,16 @@ ul.page-numbers {
     text-align: right;
     margin: 20px;
 }
-ul.page-numbers li{}
-ul.page-numbers li a{}
+
+ul.page-numbers li a{
+	color: #9A9A9A;
+}
 ul.page-numbers li{
     height: 35px;
     width: 35px;
     border: 1px solid #9A9A9A;
-    display: -webkit-inline-box;
+		display: -webkit-inline-box;
+		color: #9A9A9A;
     display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-align: center;
@@ -62,9 +65,18 @@ ul.page-numbers li{
     -ms-flex-pack: center;
     justify-content: center;
     border-radius: 50%;
-    color: #9A9A9A;
-    margin-right: 10px;
+		margin-right: 10px;
+		transition: all .5s;
     cursor: context-menu;
+}
+ul.page-numbers li:hover {
+	background: #fff;
+	border-color: #007BFF;
+	color: #007BFF!important;
+}
+
+ul.page-numbers li:hover a {
+	color: #007BFF;
 }
 .add-to-cart-area{
 	max-height:344px;

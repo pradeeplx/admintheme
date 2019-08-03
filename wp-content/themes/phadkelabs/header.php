@@ -347,7 +347,7 @@
 	<div class="add-to-cart-area">
 			<div class="add-to-cart-head">
 				<p class="text-center mt-0"><?php $cartVal = $woocommerce->cart->cart_contents_total; if($cartVal == '0') { echo 'Hey, Your cart is empty.';} ?></p>	
-				<a href="<?php echo esc_url(home_url('/cart')); ?>"> <i class="material-icons">add_shopping_cart</i> <span class="badge"><?php  echo $woocommerce->cart->cart_contents_count; ?></span></a><button class="canvas-close bg-none text-right"><i class="material-icons">close</i></button>
+				<a href="<?php echo esc_url(home_url('/cart')); ?>"> <i class="material-icons">add_shopping_cart</i> <span class="badge"><?php  echo $woocommerce->cart->cart_contents_count; ?></span></a><button class="canvas-close cartClose bg-none text-right"><i class="material-icons">close</i></button>
 				<p>Cart Total: <span>Rs. <?php $totalamount = $woocommerce->cart->cart_contents_total;echo $totalamount; ?>/-</span></p>
 			</div>
 				<div class="add-to-cart-body">
