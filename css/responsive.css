@@ -1774,7 +1774,8 @@
         width: 20px;
     }
     .add-to-cart-details button i {
-        font-size: 14px;
+        font-size: 12px!important;
+        top: -6px!important;
     }
     .cart-check-btn a {
         font-size: 14px;

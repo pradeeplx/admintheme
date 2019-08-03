@@ -167,7 +167,7 @@ jQuery(document).ready(function($){
       return false;
     });
     $('body').click(function(){
-      $('.add-to-cart-area').fadeToggle(500);
+      $('.add-to-cart-area').css({display: 'none'});
     });
 
     // OFFER

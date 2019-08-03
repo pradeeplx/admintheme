@@ -4625,4 +4625,8 @@ button.popup-search {
     visibility: visible;
 }
 
+#uploadPreview {
+	cursor: pointer;
+}
+
 /*========== END FIRST PROJECT PAGES CSS============ */
