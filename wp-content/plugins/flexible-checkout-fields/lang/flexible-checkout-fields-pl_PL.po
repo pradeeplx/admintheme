@@ -1,0 +1,875 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Flexible Checkout Fields\n"
+"POT-Creation-Date: 2019-06-25 09:49+0200\n"
+"PO-Revision-Date: 2019-06-25 09:50+0200\n"
+"Last-Translator: Piotr Jabłonowski <piotr.jablonowski@wpdesk.net>\n"
+"Language-Team: Maciej Swoboda <maciej.swoboda@gmail.com>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: flexible-checkout-fields.php\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: classes/class-flexible-checkout-fields-plugin.php:272
+msgid "Billing"
+msgstr "Płatność"
+
+#: classes/class-flexible-checkout-fields-plugin.php:278
+msgid "Shipping"
+msgstr "Wysyłka"
+
+#: classes/class-flexible-checkout-fields-plugin.php:284
+msgid "Order"
+msgstr "Zamówienie"
+
+#: classes/class-flexible-checkout-fields-plugin.php:298
+msgid "Single Line Text"
+msgstr "Pojedyncza linia (input)"
+
+#: classes/class-flexible-checkout-fields-plugin.php:302
+msgid "Paragraph Text"
+msgstr "Obszar tekstowy (textarea)"
+
+#: classes/class-flexible-checkout-fields-plugin.php:310
+#: classes/class-flexible-checkout-fields-plugin.php:315
+msgid "Checkbox"
+msgstr "Wybór (checkbox)"
+
+#: classes/class-flexible-checkout-fields-plugin.php:320
+msgid "Radio button"
+msgstr "Wybór (radio)"
+
+#: classes/class-flexible-checkout-fields-plugin.php:325
+msgid "Select (Drop Down)"
+msgstr "Lista rozwijana (select)"
+
+#: classes/class-flexible-checkout-fields-plugin.php:330
+msgid "Multi-select"
+msgstr "Lista rozwijana (multi-select)"
+
+#: classes/class-flexible-checkout-fields-plugin.php:335
+msgid "Date"
+msgstr "Data"
+
+#: classes/class-flexible-checkout-fields-plugin.php:340
+msgid "Time"
+msgstr "Czas"
+
+#: classes/class-flexible-checkout-fields-plugin.php:345
+msgid "Color Picker"
+msgstr "Wybór koloru"
+
+#: classes/class-flexible-checkout-fields-plugin.php:350
+msgid "Headline"
+msgstr "Nagłówek"
+
+#: classes/class-flexible-checkout-fields-plugin.php:355
+msgid "HTML"
+msgstr "HTML"
+
+#: classes/class-flexible-checkout-fields-plugin.php:360
+msgid "File Upload"
+msgstr "Przesyłanie pliku"
+
+#: classes/class-flexible-checkout-fields-plugin.php:940
+msgid "Advanced"
+msgstr "Zaawansowane"
+
+#: classes/class-flexible-checkout-fields-plugin.php:1013
+msgid "Uploading file..."
+msgstr "Przesyłanie plik..."
+
+#: classes/class-flexible-checkout-fields-plugin.php:1059
+msgid "Close"
+msgstr "Zamknij"
+
+#: classes/class-flexible-checkout-fields-plugin.php:1060
+msgid "Today"
+msgstr "Dzisiaj"
+
+#: classes/class-flexible-checkout-fields-plugin.php:1063
+msgid "Next"
+msgstr "Następny"
+
+#: classes/class-flexible-checkout-fields-plugin.php:1064
+msgid "Previous"
+msgstr "Poprzedni"
+
+#: classes/class-flexible-checkout-fields-plugin.php:1092
+#: classes/settings.php:156 classes/views/settings-settings.php:11
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: classes/class-flexible-checkout-fields-plugin.php:1094
+msgid "Docs"
+msgstr "Docs"
+
+#: classes/class-flexible-checkout-fields-plugin.php:1095
+msgid "Support"
+msgstr "Wsparcie"
+
+#: classes/class-flexible-checkout-fields-plugin.php:1101
+msgid "Upgrade"
+msgstr "Kup PRO"
+
+#: classes/display-options.php:103 classes/user-profile.php:149
+msgid "Additional Information"
+msgstr "Dodatkowe informacje"
+
+#: classes/filed-validation.php:30
+#, php-format
+msgid "%s is a required field."
+msgstr "%s jest wymaganym polem."
+
+#: classes/filed-validation.php:64
+msgid "Default"
+msgstr "Domyślna"
+
+#: classes/filed-validation.php:65
+msgid "None"
+msgstr "Brak"
+
+#: classes/filed-validation.php:66
+msgid "Email"
+msgstr "Email"
+
+#: classes/filed-validation.php:67
+msgid "Phone"
+msgstr "Numer telefonu"
+
+#: classes/filed-validation.php:68
+msgid "Post code"
+msgstr "Kod pocztowy"
+
+#: classes/settings.php:46 classes/settings.php:49 classes/settings.php:57
+msgid "Flexible Checkout Fields"
+msgstr "Flexible Checkout Fields"
+
+#: classes/settings.php:108
+msgid "Checkout Fields Settings"
+msgstr "Ustawienia pól zamówienia"
+
+#: classes/settings.php:108
+msgid "Checkout Fields"
+msgstr "Pola zamówienia"
+
+#: classes/settings.php:130
+msgid "Order Notes"
+msgstr "Uwagi do zamówienia"
+
+#: classes/settings.php:131
+msgctxt "placeholder"
+msgid "Notes about your order, e.g. special notes for delivery."
+msgstr ""
+"Notatka do twojego zamówienia, np. informacje o dostarczeniu przesyłki."
+
+#: classes/settings.php:165
+msgid "Custom Sections"
+msgstr "Dodatkowe sekcje"
+
+#: classes/settings.php:301
+#, php-format
+msgid "You cannot use this field name: %s, for field: %s."
+msgstr "Nie możesz użyć tej nazwy pola: %s dla pola: %s."
+
+#: classes/tracker.php:166
+msgid "Opt-in"
+msgstr "Opt-in"
+
+#: classes/tracker.php:170
+msgid "Opt-out"
+msgstr "Opt-out"
+
+#: classes/views/settings-ads.php:4
+msgid "Enjoying the free version? Rate it!"
+msgstr "Podoba Ci się darmowa wersja? Wystaw nam ocenę!"
+
+#: classes/views/settings-ads.php:10
+#, php-format
+msgid ""
+"If you want to continue using Flexible Checkout Fields for free, %splease "
+"add a review%s. You will help us support the free version. Thank you."
+msgstr ""
+"Jeśli chcesz używać Flexible Checkout Fields za darmo, prosimy %sdodaj swoją "
+"opinię%s. Pomożesz nam wspierać darmową wersję. Dziękujemy."
+
+#: classes/views/settings-fields.php:12
+msgid "Thank You Page"
+msgstr "Strona podziękowania"
+
+#: classes/views/settings-fields.php:13
+msgid "My Account - address"
+msgstr "Moje konto - adres"
+
+#: classes/views/settings-fields.php:14
+msgid "My Account - order"
+msgstr "Moje konto - zamówienie"
+
+#: classes/views/settings-fields.php:15
+msgid "Emails"
+msgstr "E-maile"
+
+#: classes/views/settings-fields.php:34
+msgid "Settings resetted."
+msgstr "Ustawienia zostały zresetowane."
+
+#: classes/views/settings-fields.php:38 classes/views/settings-settings.php:8
+msgid "Settings saved."
+msgstr "Ustawienia zostały zapisane."
+
+#: classes/views/settings-fields.php:46
+msgid "Add New Field"
+msgstr "Dodaj nowe pole"
+
+#: classes/views/settings-fields.php:50 classes/views/settings-fields.php:392
+#: classes/views/settings-fields.php:713
+msgid "Field Type"
+msgstr "Typ pola"
+
+#: classes/views/settings-fields.php:62 classes/views/settings-fields.php:318
+#: classes/views/settings-fields.php:687
+msgid "Label"
+msgstr "Etykieta"
+
+#: classes/views/settings-fields.php:67 classes/views/settings-fields.php:326
+#: classes/views/settings-fields.php:689
+msgid "You can use HTML."
+msgstr "Możesz używać HTML."
+
+#: classes/views/settings-fields.php:71 classes/views/settings-fields.php:335
+#: classes/views/settings-fields.php:693
+msgid "Name"
+msgstr "Nazwa"
+
+#: classes/views/settings-fields.php:75 classes/views/settings-fields.php:348
+#, php-format
+msgid "Meta name: %s."
+msgstr "Nazwa meta: %s."
+
+#: classes/views/settings-fields.php:83
+msgid "This field is available in the PRO version."
+msgstr "To pole jest dostępne w wersji PRO."
+
+#: classes/views/settings-fields.php:83
+msgid "Upgrade to PRO now &rarr;"
+msgstr "Zaktualizuj do PRO &rarr;"
+
+#: classes/views/settings-fields.php:88
+msgid "Section"
+msgstr "Sekcja"
+
+#: classes/views/settings-fields.php:102
+msgid "Save changes after adding a field."
+msgstr "Zapisz zmiany po dodaniu pola."
+
+#: classes/views/settings-fields.php:107
+msgid "Add Field"
+msgstr "Dodaj pole"
+
+#: classes/views/settings-fields.php:128
+msgid "Edit Section"
+msgstr "Edytuj sekcję"
+
+#: classes/views/settings-fields.php:133 classes/views/settings-fields.php:521
+#: classes/views/settings-settings.php:35
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: classes/views/settings-fields.php:145
+msgid "Section Fields"
+msgstr "Pola sekcji"
+
+#: classes/views/settings-fields.php:219 classes/views/settings-fields.php:644
+msgid "Edit"
+msgstr "Edytuj"
+
+#: classes/views/settings-fields.php:227 classes/views/settings-fields.php:651
+msgid "General"
+msgstr "Główne"
+
+#: classes/views/settings-fields.php:229 classes/views/settings-fields.php:652
+msgid "Appearance"
+msgstr "Wygląd"
+
+#: classes/views/settings-fields.php:231 classes/views/settings-fields.php:653
+msgid "Display On"
+msgstr "Wyświetlanie"
+
+#: classes/views/settings-fields.php:265 classes/views/settings-fields.php:676
+msgid "Enable Field"
+msgstr "Pokaż pole"
+
+#: classes/views/settings-fields.php:308 classes/views/settings-fields.php:683
+msgid "Required Field"
+msgstr "Pole wymagane"
+
+#: classes/views/settings-fields.php:311
+msgid ""
+"Requirement of this field is controllerd by WooCommerce and cannot be "
+"changed."
+msgstr ""
+"Wymagalność tego pola jest kontrolowana przez WooCommece i nie może być "
+"zmieniona."
+
+#: classes/views/settings-fields.php:354 classes/views/settings-fields.php:699
+msgid "Validation"
+msgstr "Walidacja"
+
+#: classes/views/settings-fields.php:365 classes/views/settings-fields.php:707
+msgid "For Post Code validation works only with country."
+msgstr "Dla walidacji kodu pocztowego musi być wybrany kraj."
+
+#: classes/views/settings-fields.php:378
+msgid "Options"
+msgstr "Opcje"
+
+#: classes/views/settings-fields.php:385
+msgid ""
+"Format: <code>Value : Name</code>. Value will be in the code, name will be "
+"visible to the user. One option per line. Example:<br /><code>woman : I am a "
+"woman</code><br /><code>man : I am a man</code>"
+msgstr ""
+"Format: <code>Wartość : Nazwa</code>. Wartość będzie w kodzie strony, nazwa "
+"będzie widoczna dla użytkownika. Każdą opcje należy podać w nowej linii. "
+"Przykład:<br /><code>kobieta : Jestem kobietą</code><br /><code>mezczyzna : "
+"Jestem mężczyzną</code>"
+
+#: classes/views/settings-fields.php:427 classes/views/settings-fields.php:721
+#: classes/views/settings-fields.php:760 classes/views/settings-fields.php:839
+msgid "Placeholder"
+msgstr "Placeholder"
+
+#: classes/views/settings-fields.php:437
+msgid "This field is address locale dependent and cannot be modified."
+msgstr "Nazwa tego pola nie może być edytowana."
+
+#: classes/views/settings-fields.php:454 classes/views/settings-fields.php:725
+msgid "CSS Class"
+msgstr "Klasa CSS"
+
+#: classes/views/settings-fields.php:505 classes/views/settings-fields.php:747
+msgid "Delete Field"
+msgstr "Usuń pole"
+
+#: classes/views/settings-fields.php:524
+msgid "Reset Section Settings"
+msgstr "Resetuj ustawienia sekcji"
+
+#: classes/views/settings-fields.php:551
+#, php-format
+msgid "Invalid field name: %s. The name already exists."
+msgstr "Błędna nazwa pola: %s. Ta nazwa już istnieje."
+
+#: classes/views/settings-fields.php:563
+msgid "Field name can not be empty!"
+msgstr "Nazwa pola nie może być pusta!"
+
+#: classes/views/settings-fields.php:567
+msgid "Field name can not be number!"
+msgstr "Nazwa pola nie może być numerem!"
+
+#: classes/views/settings-fields.php:695
+msgid "Meta name: "
+msgstr "Meta name: "
+
+#: classes/views/settings-fields.php:772
+msgid "Field label can not be empty!"
+msgstr "Etykieta pola nie może być pusta!"
+
+#: classes/views/settings-fields.php:854
+#, php-format
+msgid ""
+"Do you really want to delete this field: %s? Deleting a field remove it from "
+"all orders."
+msgstr ""
+"Czy na pewno chcesz usunąć to pole: %s? Doprowadzi to do usunięcia pola "
+"również we wszystkich zamówieniach."
+
+#: classes/views/settings-fields.php:903
+msgid ""
+"Do you really want to reset section settings?. Resetting a section remove "
+"all added fields from orders."
+msgstr ""
+"Czy na pewno chcesz zresetować ustawienia sekcji? Usunie to wszystkie dodane "
+"pola z zamówień."
+
+#: classes/views/settings-pro.php:12
+msgid "Buy Flexible Checkout Fields PRO to use Custom Sections:"
+msgstr "Kup wtyczkę Edycja Pól Zamówienia PRO, aby używać dodatkowych sekcji:"
+
+#: classes/views/settings-pro.php:15
+msgid "Add fields anywhere in the WooCommerce checkout form."
+msgstr "Dodaj nowe pola w dowolnym miejscu formularza zamówienia."
+
+#: classes/views/settings-pro.php:16
+msgid ""
+"Get more fields: checkboxes, radios buttons, dropdowns, file uploads, date & "
+"time or color pickers and more."
+msgstr ""
+"Uzyskaj nowe pola: checkboksy, przyciski wyboru (radio), listy wyboru "
+"(select), wgrywanie plików, wybór daty, czasu lub koloru, a  nawet więcej."
+
+#: classes/views/settings-pro.php:17
+msgid "Conditionally show or hide fields based on products or categories."
+msgstr "Warunkowo pokazuj lub chowaj pola w oparciu o produkty lub kategorie."
+
+#: classes/views/settings-pro.php:22
+msgid "Get Flexible Checkout Fields PRO now &rarr;"
+msgstr "Kup wersję PRO teraz &rarr;"
+
+#: classes/views/settings-settings.php:17
+msgid "CSS jQuery UI"
+msgstr "CSS jQuery UI"
+
+#: classes/views/settings-settings.php:23
+msgid "Disable jquery-ui.css on the frontend"
+msgstr "Wyłącz jquery-ui.css na stronie"
+
+#: classes/views/settings-settings.php:25
+msgid ""
+"Remember that some fields, i.e. datepicker use jQuery UI CSS. The plugin "
+"adds a default CSS but sometimes it can create some visual glitches."
+msgstr ""
+"Pamiętaj, że niektóre pola formularza jak np. datepicker korzystają z CSS "
+"jQuery UI. Wtyczka dodaje standardowy plik CSS jednak czasem może mieć to "
+"wpływ na wygląd twojej strony."
+
+#: classes/views/settings-tabs.php:8
+#, php-format
+msgid "Read the %sconfiguration manual &rarr;%s"
+msgstr "Przeczytaj %sdokumentację wtyczki &rarr;%s"
+
+#: classes/views/settings-tabs.php:11
+#, php-format
+msgid ""
+"WPML detected. Read %sthis instructions if you want to translate Flexible "
+"Checkout Fields. &rarr;%s"
+msgstr ""
+"Wykryto WPML. Przeczytaj %stę instrukcję jeśli chcesz tłumaczyć wtyczkę "
+"Edycja pól zamówienia. &rarr;%s"
+
+#: views/settings-field-advanced.php:6
+#, php-format
+msgid ""
+"%sGo PRO &rarr;%s to add conditional logic based on products and categories."
+msgstr ""
+"%sKup wersję PRO &rarr;%s aby dodać logikę warunkową opartą na produktach i "
+"kategoriach."
+
+#~ msgid ""
+#~ "The %s%s%s License Key has not been activated, so the plugin is inactive! "
+#~ "%sClick here%s to activate the license key and the plugin."
+#~ msgstr ""
+#~ "Klucz licencyjny wtyczki %s%s%s nie został aktywowany, więc wtyczka jest "
+#~ "nieaktywna! %sKliknij tutaj%s, aby aktywować klucz licencyjny wtyczki."
+
+#~ msgid "Insert Image"
+#~ msgstr "Wprowadź obrazek"
+
+#~ msgid "Select Image"
+#~ msgstr "Wybierz obrazek"
+
+#~ msgid "Section214 Settings"
+#~ msgstr "Resetuj ustawienia sekcji"
+
+#~ msgid "Settings updated."
+#~ msgstr "Ustawienia zostały zapisane."
+
+#~ msgid ""
+#~ "To copy the system info, click below then press Ctrl + C (PC) or Cmd + C "
+#~ "(Mac)."
+#~ msgstr ""
+#~ "Kliknij poniżej i naciśnij CTRL + C (Windows) lub Cmd + C (Mac) by "
+#~ "skopiować informacje systemowe."
+
+#~ msgid "Download System Info File"
+#~ msgstr "Pobierz plik informacji systemowych"
+
+#~ msgid "Upload File"
+#~ msgstr "Przesyłanie pliku..."
+
+#~ msgid "Deactivate License"
+#~ msgstr "Dezaktywuj licencję"
+
+#~ msgid ""
+#~ "The callback function used for the <strong>%s</strong> setting is missing."
+#~ msgstr "Brakuje funkcji callback użytej w ustawieniu <strong>%s</strong>."
+
+#~ msgid "Hey %s,"
+#~ msgstr "Hej %s,"
+
+#~ msgid ""
+#~ "Please help us improve our plugins! If you opt-in, we will collect some "
+#~ "non-sensitive data and usage information anonymously. If you skip this, "
+#~ "that's okay! All plugins will work just fine."
+#~ msgstr ""
+#~ "Proszę pomóż nam udoskonalić nasze wtyczki! Jeśli się zgodzisz, będziemy "
+#~ "zbierać niewrażliwe dane użytkowania anonimowo. Jeśli pominiesz ten krok, "
+#~ "w porządku! Wszystkie wtyczki będą działać."
+
+#~ msgid "Allow & Continue &rarr;"
+#~ msgstr "Pozwól i kontunuuj &rarr;"
+
+#~ msgid "Skip"
+#~ msgstr "Pomiń"
+
+#~ msgid "What permissions are being granted?"
+#~ msgstr "Jakie uprawnienia są przyznawane?"
+
+#~ msgid "Your Site Overview"
+#~ msgstr "Dane witryny"
+
+#~ msgid "WP version, PHP info"
+#~ msgstr "Wersja WP, PHP info"
+
+#~ msgid "Plugin Usage"
+#~ msgstr "Dane użytkowania wtyczek"
+
+#~ msgid "Current settings and usage information of WP Desk plugins"
+#~ msgstr "Ustawienia i informacje o użytkowaniu wtyczek WP Desk"
+
+#~ msgid "Your Store Overview"
+#~ msgstr "Dane sklepu"
+
+#~ msgid "Anonymized and non-sensitive store usage information"
+#~ msgstr "Tylko niewrażliwe i anonimowe dane o użytkowaniu sklepu"
+
+#~ msgid "Find out more &raquo;"
+#~ msgstr "Dowiedz się więcej &raquo;"
+
+#~ msgid "You are deactivating %s plugin."
+#~ msgstr "Dezaktywowałeś wtyczkę %s."
+
+#~ msgid ""
+#~ " If you have a moment, please let us know why you are deactivating plugin "
+#~ "(anonymous feedback):"
+#~ msgstr ""
+#~ " Jeśli masz chwilę, prosimy daj nam znać dlaczego dezaktywowałeś wtyczkę "
+#~ "(anonimowa opinia):"
+
+#~ msgid "The plugin suddenly stopped working"
+#~ msgstr "Wtyczka nagle przestała działać"
+
+#~ msgid "The plugin broke my site"
+#~ msgstr "Wtyczka zepsuła moją stronę"
+
+#~ msgid "I found a better plugin"
+#~ msgstr "Znalazłem lepszą wtyczkę"
+
+#~ msgid "What's the plugin's name?"
+#~ msgstr "Jaka jest nazwa wtyczki?"
+
+#~ msgid "I only needed the plugin for a short period"
+#~ msgstr "Potrzebowałem wtyczki tylko przez krótki okres"
+
+#~ msgid "I no longer need the plugin"
+#~ msgstr "Nie potrzebuję już wtyczki"
+
+#~ msgid "It's a temporary deactivation. I'm just debugging an issue."
+#~ msgstr "Jest to tymczasowa dezaktywacja, debaguję problem."
+
+#~ msgid "Other"
+#~ msgstr "Inny"
+
+#~ msgid "Kindly tell us the reason so we can improve"
+#~ msgstr "Napisz nam powód abyśmy mogli go poprawić"
+
+#~ msgid "Skip &amp; Deactivate"
+#~ msgstr "Pomiń i dezaktywuj"
+
+#~ msgid "Cancel"
+#~ msgstr "Anuluj"
+
+#~ msgid "Submit &amp; Deactivate"
+#~ msgstr "Wyślij i dezaktywuj"
+
+#~ msgid ""
+#~ "We need your help to improve <strong>WP Desk plugins</strong>, so they "
+#~ "are more useful for you and the rest of <strong>30,000+ users</strong>. "
+#~ "By collecting data on how you use our plugins, you will help us a lot. We "
+#~ "will not collect any sensitive data, so you can feel safe."
+#~ msgstr ""
+#~ "Potrzebujemy Twojej pomocy, aby dalej rozwijać <strong>wtyczki WP Desk</"
+#~ "strong> i były one jeszcze bardziej pomocne dla Ciebie i pozostałych "
+#~ "ponad <strong>30 000 użytkowników</strong>. Zbierając dane na temat tego "
+#~ "jak korzystasz z naszych wtyczek bardzo nam w tym pomożesz. Nie będziemy "
+#~ "zbierać żadnych danych wrażliwych, więc możesz czuć się bezpiecznie."
+
+#~ msgid "Allow"
+#~ msgstr "Pozwól"
+
+#~ msgid ""
+#~ "You successfully opted out of collecting usage data by WP Desk. If you "
+#~ "change your mind, you can always opt in later in the plugin's quick links."
+#~ msgstr ""
+#~ "Twoja rezygnacja ze zbierania danych użytkowania wtyczek przez WP Desk "
+#~ "została przyjęta. Jeśli zmienisz zdanie, zawsze możesz włączyć zgodę "
+#~ "poprzez szybkie linki w menu wtyczek."
+
+#~ msgid ""
+#~ "https://www.wpdesk.net/products/flexible-checkout-fields-pro-woocommerce/"
+#~ msgstr "https://www.wpdesk.pl/sklep/woocommerce-checkout-fields/"
+
+#~ msgid ""
+#~ "Manage your WooCommerce checkout fields. Change order, labels, "
+#~ "placeholders and add new fields."
+#~ msgstr ""
+#~ "Zarządzanie polami zamówienia WooCommerce. Zmieniaj kolejność, etykiety, "
+#~ "placeholdery i dodawaj nowe pola."
+
+#~ msgid "WP Desk"
+#~ msgstr "WP Desk"
+
+#~ msgid "https://www.wpdesk.net/"
+#~ msgstr "https://www.wpdesk.pl/"
+
+#~ msgid "Test"
+#~ msgstr "Test"
+
+#~ msgid "Input"
+#~ msgstr "Input"
+
+#~ msgid ""
+#~ "Invalid field name. Field name can contains only lower case letters, "
+#~ "digits and _ (underline) character!"
+#~ msgstr ""
+#~ "Błędna nazwa pola. Nazwa pola może zawierać jedynie małe litery, cyfry "
+#~ "oraz _ (znak podkreślenia)!"
+
+#~ msgid "Database Name"
+#~ msgstr "Nazwa w bazie danych"
+
+#~ msgid "Changing this field..."
+#~ msgstr "Zmiana pola..."
+
+#~ msgid "Admin Updates"
+#~ msgstr "Powiadomienia"
+
+#~ msgid "Announcements, updates, marketing, no spam and easy opt-out"
+#~ msgstr ""
+#~ "Ważne powiadomienia, uaktualnienia, marketing, żadnego spamu i łatwa "
+#~ "rezygnacja"
+
+#~ msgid ""
+#~ "An Unexpected HTTP Error occurred during the API request.</p> <p><a href="
+#~ "\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+#~ msgstr ""
+#~ "Wystąpił nieoczekiwany błąd HTTP podczas zapytania API.</p> <p><a "
+#~ "href=„?” onclick=„document.location.reload(); return false;”>Spróbuj "
+#~ "ponownie</a>"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "Wystąpił nieznany błąd"
+
+#~ msgid "Ustawienia"
+#~ msgstr "Ustawienia"
+
+#~ msgid "Dokumentacja"
+#~ msgstr "Docs"
+
+#~ msgid "Wsparcie"
+#~ msgstr "Wsparcie"
+
+#~ msgid "Enter field label!"
+#~ msgstr "Wpisz etykietę pola!"
+
+#~ msgid "Please confirm settings reset."
+#~ msgstr "Potwierdź reset ustawień."
+
+#~ msgid "Get more WP Desk Plugins!"
+#~ msgstr "Wtyczki WP Desk"
+
+#~ msgid "https://www.wpdesk.net/products/woocommerce-checkout-fields/"
+#~ msgstr "https://www.wpdesk.pl/sklep/woocommerce-checkout-fields/"
+
+#~ msgid "Flexible Checkout Fields PRO"
+#~ msgstr "Edycja pól zamówienia PRO"
+
+#~ msgid ""
+#~ "Go PRO and get new field types (i.e. checkboxes, radios, file upload) and "
+#~ "custom sections. And get rid of these ads :)"
+#~ msgstr ""
+#~ "Kup wersję PRO z nowymi typami pól (np. checkboksy, radio, wgrywanie "
+#~ "pliku) i własnymi sekcjami pól. I pozbądź się tych reklam :)`"
+
+#~ msgid "https://www.wpdesk.net/products/flexible-shipping-pro-woocommerce/"
+#~ msgstr "https://www.wpdesk.pl/sklep/flexible-shipping-pro-woocommerce/"
+
+#~ msgid "Flexible Shipping"
+#~ msgstr "Flexible Shipping"
+
+#~ msgid "Create shipping methods based on weight, totals and more."
+#~ msgstr ""
+#~ "Twórz metody wysyłki oparte na wadze, wartości zamówienia i nie tylko."
+
+#~ msgid "https://www.wpdesk.net/products/active-payments-woocommerce/"
+#~ msgstr "https://www.wpdesk.pl/sklep/aktywne-platnosci-woocommerce/"
+
+#~ msgid "Active Payments"
+#~ msgstr "Aktywne Płatności"
+
+#~ msgid "Conditionally display payment methods based on shipping."
+#~ msgstr "Warunkowo wyświetlaj metody płatności oparte na wysyłce."
+
+#~ msgid ""
+#~ "Read the <a href=\"https://www.wpdesk.net/docs/flexible-checkout-fields-"
+#~ "docs/?utm_source=flexible-checkout-fields-"
+#~ "settings&utm_medium=link&utm_campaign=flexible-checkout-fields-docs-link"
+#~ "\" target=\"_blank\">configuration manual &rarr;"
+#~ msgstr ""
+#~ "Przeczytaj <a href=\"https://www.wpdesk.pl/docs/woocommerce-checkout-"
+#~ "fields-docs/?utm_source=flexible-checkout-fields-"
+#~ "settings&utm_medium=link&utm_campaign=flexible-checkout-fields-docs-link"
+#~ "\" target=\"_blank\">instrukcję konfiguracji &rarr;"
+
+#~ msgid ""
+#~ "https://www.wpdesk.net/docs/flexible-checkout-fields-pro-woocommerce-docs/"
+#~ msgstr "https://www.wpdesk.pl/docs/woocommerce-checkout-fields-docs/"
+
+#~ msgid "https://www.wpdesk.net/docs/flexible-checkout-fields-docs/"
+#~ msgstr "https://www.wpdesk.pl/docs/woocommerce-checkout-fields-docs/"
+
+#~ msgid ""
+#~ "Please help us improve our plugins and get a <strong>20&#37; discount "
+#~ "coupon</strong> for <strong>WP Desk</strong> plugins."
+#~ msgstr ""
+#~ "Pomóż nam ulepszyć nasze wtyczki i otrzymaj <strong>kupon rabatowy 20&#37;"
+#~ "</strong> na kolejne zakupy w <strong>WP Desk</strong>."
+
+#~ msgid ""
+#~ "Allow WP Desk to collect plugin usage information and <strong>get "
+#~ "discount coupon</strong> in our shop. No sensitive data is tracked."
+#~ msgstr ""
+#~ "Pozwól WP Desk na zbieranie danych użytkowania wtyczek i <strong>otrzymaj "
+#~ "kupon rabatowy</strong> do naszego sklepu. Żadne wrażliwe dane nie będą "
+#~ "zbierane."
+
+#~ msgid ""
+#~ "Check %sFlexible Checkout Fields PRO%s → to add conditional logic for "
+#~ "field."
+#~ msgstr ""
+#~ "Sprawdź %sFlexible Checkout Fields PRO%s → aby włączyć logikę warunkową "
+#~ "dla pól."
+
+#~ msgid "https://www.wpdesk.net/products/flexible-checkout-fields/"
+#~ msgstr "https://www.wpdesk.pl/sklep/woocommerce-checkout-fields/"
+
+#~ msgid "Flexible Checkout Fields for WooCommerce"
+#~ msgstr "Flexible Checkout Fields dla WooCommerce"
+
+#~ msgid ""
+#~ "Manage your WooCommerce checkout fields! Change order, labels, "
+#~ "placeholders and add new fields."
+#~ msgstr ""
+#~ "Zarządzanie polami zamówienia WooCommerce. Zmieniaj kolejność, etykiety, "
+#~ "placeholdery i dodawaj nowe pola."
+
+#~ msgid "Billing Fields"
+#~ msgstr "Pola płatności"
+
+#~ msgid "Shipping Fields"
+#~ msgstr "Pola wysyłki"
+
+#~ msgid "Order Fields"
+#~ msgstr "Pola zamówienia"
+
+#~ msgid "WooCommerce Flexible Checkout Fields"
+#~ msgstr "WooCommerce Flexible Checkout Fields"
+
+#~ msgid "Additional Checkboxes"
+#~ msgstr "Dodatkowe checkboksy"
+
+#~ msgid ""
+#~ "<a href=\"%s\">Install the WP Desk Helper plugin</a> to activate and get "
+#~ "updates for your WP Desk plugins."
+#~ msgstr ""
+#~ "<a href=\"%s\">Zainstaluj wtyczkę WP Desk Helper</a>, aby aktywować i "
+#~ "otrzymywać aktualizacje wtyczek WP Desk."
+
+#~ msgid ""
+#~ "<a href=\"%s\">Activate the WP Desk Helper plugin</a> to activate and get "
+#~ "updates for your WP Desk plugins."
+#~ msgstr ""
+#~ "<a href=\"%s\">Włącz wtyczkę WP Desk Helper</a>, aby aktywować i "
+#~ "otrzymywać aktualizacje wtyczek WP Desk."
+
+#~ msgid ""
+#~ "The plugin adds new checkboxes under place order button. It is not "
+#~ "possible to manage fields added by third party plugins because of the way "
+#~ "WooCommerce works."
+#~ msgstr ""
+#~ "Wtyczka dodaje nowe checkboksy nad przyciskiem złożenia zamówienia. Ze "
+#~ "względu na sposób wyświetlania tych pól przez WooCommerce nie ma "
+#~ "możliwości zarządzania polami, które zostały dodane przez inne wtyczki."
+
+#~ msgid "Additional checkboxes"
+#~ msgstr "Dodatkowe checkboksy"
+
+#~ msgid "Value"
+#~ msgstr "Wartość"
+
+#~ msgid "Displayed in the order edit screen when checked by the user"
+#~ msgstr "Wyświetlane w edycji zamówienia, jeśli użytkownik zaznaczy"
+
+#~ msgid "Edit Fields"
+#~ msgstr "Edycja pól"
+
+#~ msgid ""
+#~ "Files will be saved to /wp-content/uploads/woocommerce_uploads/"
+#~ "checkout_fields"
+#~ msgstr ""
+#~ "Plik zostanie zapisany do /wp-content/uploads/woocommerce_uploads/"
+#~ "checkout_fields"
+
+#~ msgid "Allowed file types"
+#~ msgstr "Dopuszczalne typy plików"
+
+#~ msgid "Format: comma separated list. Example: <code>pdf,doc</code>"
+#~ msgstr ""
+#~ "Format: lista oddzielona przecinkami. Przykład: <code>pdf,doc</code>"
+
+#~ msgid "Maximum file size [MB]"
+#~ msgstr "Maksymalny rozmiar pliku [MB]"
+
+#~ msgid "Maximum file size in MB."
+#~ msgstr "Maksymalny rozmiar pliku"
+
+#~ msgid ""
+#~ "Read the <a href=\"https://www.wpdesk.net/docs/woocommerce-checkout-"
+#~ "fields-docs/\" target=\"_blank\">configuraion manual &rarr;"
+#~ msgstr ""
+#~ "Przeczytaj <a href=\"https://www.wpdesk.pl/docs/woocommerce-checkout-"
+#~ "fields-docs/\" target=\"_blank\">instrukcję konfiguracji &rarr;</a>"
+
+#~ msgid "Attachments"
+#~ msgstr "Załączniki"
+
+#~ msgid "Missing Value"
+#~ msgstr "Brak wartości"
+
+#~ msgid "You must check: "
+#~ msgstr "Musisz zaznaczyć: "
+
+#~ msgid "There is no field with name %s"
+#~ msgstr "Brak pola o nazwie %s"
+
+#~ msgid "File %s is to big!"
+#~ msgstr "Plik  %s jest za duży!"
+
+#~ msgid "Not allowed file type %s for file %s"
+#~ msgstr "Niedopuszczalny typ pliku %s dla %s"
+
+#~ msgid "File uploaded"
+#~ msgstr "Plik przesłany"

@@ -1,0 +1,279 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+.mf-clearfix {
+  clear: both;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+#dig-ucr-container .dig-content.dig-modal-con {
+  background: #FFF;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 3px 20px rgba(0,0,0,0.1);
+  width: 55%;
+  min-width: 450px;
+  height: auto !important;
+  padding: 0;
+}
+#dig-ucr-container .dig-content.dig-modal-con .dig_bx_cnt_mdl { padding: 20px 40px; }
+#dig-ucr-container .dig-log-par .digloginpage .signdesc,
+#dig-ucr-container .dig-log-par .digloginpage .signupbutton,
+#dig-ucr-container .dig-cont-close,
+#dig-ucr-container .dig-box-login-title,
+#dig-ucr-container .dig-log-par .register .backtoLoginContainer
+{ display: none !important; }
+.mf-popup-tabs > div { background: grey; }
+.mf-popup-tabs > div.active { background: #9FEDDC; }
+.mf-popup-tabs .mf-popup-login-tab, .mf-popup-tabs .mf-popup-signup-tab {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1B1F27;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: #F9F9F9;
+  padding: 14px 20px;
+  display: block;
+  width: 50%;
+  float: left;
+}
+#dig-ucr-container .popup-description {
+  font-weight: 700;
+  color: #2F446E;
+  font-size: 1.5rem;
+  margin-bottom: 28px;
+  text-align: center;
+}
+#dig-ucr-container .dig-log-par .register .dig_reg_inputs .minput {
+  margin: 0 0 15px 0;
+  position: relative;
+}
+#dig-ucr-container .dig-log-par .register .dig_reg_inputs .minput > label,
+#dig-ucr-container .dig-log-par .register .dig_register_otp label {
+  font-size: 14px;
+  position: relative;
+  color: #1B1F27 !important;
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 500;
+  top: 0;
+  text-align: left;
+  padding: 0;
+  line-height: 14px;
+}
+#dig-ucr-container .dig-log-par .register .dig_register_otp {
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+}
+#dig-ucr-container .dig-log-par .register .dig_reg_inputs .minput > label span { font-weight: 500; }
+#dig-ucr-container .dig-log-par .register .dig_reg_inputs .minput input,
+#dig-ucr-container .dig-log-par .register .dig_register_otp input {
+  background: #F4F6FA;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  padding: 0px 20px;
+  color: #9A9A9A !important;
+  margin-top: 0;
+}
+#dig-ucr-container .dig-log-par .register .dig_reg_inputs .minput .bgdark,
+#dig-ucr-container .dig-log-par .register .dig_register_otp .bgdark { display: none; }
+#dig-ucr-container .dig-log-par .register .dig_reg_inputs .minput input:focus,
+#dig-ucr-container .dig-log-par .register .dig_register_otp input:focus {
+  background: #F4F6FA !important;
+}
+#dig-ucr-container .dig-log-par .register .countrycode.registercountrycode {
+  line-height: 46px;
+}
+#dig-ucr-container .dig-log-par .register .dig_reg_inputs > div:not(.mf-clearfix) {
+  float: left;
+  width: 45%;
+}
+#dig-ucr-container .dig-log-par .register .dig_reg_inputs > div:nth-child(2n):not(.mf-clearfix) { float: right; }
+#dig-ucr-container .dig-log-par .register .dig_reg_inputs #dig_cs_lastname label { visibility: hidden; }
+#dig-ucr-container .dig-log-par .register .condition-login-area { text-align: center; }
+#dig-ucr-container .dig-log-par .register .condition-login-area p {
+  font-size: 13px;
+  color: #707070;
+  font-weight: 600;
+}
+#dig-ucr-container .dig-log-par .register .condition-login-area p a {
+  color: #2F446E !important;
+  text-decoration: underline;
+  font-weight: bold;
+}
+#dig-ucr-container .dig-log-par .register .btn.registerbutton {
+  color: #1B1F27 !important;
+  padding: 10px 60px;
+  background-color: #FFE644 !important;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 20px;
+  cursor: pointer;
+  width: unset;
+  font-size: 14px;
+  box-shadow: none;
+  margin: 7px auto 14px auto !important; 
+}
+.minput#dig_cs_mobilenumber input { padding-left: 20px; }
+
+/* Login */
+
+#dig-ucr-container .dig-log-par .digloginpage #mf-login-left-half,
+#dig-ucr-container .dig-log-par .digloginpage #mf-login-right-half {
+  position: relative;
+  display: block;
+  width: 40%;
+  margin: 0;
+  float: left;
+}
+#dig-ucr-container .dig-log-par .digloginpage #mf-login-middle {
+  display: block;
+  width: 20%;
+  margin: 0;
+  float: left;
+  padding-top: 75px;
+  color: #9A9A9A;
+  font-weight: 500;
+  font-size: 15px;
+}
+#dig-ucr-container .dig-log-par .digloginpage #mf-login-left-half .dig_login_rembe,
+#dig-ucr-container .dig-log-par .digloginpage #mf-login-left-half .logforb {
+  display: block;
+  width: 50%;
+  float: left;
+  padding: 0;
+}
+#dig-ucr-container .dig-log-par .digloginpage #mf-login-left-half .dig_login_rembe input[type=checkbox] {
+  display: inline;
+  width: unset;
+  margin: 0;
+}
+#dig-ucr-container .dig-log-par .digloginpage #mf-login-left-half .dig_login_rembe label {
+  font-weight: 600;
+  font-size: 12px;
+  color: #2F446E;
+}
+#dig-ucr-container .dig-log-par .digloginpage #mf-login-left-half .dig_login_rembe label:before {
+  display: none;
+}
+#dig-ucr-container .dig-log-par .digloginpage #mf-login-left-half .logforb > div { margin: 0; }
+#dig-ucr-container .dig-log-par .digloginpage #mf-login-left-half .forgotpassworda {
+  font-size: 12px;
+  color: #2F446E !important;
+  font-weight: 600;
+  text-align: right;
+}
+#dig-ucr-container .dig-log-par .digloginpage .minput {
+  margin: 0 0 15px 0;
+  position: relative;
+}
+#dig-ucr-container .dig-log-par .digloginpage .minput > label {
+  font-size: 14px;
+  position: relative;
+  color: #1B1F27 !important;
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 500;
+  top: 0;
+  text-align: left;
+  padding: 0;
+  line-height: 14px;
+}
+#dig-ucr-container .dig-log-par .digloginpage .minput > label span { font-weight: 500; }
+#dig-ucr-container .dig-log-par .digloginpage .minput input {
+  background: #F4F6FA;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  padding: 0px 20px;
+  color: #9A9A9A !important;
+  margin-top: 0;
+}
+#dig-ucr-container .dig-log-par .digloginpage .minput .bgdark { display: none; }
+#dig-ucr-container .dig-log-par .digloginpage .minput input:focus {
+  background: #F4F6FA !important;
+}
+#dig-ucr-container .dig-log-par .digloginpage .minput .mobile_field { padding-left: 20px }
+#dig-ucr-container .dig-log-par .digloginpage #dig_lo_resend_otp_btn {
+  width: auto;
+  text-align: right;
+  cursor: pointer;
+  text-transform: none;
+  display: block;
+  font-size: 12px;
+  color: #2F446E;
+}
+#dig-ucr-container .dig-log-par .digloginpage #dig_lo_resend_otp_btn > span { padding-left: 5px; }
+#dig-ucr-container .dig-log-par .digloginpage .minput.dig_login_otp { display: block !important; }
+/*#dig-ucr-container .dig-log-par .digloginpage #dig_login_va_otp {
+  width: 50px;
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  box-shadow: none;
+  font-weight: bold;
+}*/
+#dig-ucr-container .dig-log-par .digloginpage input.btn[type=submit] {
+  color: #1B1F27 !important;
+  padding: 10px 60px !important;
+  background-color: #FFE644 !important;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 20px;
+  cursor: pointer;
+  width: unset;
+  font-size: 14px;
+  box-shadow: none;
+  margin: 40px auto 14px auto !important;
+  display: none !important;
+}
+#dig_login_va_otp {
+  color: #1B1F27 !important;
+  padding: 0 40px !important;
+  background-color: #FFE644 !important;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 20px;
+  cursor: pointer;
+  width: unset;
+  font-size: 14px;
+  box-shadow: none;
+  margin: 25px auto 14px auto !important;
+  display: inline-block;
+}
+#mf-header-login-toggle, #dig-ucr-container .dig-log-par .digloginpage #mf-login-left-half,
+#dig-ucr-container .dig-log-par .digloginpage #mf-login-middle {
+display: none !important;
+}
+#dig-ucr-container .dig-log-par .digloginpage #mf-login-right-half {
+  position: relative;
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  float: none;
+}
+#dig-ucr-container .dig-log-par .digloginpage .countrycodecontainer.logincountrycodecontainer {
+ line-height: 46px; 
+}</style>
+<!-- end Simple Custom CSS and JS -->

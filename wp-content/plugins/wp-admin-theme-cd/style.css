@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* 
+Plugin Name: WP Admin Theme CD
+Plugin URI: http://www.creative-dive.de
+Description: A clean and modern WordPress Admin Theme.
+Version: 1.9
+Author: Martin Jost
+Author URI: http://www.creative-dive.de
+Text Domain: wp-admin-theme-cd
+Domain Path: /languages
+*/
+ 
+html {
+	background: none!important;
+}

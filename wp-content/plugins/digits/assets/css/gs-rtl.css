@@ -1,0 +1,52 @@
+.digits_admim_conf .dig_ad_side {
+    position: absolute;
+    direction: ltr;
+}
+
+.dig_ad_flt_btn {
+    position: relative !important;
+    top: 0;
+    right: 0;
+    direction: ltr;
+}
+
+.digits_admim_conf .dig_ad_submit[type="submit"] {
+    left: 45px !important;
+}
+
+.dig_ad_head {
+    text-align: right;
+    direction: rtl;
+}
+.dig_ad_head::after {
+    left:0px;
+    right: 0.5em;
+    margin-left: -50%;
+    margin-right: 0px;
+}
+.dig_gs_log_men {
+    float: left;
+}
+.nice-select::after {
+    right: auto;
+    left: 30px;
+}
+.nice-select .option {
+    padding-right: 18px;
+    padding-left: 29px;
+    text-align: right;
+}
+.dig_popmessage {
+    direction: rtl;
+    cursor: default;
+    line-height: 18px;
+}
+.dig_sme_lft_algn {
+    text-align: right !important;
+}
+.digits_admim_conf .dig_sts_logo img{
+    float: right !important;
+}
+.dig_gs_log_men{
+    float: right !important;
+}

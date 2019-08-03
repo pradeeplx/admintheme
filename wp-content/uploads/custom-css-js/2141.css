@@ -1,0 +1,330 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+.search-header form.search-form input {
+    line-height: 1;
+    padding: 12px 60px 12px 50px;
+}
+.search-header .header-login ul li:first-child {
+    margin-right: 30px;
+}
+.search-header .header-login ul li {
+    margin-right: 30px;
+}
+.search-header .header-login ul li:last-child {
+    margin-right: 0;
+}
+.package-meta .cart {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+.single-testimonial {
+    padding-top: 32px;
+}
+.single-testimonial h6 {
+    font-style: normal;
+}
+.single-testimonial p {
+    font-size: 15px;
+}
+.home .testimonial-area .section-head {
+    margin-bottom: 50px;
+}
+.home section.testimonial-area.section-padding {
+    padding-bottom: 120px;
+}
+.testimonial.owl-carousel .owl-dots {
+    margin-top: 30px;
+}
+.term-44 .testimonial-area::after{display: none}
+ul.page-numbers li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+}
+.add-to-cart-details.cart-table-info.woocommerce-cart-form__cart-item.cart_item {
+    overflow: hidden;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.add-to-cart-details.cart-table-info.woocommerce-cart-form__cart-item.cart_item > a {
+    float: left;
+    width: 65%;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: normal;
+}
+.add-to-cart-details.cart-table-info.woocommerce-cart-form__cart-item.cart_item > .cart-info {
+    float: left;
+    width: 28%;
+}
+.add-to-cart-details.cart-table-info.woocommerce-cart-form__cart-item.cart_item .cart-info h6 {
+    font-size: 16px;
+}
+.add-to-cart-details.cart-table-info.woocommerce-cart-form__cart-item.cart_item .cart-info p {
+    font-size: 0;
+}
+.add-to-cart-details.cart-table-info.woocommerce-cart-form__cart-item.cart_item .cart-info p span {
+    font-size: 16px;
+    margin-left: 8px;
+}
+.add-to-cart-area .add-to-cart-head {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.add-to-cart-area .add-to-cart-head p {
+    margin-top: 15px;
+}
+.add-to-cart-details button i {
+    font-size: 14px;
+    position: relative;
+    top: -2px;
+}
+.add-to-cart-area a.checkout {
+    background: #2680EB;
+    color: #fff;
+    padding: 12px 40px;
+    font-size: 16px;
+    border-radius: 30px;
+    float: right;
+    margin-top: 15px;
+}
+.header-login ul li:hover a.cart-notify img {
+    content: url(/wp-content/uploads/2019/08/Cart-hower.png);
+}
+.header-login ul li a.cart-notify img {
+    content: url(/wp-content/themes/phadkelabs/images/header/Group%202189.png);
+}
+.header-login ul li a.bars:hover,.header-login ul li a.bars:focus {
+    color: #2680EB;
+}
+input:focus {
+    outline: none;
+}
+.banner-area {
+    background-size: cover;
+    background-position: center right;
+}
+form.search-form input {
+    padding: 14px 60px 13px 50px;
+}
+.package-head a:hover, .package-head a:focus, .collection-info a:hover, .collection-info a:focus,
+.form-area form button[type="submit"]:hover{
+    background: #1963AC;
+}
+ul.products li.product .woocommerce-loop-product__title {
+    height: 57px;
+}
+ul.products li.product {
+    margin-bottom: 0px;
+}
+.footer-newsletter form .email_field::placeholder {
+    color: #fff;
+}
+p.woocommerce-FormRow.woocommerce-FormRow--wide.form-row.form-row-wide {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+p.woocommerce-FormRow.woocommerce-FormRow--wide.form-row.form-row-wide label {
+    width: 96px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.digcon #username {
+    height: 44px;
+    padding: 0 12px;
+    width: 369px;
+    border: 1px solid #9A9A9A;
+}
+.single-package {
+    padding: 48px 25px 25px 25px;
+}
+.canvas-menu-area {
+    padding: 40px 40px 50px 40px;
+    width: 380px;
+}
+.footer-newsletter h6 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.canvas-menu-area .footer-social {
+    margin-top: 20px;
+}
+.canvas-menu ul li {
+    margin-bottom: 12px;
+}
+.canvas-menu-area .footer-social h5 {
+    margin-bottom: 3px;
+}
+.header-login ul li a:hover, .header-login ul li a:focus {
+    color: #2680EB;
+}
+.header-area .search-header form.search-form input {
+    padding: 11px 60px 9px 50px
+}
+form.search-form button[type="submit"]:hover, form.search-form button[type="submit"]:focus {
+    background: #2680EB;
+    color: #fff;
+}
+.single-package h2 {
+    font-weight: 600;
+}
+.package-meta .cart {
+    bottom: 66px;
+}
+.whatsapp-connect p {
+    font-weight: 600;
+}
+.canvas-menu ul.menu li:last-child a {
+    background: #fff;
+    padding: 14px 60px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 2px 17px -6px #000;
+    box-shadow: 0 2px 17px -6px #000;
+    border: 2px solid transparent;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    color: #000;
+    font-weight: 700;
+}
+.canvas-menu ul.menu li:last-child a:hover{
+    color: #2680EB;
+    border: 2px solid #2680EB;
+}
+input.wpcf7-form-control.wpcf7-submit {
+    cursor: pointer;
+    background: #2F446E;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 0;
+}
+input.wpcf7-form-control.wpcf7-submit:hover {
+    background: #2680EB;
+}
+.form-area form textarea {
+    min-height: 85px;
+}
+footer .footer-newsletter h6 {
+    margin-top: 0;
+}
+footer .footer-social h5 {
+    margin-bottom: 9px;
+}
+.header-area .search-header form.search-form input:focus {
+    font-size: inherit;
+}
+/*About us page*/
+
+@media screen and (min-width: 48em){
+ .columns-4 ul.products li.product {
+    width: 23.8%;
+}
+ul.products li.product {
+    margin-right: 1.3%;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+  .promocode {
+    border-top: 22px solid #FF6E73;
+}
+  p.woocommerce-FormRow.woocommerce-FormRow--wide.form-row.form-row-wide label {
+    width: 71px;
+}
+  .digcon #username {
+    width: 194px;
+}
+  .legacy-menu {
+    top: 335px;
+}
+  .legacy-menu ul li {
+    margin-right: 6px;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+  .promocode {
+    border-top: 23px solid #FF6E73;
+}
+  p.woocommerce-FormRow.woocommerce-FormRow--wide.form-row.form-row-wide label {
+    width: 81px;
+}
+  .digcon #username {
+    width: 295px;
+}
+}
+@media only screen and (min-width: 1440px){
+.promocode {
+    border-bottom: 21px solid #FF6E73;
+    border-top: 20px solid #FF6E73;
+}
+}
+@media only screen and (max-width: 767px){
+ul.products li.product .woocommerce-loop-product__title {
+    height: auto;
+}
+  p.woocommerce-FormRow.woocommerce-FormRow--wide.form-row.form-row-wide label {
+    width: 21%;
+}
+  .digcon #username {
+    width: 202px;
+}
+    p.woocommerce-FormRow.woocommerce-FormRow--wide.form-row.form-row-wide label {
+    position: relative;
+    top: 7px;
+}
+  .canvas-menu-area {
+    padding: 25px;
+    width: 100%;
+}
+  .canvas-menu ul.menu li:last-child a {
+    padding: 10px 30px;
+}
+   .canvas-menu-area .footer-newsletter > div {
+    width: 90%;
+}
+  .search-header .header-login ul li {
+    margin-right: 15px;
+}
+  .legacy-menu ul li {
+    margin-right: 9px;
+}
+}
+@media only screen and (max-width: 350px){
+.digcon #username {
+    width: 127px;
+}
+  p.woocommerce-FormRow.woocommerce-FormRow--wide.form-row.form-row-wide label {
+    width: 23%;
+    overflow: hidden;
+    font-size: 13px;
+    position: relative;
+    top: 7px;
+}
+  
+}
+@media only screen and (min-width: 351px) and (max-width: 399px){
+.digcon #username {
+    width: 168px;
+}
+    p.woocommerce-FormRow.woocommerce-FormRow--wide.form-row.form-row-wide label {
+    position: relative;
+    top: 7px;
+}
+}</style>
+<!-- end Simple Custom CSS and JS -->

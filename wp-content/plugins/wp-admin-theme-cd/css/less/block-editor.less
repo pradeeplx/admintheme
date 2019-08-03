@@ -1,0 +1,504 @@
+
+/**************************************************************************/
+/**************************************************************************/
+/* WPAT -> BLOCK EDITOR (GUTENBERG) */
+/**************************************************************************/
+/**************************************************************************/
+
+body.wpat.block-editor-page #wpcontent {
+    padding-left: 0px!important;
+}
+
+.block-editor h1,
+.block-editor h2,
+.block-editor h3,
+.block-editor h4,
+.block-editor h5,
+.block-editor h6 {
+	margin: 0px;
+}
+
+/* gutenberg wrapper ***********************************/
+/*******************************************************/
+
+.block-editor .block-editor__container {
+    background: #fff;
+}
+
+/* gutenberg toolbar ***********************************/
+/*******************************************************/
+
+.block-editor .edit-post-header {
+    box-shadow: 0px 0px 60px rgba(69, 101, 173, 0.2);
+}
+
+@media (min-width: 960px) {
+	
+	.block-editor .edit-post-header {
+		top: 32px;
+		/*left: @wpatMenuLeftWidth;*/
+		z-index: 999;
+		border-bottom: 0px;
+	}
+	
+	body:not(.folded) .block-editor .edit-post-header {
+		left: @wpatMenuLeftWidth;
+	}
+	
+}
+
+.block-editor .editor-inserter__tabs .components-tab-panel__tabs {
+    background: #f8f9fb;
+}
+
+.block-editor .editor-inserter__tab.is-active {
+    border-bottom-color: @wpatThemeColor;
+}
+
+/* gutenberg sidebar ***********************************/
+/*******************************************************/
+
+.block-editor .edit-post-sidebar {
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(69, 101, 173, 0.1);
+}
+
+@media (min-width: 960px) {
+	
+	.block-editor .edit-post-sidebar {
+		top: 88px;
+	}
+	
+}
+
+.block-editor .edit-post-sidebar .components-panel__header {
+    background: #f8f9fb;
+}
+
+.block-editor .edit-post-sidebar__panel-tab.is-active {
+    border-bottom-color: @wpatThemeColor;
+}
+
+@media (min-width: 960px) {
+
+	/* gutenberg content ***********************************/
+	/*******************************************************/
+	
+	.block-editor .edit-post-layout__content {
+		position: fixed;
+		top: 88px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+		height: auto;
+	}	
+
+	/* gutenberg title *************************************/
+	/*******************************************************/
+	
+	.block-editor .edit-post-visual-editor .editor-post-title__block {
+		margin-bottom: 20px;
+	}
+
+	/* gutenberg editor ************************************/
+	/*******************************************************/
+
+	.block-editor .editor-styles-wrapper ol, 
+	.block-editor .editor-styles-wrapper p, 
+	.block-editor .editor-styles-wrapper ul,
+	.block-editor .editor-styles-wrapper h1, 
+	.block-editor .editor-styles-wrapper h2, 
+	.block-editor .editor-styles-wrapper h3, 
+	.block-editor .editor-styles-wrapper h4, 
+	.block-editor .editor-styles-wrapper h5, 
+	.block-editor .editor-styles-wrapper h6,
+	.block-editor [data-block] {
+		margin: 0px!important;
+	}
+	
+	.block-editor .edit-post-visual-editor .editor-block-list__block {
+		border: 1px dashed #e6e6e6;
+		margin-bottom: 20px;
+	}
+
+	.block-editor .edit-post-visual-editor .editor-block-list__block .editor-block-list__block {
+		border: 0px;
+		margin-bottom: inherit;
+	}
+
+	.block-editor .edit-post-visual-editor .editor-block-list__block:hover {
+		box-shadow: 0px 0px 30px rgba(69, 101, 173, 0.1);
+	}
+
+	.block-editor .edit-post-visual-editor .editor-block-list__block:hover .editor-block-list__block,
+	.block-editor .edit-post-visual-editor .editor-block-list__block .editor-block-list__block:hover {
+		box-shadow: none;
+	}
+
+	.block-editor .editor-block-list__block > .editor-block-list__insertion-point {
+		z-index: 99;
+	}
+
+	.block-editor .editor-block-list__insertion-point-inserter .editor-inserter__toggle {
+		margin-top: 11px;
+		background: @wpatThemeColor;
+		color: #fff;
+		box-shadow: 0px 0px 30px rgba(69, 101, 173, 0.1);
+	}
+
+	.block-editor .components-icon-button:not(:disabled):not([aria-disabled=true]):not(.is-default):hover {
+		background: @wpatThemeColor;
+		color: rgba(255,255,255,0.6);
+	}
+
+	.block-editor .components-icon-button:not(:disabled):not([aria-disabled=true]):not(.is-default):hover,
+	.block-editor .components-toolbar__control.components-button:not(:disabled).is-active > svg, 
+	.block-editor .components-toolbar__control.components-button:not(:disabled):hover > svg,
+	.block-editor .components-dropdown-menu .components-dropdown-menu__toggle:focus, 
+	.block-editor .components-dropdown-menu .components-dropdown-menu__toggle:hover, 
+	.block-editor .components-dropdown-menu .components-dropdown-menu__toggle:not(:disabled):not([aria-disabled=true]):not(.is-default):hover {
+		background: @wpatThemeColor;
+		color: rgba(255,255,255,0.6);
+		box-shadow: none;
+	}
+
+	/* block breadcrumb - label */
+	
+	.block-editor .editor-block-list__breadcrumb {
+		top: -16px;
+		left: -15px;
+	}
+	
+	.block-editor .editor-block-list__breadcrumb div {
+		padding: 7px;
+	}
+	
+	.block-editor .editor-block-list__breadcrumb div {
+		background: @wpatThemeColor;
+		color: #fff;
+	}
+	
+	/* block active left line */
+	
+	@media (min-width: 600px) {
+		
+		.block-editor-block-toolbar {
+			box-shadow: -3px 0 0 0 @wpatThemeColor;
+		}
+		
+		.block-editor .block-editor-block-list__layout .block-editor-block-list__block.is-selected > .block-editor-block-list__block-edit:before {
+			box-shadow: -3px 0 0 0 @wpatThemeColor;
+		}
+		
+		.block-editor .block-editor-block-list__layout .block-editor-block-list__block.is-hovered > .block-editor-block-list__block-edit:before {
+			box-shadow: none;
+		}
+	}
+	
+	.block-editor .block-editor-block-list__layout .block-editor-block-list__block.is-selected>.block-editor-block-list__block-edit:before {
+		box-shadow: inset 3px 0 0 0 @wpatThemeColor;
+	}
+	
+	.block-editor .editor-block-list__layout .editor-default-block-appender > .editor-default-block-appender__content, 
+	.block-editor .editor-block-list__layout > .editor-block-list__block > .editor-block-list__block-edit, 
+	.block-editor .editor-block-list__layout > .editor-block-list__layout > .editor-block-list__block > .editor-block-list__block-edit {
+		margin-bottom: 16px;
+		margin-top: 16px;
+	}
+
+	.block-editor .editor-block-list__layout > .editor-block-list__block .editor-block-list__block > .editor-block-list__block-edit {
+		margin-bottom: 32px;
+		margin-top: 32px;
+	}
+
+	.block-editor .editor-block-list__layout > .editor-block-list__block .editor-inner-blocks .editor-inner-blocks {
+		padding: 10px;
+	}
+
+	.block-editor .editor-block-list__block > .editor-block-mover {
+		top: 7px;
+		left: -40px;
+	}
+
+	.block-editor .editor-block-list__layout .editor-block-list__block > .editor-block-list__block-edit:before {
+		top: -16px;
+		right: -15px;
+		bottom: -16px;
+		left: -15px;
+	}
+
+	.block-editor .editor-block-list__layout .editor-block-list__block.is-hovered > .editor-block-list__block-edit:before {
+		outline: 1px solid @wpatThemeColor;
+	}
+
+	.block-editor .editor-block-list__block .editor-block-contextual-toolbar {
+		z-index: 999;
+		margin-left: -16px;
+		transform: translateY(-54px);
+	}
+
+	.block-editor .editor-block-list__block .editor-block-contextual-toolbar .components-icon-button {
+		border-radius: 0px;
+	}
+	
+}
+
+/* gutenberg metaboxes *********************************/
+/*******************************************************/
+
+.block-editor .edit-post-layout__metaboxes {
+	background: #f8f9fb;
+}
+
+.block-editor .edit-post-meta-boxes-area .meta-box-sortables .postbox.closed {
+	transition: all 0.2s linear;
+}
+
+.block-editor .edit-post-meta-boxes-area .meta-box-sortables .postbox.closed:hover,
+.block-editor .edit-post-meta-boxes-area .meta-box-sortables .postbox.closed:focus,
+.block-editor .edit-post-meta-boxes-area .meta-box-sortables .postbox.closed:active {
+	transform: scale(1.05);
+	transition: all 0.2s linear;
+}
+
+.block-editor .edit-post-meta-boxes-area .meta-box-sortables .postbox.closed h2.hndle.ui-sortable-handle {
+	border-bottom: 0px!important;
+}
+
+.block-editor .edit-post-meta-boxes-area .meta-box-sortables .postbox:hover h2.hndle.ui-sortable-handle {
+	color: @wpatThemeColor!important;
+}
+
+@media (min-width: 960px) {
+	
+	.block-editor .edit-post-layout__metaboxes {
+		padding: 40px!important;
+		margin: 0px!important
+	}
+
+	.block-editor .edit-post-meta-boxes-area {
+		max-width: 1000px!important;
+		margin-left: auto!important;
+		margin-right: auto!important;
+	}
+
+	.block-editor .edit-post-meta-boxes-area .meta-box-sortables > div {
+		margin-bottom: 40px!important;
+	}
+	
+}
+
+/* gutenberg admin notice ******************************/
+/*******************************************************/
+
+@media (min-width: 960px) {
+	
+	.block-editor .components-notice-list {
+		position: static!important;
+		z-index: 998;
+	}
+	
+	.block-editor .components-notice-list .components-notice {
+		margin: 0px!important;
+	}
+	
+}
+
+.block-editor .components-notice-list .components-notice { border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+.block-editor .components-notice-list .components-notice.is-warning { border-bottom: 1px solid rgba(240, 184, 73, 0.2); }
+.block-editor .components-notice-list .components-notice.is-success { border-bottom: 1px solid rgba(74, 184, 102, 0.2); }
+.block-editor .components-notice-list .components-notice.is-error { border-bottom: 1px solid rgba(217, 79, 79, 0.2); }
+.block-editor .components-notice-list .components-notice.is-info { border-bottom: 1px solid rgba(0, 160, 210, 0.2); }
+
+.block-editor .components-notice-list .components-notice:last-child {
+	border-bottom: 0px;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* WPAT -> BLOCK EDITOR -> SPACING = ON */
+/**************************************************************************/
+/**************************************************************************/
+
+@media (min-width: 960px) {
+	
+	/* gutenberg content ***********************************/
+	/*******************************************************/
+
+	body.wpat-spacing-on .block-editor .edit-post-layout__content {
+		position: relative;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+		height: 100%;
+		min-height: 100%;
+		margin-left: 0px!important;
+	}
+	
+	body.wpat-spacing-on .block-editor .block-editor__container {
+		min-height: calc( ~"100vh - 51px" );
+	}
+
+	/* gutenberg toolbar ***********************************/
+	/*******************************************************/
+
+	body.wpat-spacing-on .block-editor .edit-post-header {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		left: 0px!important;
+	}
+	
+	/* gutenberg sidebar ***********************************/
+	/*******************************************************/
+	
+	body.wpat-spacing-on .block-editor .edit-post-sidebar {
+		position: absolute;
+		top: 56px;
+		right: 0px;
+	}
+
+	body.wpat-spacing-on .block-editor .edit-post-layout .editor-post-publish-panel {
+		position: absolute!important;
+		top: 0px!important;
+	}
+	
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* WPAT -> BLOCK EDITOR -> LEFT ADMIN MENU */
+/**************************************************************************/
+/**************************************************************************/
+
+.block-editor-page ul#adminmenu a.wp-has-current-submenu:after,
+.block-editor-page ul#adminmenu > li.current > a.current:after {
+	content: none;
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* WPAT -> BLOCK EDITOR -> TOOLBAR = OFF + SPACING = ON */
+/**************************************************************************/
+/**************************************************************************/
+
+@media (min-width: 960px) {
+	
+	body.wpat-toolbar-off.wpat-spacing-on .block-editor .block-editor__container {
+		min-height: calc( ~"100vh - 51px" )!important;
+	}
+	
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* WPAT -> BLOCK EDITOR -> TOOLBAR = OFF */
+/**************************************************************************/
+/**************************************************************************/
+
+@media (min-width: 960px) {
+	
+	body.wpat-toolbar-off .block-editor .block-editor__container {
+		min-height: calc( ~"100vh - 0px" )!important;
+	}
+
+	body.wpat-toolbar-off .block-editor .edit-post-header {
+		top: 0px;
+	}
+
+	body.wpat-toolbar-off .block-editor .edit-post-sidebar {
+		top: 56px;
+	}
+	
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* WPAT -> BLOCK EDITOR -> TOOLBAR = OFF + SPACING = OFF */
+/**************************************************************************/
+/**************************************************************************/
+
+/* gutenberg content ***********************************/
+/*******************************************************/
+
+@media (min-width: 960px) {
+	
+	body.wpat-toolbar-off.wpat-spacing-off .block-editor .edit-post-layout__content {
+		top: 56px;
+	}
+
+	body.wpat-toolbar-off.wpat-spacing-off .block-editor-page .wpat-logout {
+		top: auto;
+		bottom: 0px;
+	}
+
+	body.wpat-toolbar-off.wpat-spacing-off .block-editor-page .wpat-logout-content {
+		position: fixed;
+		top: auto;
+		bottom: -100px;
+	}
+
+	body.wpat-toolbar-off.wpat-spacing-off .block-editor-page .wpat-logout:hover .wpat-logout-content {
+		top: auto;
+		bottom: 0px;
+	}
+	
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* WPAT -> BLOCK EDITOR -> CUSTOM LEFT ADMIN MENU WIDTH = ON */
+/**************************************************************************/
+/**************************************************************************/
+
+/* gutenberg content ***********************************/
+/*******************************************************/
+
+@media (min-width: 782px) and (min-width: 960px) {
+	
+	.block-editor .edit-post-layout__content,
+	body.auto-fold:not(.rtl) .block-editor .edit-post-layout__content,
+	body.auto-fold:not(.rtl) .block-editor .edit-post-layout.is-sidebar-opened .edit-post-layout__content {
+		margin-left: @wpatMenuLeftWidth;
+	}
+	
+	/* SPACING = ON */
+	
+	body.wpat-spacing-on.auto-fold .block-editor .edit-post-layout__content,
+	body.wpat-spacing-on.auto-fold .block-editor .edit-post-layout__content,
+	body.wpat-spacing-on.auto-fold .block-editor .edit-post-layout.is-sidebar-opened .edit-post-layout__content {
+		margin-left: 0px;
+	}
+
+}
+
+/* gutenberg toolbar ***********************************/
+/*******************************************************/
+
+@media (min-width: 960px) {
+
+	body.auto-fold:not(.rtl) .block-editor .edit-post-header {
+		left: @wpatMenuLeftWidth;
+	}
+	
+	/* SPACING = ON */
+	
+	body.wpat-spacing-on.auto-fold .block-editor .edit-post-header {
+		position: absolute;
+		top: 0px;
+	   	left: 0px;
+	}
+	
+}
+
+/**************************************************************************/
+/**************************************************************************/
+/* WPAT -> BLOCK EDITOR -> SPECIFIC BLOCK STYLE */
+/**************************************************************************/
+/**************************************************************************/
+
+.wpat .wp-block-cover {
+    margin-bottom: 16px;
+}
+

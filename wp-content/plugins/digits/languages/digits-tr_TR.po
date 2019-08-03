@@ -1,0 +1,3767 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DIGITS: Wordpress Mobile Number Signup and Login\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-06 03:28+0530\n"
+"PO-Revision-Date: 2019-07-06 03:28+0530\n"
+"Last-Translator: Dubai <bilgi@dubaivizesi.com.tr>\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: digit.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: digadvlogic/Puc/v4p6/Plugin/Ui.php:54
+#: digcountrygateways/Puc/v4p6/Plugin/Ui.php:54
+#: digfilter/Puc/v4p6/Plugin/Ui.php:54 digmergphne/Puc/v4p6/Plugin/Ui.php:54
+#: digoldaccntmr/Puc/v4p6/Plugin/Ui.php:54
+#: digoneclickls/Puc/v4p6/Plugin/Ui.php:54
+#: digpagelock/Puc/v4p6/Plugin/Ui.php:54 update/Puc/v4p6/Plugin/Ui.php:54
+#, fuzzy
+#| msgid "Invalid details!"
+msgid "View details"
+msgstr "Lütfen bilgilerinizi kontrol ediniz!"
+
+#: digadvlogic/Puc/v4p6/Plugin/Ui.php:77
+#: digcountrygateways/Puc/v4p6/Plugin/Ui.php:77
+#: digfilter/Puc/v4p6/Plugin/Ui.php:77 digmergphne/Puc/v4p6/Plugin/Ui.php:77
+#: digoldaccntmr/Puc/v4p6/Plugin/Ui.php:77
+#: digoneclickls/Puc/v4p6/Plugin/Ui.php:77
+#: digpagelock/Puc/v4p6/Plugin/Ui.php:77 update/Puc/v4p6/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: digadvlogic/Puc/v4p6/Plugin/Ui.php:128
+#: digcountrygateways/Puc/v4p6/Plugin/Ui.php:128
+#: digfilter/Puc/v4p6/Plugin/Ui.php:128 digmergphne/Puc/v4p6/Plugin/Ui.php:128
+#: digoldaccntmr/Puc/v4p6/Plugin/Ui.php:128
+#: digoneclickls/Puc/v4p6/Plugin/Ui.php:128
+#: digpagelock/Puc/v4p6/Plugin/Ui.php:128 update/Puc/v4p6/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr "Güncellemeleri Kontrol Et"
+
+#: digadvlogic/Puc/v4p6/Plugin/Ui.php:213
+#: digcountrygateways/Puc/v4p6/Plugin/Ui.php:213
+#: digfilter/Puc/v4p6/Plugin/Ui.php:213 digmergphne/Puc/v4p6/Plugin/Ui.php:213
+#: digoldaccntmr/Puc/v4p6/Plugin/Ui.php:213
+#: digoneclickls/Puc/v4p6/Plugin/Ui.php:213
+#: digpagelock/Puc/v4p6/Plugin/Ui.php:213 update/Puc/v4p6/Plugin/Ui.php:213
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "%s eklentisi güncel durumdadır."
+
+#: digadvlogic/Puc/v4p6/Plugin/Ui.php:215
+#: digcountrygateways/Puc/v4p6/Plugin/Ui.php:215
+#: digfilter/Puc/v4p6/Plugin/Ui.php:215 digmergphne/Puc/v4p6/Plugin/Ui.php:215
+#: digoldaccntmr/Puc/v4p6/Plugin/Ui.php:215
+#: digoneclickls/Puc/v4p6/Plugin/Ui.php:215
+#: digpagelock/Puc/v4p6/Plugin/Ui.php:215 update/Puc/v4p6/Plugin/Ui.php:215
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "%s eklentisinin daha güncel bir versiyonu bulunmaktadır."
+
+#: digadvlogic/Puc/v4p6/Plugin/Ui.php:217
+#: digcountrygateways/Puc/v4p6/Plugin/Ui.php:217
+#: digfilter/Puc/v4p6/Plugin/Ui.php:217 digmergphne/Puc/v4p6/Plugin/Ui.php:217
+#: digoldaccntmr/Puc/v4p6/Plugin/Ui.php:217
+#: digoneclickls/Puc/v4p6/Plugin/Ui.php:217
+#: digpagelock/Puc/v4p6/Plugin/Ui.php:217 update/Puc/v4p6/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: digadvlogic/Puc/v4p6/Plugin/Ui.php:223
+#: digcountrygateways/Puc/v4p6/Plugin/Ui.php:223
+#: digfilter/Puc/v4p6/Plugin/Ui.php:223 digmergphne/Puc/v4p6/Plugin/Ui.php:223
+#: digoldaccntmr/Puc/v4p6/Plugin/Ui.php:223
+#: digoneclickls/Puc/v4p6/Plugin/Ui.php:223
+#: digpagelock/Puc/v4p6/Plugin/Ui.php:223 update/Puc/v4p6/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "Güncelleme denetleyicisi durumu bilinmiyor \"%s\""
+
+#: digadvlogic/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+#: digcountrygateways/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+#: digfilter/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+#: digmergphne/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+#: digoldaccntmr/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+#: digoneclickls/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+#: digpagelock/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+#: update/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr "Herhangi bir değişiklik listesi mevcut değildir."
+
+#: digadvlogic/digadvlogic.php:93 digit.php:419 digit.php:3543 digit.php:3893
+#: digit.php:3979 digit.php:5886 digit.php:7636
+msgid "Oh Snap!"
+msgstr "Üzgünüz :("
+
+#: digadvlogic/digadvlogic.php:95
+#, fuzzy
+#| msgid "Please fill out all password fields."
+msgid "Please upload all the required files."
+msgstr "Lütfen tüm şifre bölümlerini doldurunuz."
+
+#: digadvlogic/digadvlogic.php:96
+msgid "{{field}} requires minimum of {{no}} files to be uploaded."
+msgstr ""
+
+#: digadvlogic/digadvlogic.php:97
+msgid "File is being uploaded."
+msgstr ""
+
+#: digadvlogic/digadvlogic.php:98
+msgid "Do you really want to delete {{file}}. This action can't be reversed."
+msgstr ""
+
+#: digadvlogic/digadvlogic.php:99 digit.php:417 digit.php:3347 digit.php:3902
+#: digit.php:3977 digit.php:4560 digit.php:5328 digit.php:5479 digit.php:5583
+#: digit.php:5884 digit.php:7918 digit.php:7954 digmergphne/digmergphne.php:159
+#: includes/forms.php:40 includes/forms.php:165 includes/forms.php:260
+#: includes/forms.php:497 includes/forms.php:541
+#: includes/woocommerce-registration.php:1087
+msgid "Email"
+msgstr "E-Posta"
+
+#: digadvlogic/digadvlogic.php:100 digit.php:418 digit.php:1178 digit.php:1180
+#: digit.php:3346 digit.php:3883 digit.php:3978 digit.php:4558 digit.php:5326
+#: digit.php:5477 digit.php:5569 digit.php:5885 digit.php:7919 digit.php:7955
+#: digmergphne/digmergphne.php:160 digoldaccntmr/digoldaccntmr.php:530
+#: digoneclickls/digoneclickls.php:162 includes/bp.php:49 includes/bp.php:109
+#: includes/forms.php:38 includes/forms.php:163 includes/forms.php:243
+#: includes/forms.php:495 includes/forms.php:523 includes/um.php:107
+#: includes/woocommerce-registration.php:38
+#: includes/woocommerce-registration.php:74
+#: includes/woocommerce-registration.php:246
+#: includes/woocommerce-registration.php:247
+#: includes/woocommerce-registration.php:1140
+#: includes/woocommerce-registration.php:1280
+#: includes/woocommerce-registration.php:1358 includes/wp.php:20
+msgid "Mobile Number"
+msgstr "Cep Telefonu Numarası"
+
+#: digadvlogic/digadvlogic.php:101
+#, fuzzy
+#| msgid "Email/Mobile Number"
+msgid "Email/Mobile"
+msgstr "E-Posta / Telefon Numarası"
+
+#: digadvlogic/digadvlogic.php:157
+msgid "HTML"
+msgstr ""
+
+#: digadvlogic/digadvlogic.php:167
+msgid "Maximum Upload Size (in MB)"
+msgstr ""
+
+#: digadvlogic/digadvlogic.php:175
+msgid "Maximum no of files that can be uploaded"
+msgstr ""
+
+#: digadvlogic/digadvlogic.php:183
+msgid "Minimum no of files that can be uploaded"
+msgstr ""
+
+#: digadvlogic/digadvlogic.php:192
+msgid "Allowed Extensions"
+msgstr ""
+
+#: digadvlogic/digadvlogic.php:623
+msgid "You are only allowed to upload a maximum of "
+msgstr ""
+
+#: digadvlogic/digadvlogic.php:630
+msgid "You are only allowed to upload a minimum of "
+msgstr ""
+
+#: digadvlogic/digadvlogic.php:935
+#, fuzzy
+#| msgid "SIGN UP WITH OTP"
+msgid "REGISTRATION FORM LOGIC BUILDER"
+msgstr "Tek Kullanımlık Şifre ile Kayıt Olun"
+
+#: digcountrygateways/digcountrygateways.php:68
+#, fuzzy
+#| msgid "Country Code"
+msgid "All Countries"
+msgstr "Ülke Kodu"
+
+#: digcountrygateways/digcountrygateways.php:72
+msgid "for"
+msgstr ""
+
+#: digcountrygateways/digcountrygateways.php:83
+#, fuzzy
+#| msgid "Country Code"
+msgid "Countries"
+msgstr "Ülke Kodu"
+
+#: digcountrygateways/digcountrygateways.php:113
+#, fuzzy
+#| msgid "Advanced Options"
+msgid "Add Group"
+msgstr "Gelişmiş Seçenekler"
+
+#: digfilter/digfilter.php:93
+msgid "Email Filter"
+msgstr ""
+
+#: digfilter/digfilter.php:99
+msgid "Whitelisted Domains"
+msgstr ""
+
+#: digfilter/digfilter.php:117
+msgid "Blacklisted Domains"
+msgstr ""
+
+#: digfilter/digfilter.php:135
+msgid "Block Disposable Email Registration"
+msgstr ""
+
+#: digfilter/digfilter.php:141 digit.php:3112 digit.php:3122 digit.php:3135
+#: digit.php:3264 digit.php:3321 digit.php:3331 digit.php:7990 digit.php:8001
+#: digit.php:8027 digit.php:8045 digit.php:8203 digmergphne/digmergphne.php:82
+#: digoldaccntmr/digoldaccntmr.php:106 digoldaccntmr/digoldaccntmr.php:123
+#: digoneclickls/digoneclickls.php:81 digpagelock/digpagelock.php:111
+#: digpagelock/digpagelock.php:128
+msgid "Yes"
+msgstr "Evet"
+
+#: digfilter/digfilter.php:144 digit.php:3100 digit.php:3113 digit.php:3123
+#: digit.php:3136 digit.php:3265 digit.php:3322 digit.php:3333 digit.php:3544
+#: digit.php:7637 digit.php:7991 digit.php:8002 digit.php:8028 digit.php:8046
+#: digit.php:8086 digit.php:8204 digmergphne/digmergphne.php:85
+#: digoldaccntmr/digoldaccntmr.php:109 digoldaccntmr/digoldaccntmr.php:126
+#: digoneclickls/digoneclickls.php:84 digpagelock/digpagelock.php:114
+#: digpagelock/digpagelock.php:131
+msgid "No"
+msgstr "Hayır"
+
+#: digfilter/digfilter.php:225
+msgid "We don't allow email addresses from this provider"
+msgstr ""
+
+#: digit.php:64
+msgid "View changelog"
+msgstr ""
+
+#: digit.php:126
+msgid "+ Add User"
+msgstr "+ Kullanıcı Ekle"
+
+#: digit.php:130
+msgid "Add new user"
+msgstr "Yeni kullanıcı ekle"
+
+#: digit.php:281
+msgid "Create New Customer"
+msgstr "Yeni Müşteri Oluştur"
+
+#: digit.php:290 digit.php:304
+msgid "Create Customer"
+msgstr "Müşteri Oluştur"
+
+#: digit.php:295 digit.php:5530 includes/forms.php:196
+#: includes/register.php:105 includes/woocommerce-registration.php:1008
+msgid "First Name"
+msgstr "Adınız"
+
+#: digit.php:298 digit.php:7871 includes/register.php:106
+msgid "Last Name"
+msgstr "Soyadınız"
+
+#: digit.php:301 digit.php:3829 digit.php:4556 digit.php:5324 digit.php:5475
+#: digit.php:5576 digit.php:5693 includes/forms.php:36 includes/forms.php:161
+#: includes/forms.php:253 includes/forms.php:365 includes/forms.php:493
+#: includes/forms.php:534 includes/woocommerce-registration.php:249
+#: includes/woocommerce-registration.php:250
+#: includes/woocommerce-registration.php:1084 includes/wp.php:374
+msgid "Email/Mobile Number"
+msgstr "E-Posta / Telefon Numarası"
+
+#: digit.php:303 digit.php:5781 digoldaccntmr/digoldaccntmr.php:610
+msgid "Cancel"
+msgstr "Vazgeç"
+
+#: digit.php:321
+msgid "Enter all fields!"
+msgstr "Tüm bölümleri doldurun!"
+
+#: digit.php:322
+msgid "Invalid Email or mobile number!"
+msgstr "Hatalı E-Posta veya Telefon Numarası!"
+
+#: digit.php:323 digit.php:405 digit.php:3904 digit.php:3965 digit.php:4471
+#: digit.php:4477 digit.php:4750 digit.php:4824 digit.php:5872
+#: digoldaccntmr/digoldaccntmr.php:275 includes/login.php:1522
+#: includes/phandler.php:28 includes/register.php:212
+#: includes/woocommerce-registration.php:164
+#: includes/woocommerce-registration.php:168
+#: includes/woocommerce-registration.php:182
+#: includes/woocommerce-registration.php:201
+#: includes/woocommerce-registration.php:203
+#: includes/woocommerce-registration.php:1228
+msgid "Error"
+msgstr "Hata"
+
+#: digit.php:324
+msgid "Email/Mobile number has already registered"
+msgstr "E-Posta adresi / Cep Telefonu Numarası zaten kayıtlıdır"
+
+#: digit.php:325
+msgid "User registered successfully"
+msgstr "Kullanıcı başarıyla kayıt oldu"
+
+#: digit.php:377 digit.php:3848 digit.php:3937 digit.php:4435 digit.php:4459
+#: digit.php:5845
+msgid "Passwords do not match!"
+msgstr "Şifreler birbiriyle eşleşmiyor!"
+
+#: digit.php:378 digit.php:3849 digit.php:3938 digit.php:5846
+#, fuzzy
+#| msgid "Please fill out all password fields."
+msgid "Please fill all the required details."
+msgstr "Lütfen tüm şifre bölümlerini doldurunuz."
+
+#: digit.php:379 digit.php:3850 digit.php:3939 digit.php:5847
+#, fuzzy
+#| msgid "Please enter your Mobile Number/Email"
+msgid "Please accept terms & conditions."
+msgstr ""
+"Lütfen sitemiz üzerindeki hesabınıza giriş yapabilmek için kullanacağınız "
+"Cep Telefonu Numaranızı yazınız."
+
+#: digit.php:381 digit.php:3852 digit.php:3941 digit.php:5849
+#, fuzzy
+#| msgid "Please re-enter your password."
+msgid "Please enter a stronger password."
+msgstr "Lütfen şifrenizi tekrar giriniz."
+
+#: digit.php:396 digit.php:3907 digit.php:3956 digit.php:5863
+msgid "Registration is disabled"
+msgstr "Kayıt işlevi devre dışıdır"
+
+#: digit.php:397 digit.php:3908 digit.php:3957 digit.php:5864
+msgid "Forgot Password is disabled"
+msgstr "Şifremi Unuttum işlevi devre dışıdır"
+
+#: digit.php:398 digit.php:3873 digit.php:3958 digit.php:5865
+msgid "Invalid login credentials!"
+msgstr "Hatalı giriş bilgileri!"
+
+#: digit.php:399 digit.php:3872 digit.php:3959 digit.php:4761 digit.php:5866
+#: includes/register.php:622
+msgid "Invalid API credentials!"
+msgstr "Hatalı API bilgileri!"
+
+#: digit.php:400 digit.php:3871 digit.php:3960 digit.php:5867
+msgid "Please signup before logging in."
+msgstr "Giriş yapmadan önce kayıt olmanız gereklidir."
+
+#: digit.php:401 digit.php:3961 digit.php:5868
+msgid "Please try again!"
+msgstr "Lütfen tekrar deneyin!"
+
+#: digit.php:402 digit.php:3880 digit.php:3962 digit.php:5869
+#: includes/woocommerce-registration.php:365
+#: includes/woocommerce-registration.php:371
+msgid "Invalid Country Code!"
+msgstr "Hatalı Ülke Kodu!"
+
+#: digit.php:403 digit.php:3881 digit.php:3963 digit.php:5870
+msgid "Mobile number not found!"
+msgstr "Telefon Numarası bulunamadı!"
+
+#: digit.php:404 digit.php:3882 digit.php:3964 digit.php:4800 digit.php:4802
+#: digit.php:5871 includes/woocommerce-registration.php:201
+#: includes/woocommerce-registration.php:203
+#: includes/woocommerce-registration.php:389
+#: includes/woocommerce-registration.php:692
+msgid "Mobile Number already in use!"
+msgstr "Telefon Numarası zaten kullanımdadır."
+
+#: digit.php:406 digit.php:3909 digit.php:3966 digit.php:5873
+msgid "This features only works with mobile number"
+msgstr "Bu özellik sadece Telefon Numarası ile çalışır"
+
+#: digit.php:407 digit.php:3884 digit.php:3967 digit.php:5874
+#: includes/woocommerce-registration.php:381
+msgid "Invalid OTP!"
+msgstr "Tek kullanımlık şifrenizi hatalı girdiniz!"
+
+#: digit.php:408 digit.php:3533 digit.php:3886 digit.php:3968 digit.php:5875
+#: digit.php:7626
+msgid "Error! Please try again later"
+msgstr "Hata! Lütfen daha sonra tekrar deneyin."
+
+#: digit.php:409 digit.php:3969 digit.php:5876
+msgid "Password does not match the confirm password!"
+msgstr "Şifreler birbirleri ile uyuşmamaktadır!"
+
+#: digit.php:410 digit.php:3876 digit.php:3970 digit.php:5877
+msgid "Invalid details!"
+msgstr "Lütfen bilgilerinizi kontrol ediniz!"
+
+#: digit.php:411 digit.php:3879 digit.php:3971 digit.php:4642 digit.php:5878
+#: includes/register.php:476
+msgid "Invalid Email!"
+msgstr "Hatalı E-Posta!"
+
+#: digit.php:412 digit.php:3878 digit.php:3972 digit.php:5879
+#: includes/woocommerce-registration.php:164
+#: includes/woocommerce-registration.php:168
+#: includes/woocommerce-registration.php:368
+msgid "Invalid Mobile Number!"
+msgstr "Hatalı Telefon Numarası!"
+
+#: digit.php:413 digit.php:3973 digit.php:5880
+msgid "Either enter your mobile number or click on sign up with password"
+msgstr "Cep Telefonu Numaranızı girin veya şifre ile kayıt olun"
+
+#: digit.php:414 digit.php:966 digit.php:3974 digit.php:5020 digit.php:5420
+#: digit.php:5881 includes/forms.php:110
+msgid "Log In"
+msgstr "Giriş Yap"
+
+#: digit.php:415 digit.php:3975 digit.php:5446 digit.php:5882
+#: includes/forms.php:134
+msgid "Sign Up"
+msgstr "Kayıt Ol"
+
+#: digit.php:416 digit.php:3976 digit.php:5883
+msgid "Forgot Password"
+msgstr "Şifremi Unuttum"
+
+#: digit.php:420 digit.php:3896 digit.php:3980 digit.php:5887
+msgid "Submit"
+msgstr "Gönder"
+
+#: digit.php:421 digit.php:3906 digit.php:3981 digit.php:5888
+#, fuzzy
+#| msgid "Submit"
+msgid "Submit OTP"
+msgstr "Gönder"
+
+#: digit.php:582
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: digit.php:1080 digit.php:1679 digit.php:1684 digit.php:7806 digit.php:7818
+msgid "Login"
+msgstr "Giriş Yap"
+
+#: digit.php:1161 digit.php:1189 digit.php:1957 digit.php:3888 digit.php:5389
+#: digit.php:5627 digit.php:5729 digit.php:7920
+#: digoldaccntmr/digoldaccntmr.php:576 digoneclickls/digoneclickls.php:168
+#: includes/bp.php:64 includes/bp.php:122 includes/forms.php:77
+#: includes/forms.php:312 includes/forms.php:388 includes/forms.php:588
+#: includes/um.php:134 includes/um.php:168
+#: includes/woocommerce-registration.php:94
+#: includes/woocommerce-registration.php:282
+#: includes/woocommerce-registration.php:286
+#: includes/woocommerce-registration.php:916
+#: includes/woocommerce-registration.php:1052
+#: includes/woocommerce-registration.php:1114
+#: includes/woocommerce-registration.php:1159
+msgid "OTP"
+msgstr "Tek Kullanımlık Doğrulama Şifresi"
+
+#: digit.php:1284
+msgid ""
+"<div><p><b>Fatal Error</b>: Digits requires curl to work correctly. </p></"
+"div>"
+msgstr ""
+
+#: digit.php:1450
+msgid "KNOWLEDGEBASE"
+msgstr ""
+
+#: digit.php:1453
+msgid "Addons"
+msgstr ""
+
+#: digit.php:1454
+msgid "CHANGELOG"
+msgstr ""
+
+#: digit.php:1458 digit.php:7801 digit.php:7826
+msgid "Register"
+msgstr "Kayıt Ol"
+
+#: digit.php:1471
+#, fuzzy
+#| msgid "SMS Gateway"
+msgid "Gateway"
+msgstr "SMS Gateway'i"
+
+#: digit.php:1475
+msgid "General"
+msgstr ""
+
+#: digit.php:1479
+msgid "Form"
+msgstr ""
+
+#: digit.php:1483
+msgid "Style"
+msgstr "Stil"
+
+#: digit.php:1487
+#, fuzzy
+#| msgid "Transactional"
+msgid "Translations"
+msgstr "İşlemsel"
+
+#: digit.php:1491 digit.php:7574 digit.php:7663
+msgid "Shortcodes"
+msgstr "Kısa Kodlar"
+
+#: digit.php:1544
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: digit.php:1589
+msgid "Select a logo"
+msgstr "Logo Seçin"
+
+#: digit.php:1590
+msgid "Use this logo"
+msgstr "Bu logoyu kullan"
+
+#: digit.php:1591 digit.php:8507
+msgid "Change Image"
+msgstr "Resimi Değiştirin"
+
+#: digit.php:1592 digit.php:8508
+msgid "Select Image"
+msgstr "Resim Seçin"
+
+#: digit.php:1593 digit.php:2345 digit.php:2388 digit.php:2492 digit.php:2768
+#: digit.php:2809 digit.php:8509
+msgid "Remove Image"
+msgstr "Resimi Sil"
+
+#: digit.php:1633 digit.php:1642
+msgid "Access Key"
+msgstr "Erişim Anahtarı"
+
+#: digit.php:1634
+#, fuzzy
+#| msgid "Access Key"
+msgid "Access Secret"
+msgstr "Erişim Anahtarı"
+
+#: digit.php:1635 digit.php:1638 digit.php:1639 digit.php:1640 digit.php:1644
+#: digit.php:1646 digit.php:1662 digit.php:1675 digit.php:1695
+msgid "From"
+msgstr "Gönderen"
+
+#: digit.php:1638 digit.php:1639 digit.php:1641 digit.php:1644 digit.php:1653
+#: digit.php:1668 digit.php:1690 digit.php:1878 digit.php:1882
+msgid "API Key"
+msgstr "API Anahtarı"
+
+#: digit.php:1639
+msgid "API Username"
+msgstr "API Kullanıcı Adı"
+
+#: digit.php:1640
+msgid "ClockWork API"
+msgstr "ClockWork API'si"
+
+#: digit.php:1641 digit.php:1658 digit.php:1828 digit.php:1832 digit.php:1865
+#: digit.php:1869
+msgid "Sender ID"
+msgstr "Gönderici Kimliği (Sender ID)"
+
+#: digit.php:1642
+msgid "Originator"
+msgstr "Yapımcı"
+
+#: digit.php:1643
+msgid "Mobile"
+msgstr "Cep Telefonu Numarası"
+
+#: digit.php:1643 digit.php:1661 digit.php:1674 digit.php:1680 digit.php:1685
+#: digit.php:1694 digit.php:3891 digit.php:5400 digit.php:5614 digit.php:5741
+#: digit.php:7921 digit.php:7956 includes/forms.php:87 includes/forms.php:297
+#: includes/forms.php:399 includes/forms.php:477
+#: includes/woocommerce-registration.php:261
+#: includes/woocommerce-registration.php:274
+#: includes/woocommerce-registration.php:1206
+msgid "Password"
+msgstr "Şifre"
+
+#: digit.php:1643 digit.php:1645 digit.php:1654 digit.php:1681 digit.php:1686
+msgid "Sender"
+msgstr "Gönderici"
+
+#: digit.php:1644 digit.php:1669
+msgid "API Secret"
+msgstr "API Secret'i"
+
+#: digit.php:1645
+msgid "Auth ID"
+msgstr "Auth Kimliği (Auth ID)"
+
+#: digit.php:1645 digit.php:1818 digit.php:1822
+msgid "Auth Token"
+msgstr "Auth Token"
+
+#: digit.php:1646
+msgid "Token"
+msgstr "Token"
+
+#: digit.php:1648
+msgid "Firebase Config"
+msgstr ""
+
+#: digit.php:1657
+msgid "AppSid"
+msgstr ""
+
+#: digit.php:1660 digit.php:1673 digit.php:1693 digit.php:4563 digit.php:5330
+#: digit.php:5482 digit.php:5543 digit.php:7953 includes/forms.php:42
+#: includes/forms.php:168 includes/forms.php:211 includes/forms.php:462
+#, fuzzy
+#| msgid "API Username"
+msgid "Username"
+msgstr "API Kullanıcı Adı"
+
+#: digit.php:1769 digit.php:1772
+msgid "App ID"
+msgstr "App ID"
+
+#: digit.php:1779
+#, fuzzy
+#| msgid "Account Kit App Secret"
+msgid "AccountKit App Secret"
+msgstr "Facebook Account Kit App Secret'ı"
+
+#: digit.php:1783
+msgid "App Secret"
+msgstr "App Secret"
+
+#: digit.php:1790
+msgid "Type"
+msgstr ""
+
+#: digit.php:1793 digit.php:2300 digit.php:2744 digpagelock/digpagelock.php:144
+#: digpagelock/digpagelock.php:385
+#, fuzzy
+#| msgid "Login Modal"
+msgid "Modal"
+msgstr "Modal Giriş"
+
+#: digit.php:1794
+msgid "Popup"
+msgstr ""
+
+#: digit.php:1798
+msgid ""
+"Only use Popup if your website is non https:// otherwise we highly recommend "
+"using modal."
+msgstr ""
+
+#: digit.php:1807 digit.php:1811
+msgid "Account SID"
+msgstr "Hesap SID'si"
+
+#: digit.php:1839 digit.php:1843
+msgid "Authentication Key"
+msgstr "Kimlik doğrulama anahtarı (Authentication Key)"
+
+#: digit.php:1849
+msgid "ROUTE"
+msgstr "GÜZERGAH"
+
+#: digit.php:1852
+msgid "SendOTP"
+msgstr "Tek Kullanımlık Şifre Gönder"
+
+#: digit.php:1853
+msgid "Transactional"
+msgstr "İşlemsel"
+
+#: digit.php:1883
+msgid ""
+"Please keep this message template similar to the one on Yunpian, just "
+"replace #code# with %OTP% otherwise messages will not be sent."
+msgstr ""
+"Lütfen bu şablonu Yunpian'dakine benzer şekilde oluşturun. #code# yerine %OTP"
+"% kullanın. Aksi hâlde mesajlarınız iletilmez."
+
+#: digit.php:1951
+msgid "Message Template"
+msgstr "Mesaj Şablonu"
+
+#: digit.php:1957
+msgid "Site Name"
+msgstr "Site Adı"
+
+#: digit.php:1983
+msgid "SMS Gateway"
+msgstr "SMS Gateway'i"
+
+#: digit.php:1989 digit.php:1992
+msgid "Free"
+msgstr "Ücretsiz"
+
+#: digit.php:2019
+#, php-format
+msgid "You should have paid <span>%s</span> plan to use this."
+msgstr ""
+"Bu işlevi kullanabilmek için ücretli <span>%s</span> plana sahip olmanız "
+"gerekmektedir."
+
+#: digit.php:2034
+msgid "TEST GATEWAY SETTINGS"
+msgstr ""
+
+#: digit.php:2040
+#, fuzzy
+#| msgid "Mobile Number"
+msgid "Your Mobile Number"
+msgstr "Cep Telefonu Numarası"
+
+#: digit.php:2042
+msgid "Test"
+msgstr ""
+
+#: digit.php:2048
+msgid "Response"
+msgstr ""
+
+#: digit.php:2171
+msgid "PRESET DESIGN"
+msgstr ""
+
+#: digit.php:2176
+msgid "PRESET LIBRARY"
+msgstr ""
+
+#: digit.php:2177 digit.php:3422 digoldaccntmr/digoldaccntmr.php:240
+msgid "CLOSE"
+msgstr ""
+
+#: digit.php:2182 digit.php:2191
+msgid "CUSTOM"
+msgstr ""
+
+#: digit.php:2238
+#, fuzzy
+#| msgid "Presets"
+msgid "Preset"
+msgstr "Ön Ayarlar"
+
+#: digit.php:2241
+#, fuzzy
+#| msgid "Select Image"
+msgid "Select Preset"
+msgstr "Resim Seçin"
+
+#: digit.php:2269
+msgid "FORM TYPE"
+msgstr ""
+
+#: digit.php:2272 digit.php:2330 digpagelock/digpagelock.php:143
+#: digpagelock/digpagelock.php:384
+msgid "Page"
+msgstr ""
+
+#: digit.php:2335
+msgid "Logo"
+msgstr "Logo"
+
+#: digit.php:2342 digit.php:2385 digit.php:2489 digit.php:2765 digit.php:2806
+msgid "Select image"
+msgstr "Resim Seç"
+
+#: digit.php:2360 digit.php:2401 digit.php:2505 digit.php:2782 digit.php:2822
+#: digit.php:3363 digit.php:3371 digit.php:3381 digit.php:3390
+msgid "URL"
+msgstr "URL"
+
+#: digit.php:2369
+#, fuzzy
+#| msgid "Login Page Background Color"
+msgid "Login Page Left Background Color"
+msgstr "Giriş Sayfası Arkaplan Rengi"
+
+#: digit.php:2378
+#, fuzzy
+#| msgid "Login Page Background Image"
+msgid "Login Page Left Image"
+msgstr "Giriş Sayfası Arkaplan Resmi"
+
+#: digit.php:2412 digit.php:2833
+#, fuzzy
+#| msgid "Login Page Background Image"
+msgid "Login Page Left Background Size"
+msgstr "Giriş Sayfası Arkaplan Resmi"
+
+#: digit.php:2430 digit.php:2851
+#, fuzzy
+#| msgid "Login Page Background Color"
+msgid "Login Page Left Background Position"
+msgstr "Giriş Sayfası Arkaplan Rengi"
+
+#: digit.php:2450
+#, fuzzy
+#| msgid "Login Page"
+msgid "Login Page Footer"
+msgstr "Giriş Sayfası"
+
+#: digit.php:2462
+#, fuzzy
+#| msgid "Login Page Background Color"
+msgid "Login Page Footer Text Color"
+msgstr "Giriş Sayfası Arkaplan Rengi"
+
+#: digit.php:2472
+msgid "Login Page Background Color"
+msgstr "Giriş Sayfası Arkaplan Rengi"
+
+#: digit.php:2482
+msgid "Login Page Background Image"
+msgstr "Giriş Sayfası Arkaplan Resmi"
+
+#: digit.php:2516
+msgid "Login Box Background Color"
+msgstr "Giriş Kutucuğu Arkaplan Rengi"
+
+#: digit.php:2525
+msgid "Login Box Shadow"
+msgstr "Giriş Kutucuğı Gölgesi"
+
+#: digit.php:2532 digit.php:2886
+msgid "X"
+msgstr "X"
+
+#: digit.php:2536 digit.php:2890
+msgid "Y"
+msgstr "Y"
+
+#: digit.php:2540 digit.php:2894
+msgid "Blur"
+msgstr "Bulanıklık"
+
+#: digit.php:2544 digit.php:2900
+msgid "Spread"
+msgstr "Dağılım"
+
+#: digit.php:2555
+msgid "Login Box Shadow Color"
+msgstr "Giriş Kutucuğu Gölge Rengi"
+
+#: digit.php:2562
+msgid "Login Box Radius"
+msgstr "Giriş Kutucuğu Ovalliği"
+
+#: digit.php:2575 digit.php:2931
+msgid "Text and Button Color"
+msgstr "Metin ve Buton Rengi"
+
+#: digit.php:2575 digit.php:2931
+#, fuzzy
+#| msgid "Text and Button Color"
+msgid "Text Color"
+msgstr "Metin ve Buton Rengi"
+
+#: digit.php:2584 digit.php:2940
+msgid "Button Font Color"
+msgstr "Butonun Yazı Rengi"
+
+#: digit.php:2591
+#, fuzzy
+#| msgid "Back Button Color"
+msgid "Back/Cancel Button Color"
+msgstr "Geri Butonu Rengi"
+
+#: digit.php:2600 digit.php:2949
+#, fuzzy
+#| msgid "Login Box Background Color"
+msgid "Input Background Color"
+msgstr "Giriş Kutucuğu Arkaplan Rengi"
+
+#: digit.php:2607 digit.php:2956
+msgid "Input Border Color"
+msgstr ""
+
+#: digit.php:2614 digit.php:2963
+#, fuzzy
+#| msgid "Button Font Color"
+msgid "Input Text Color"
+msgstr "Butonun Yazı Rengi"
+
+#: digit.php:2621 digit.php:2970
+#, fuzzy
+#| msgid "Button Font Color"
+msgid "Button Border Color"
+msgstr "Butonun Yazı Rengi"
+
+#: digit.php:2629 digit.php:2978
+#, fuzzy
+#| msgid "Button Font Color"
+msgid "Button Text Color"
+msgstr "Butonun Yazı Rengi"
+
+#: digit.php:2637 digit.php:2986
+#, fuzzy
+#| msgid "Back Button Color"
+msgid "Signup Button Color"
+msgstr "Geri Butonu Rengi"
+
+#: digit.php:2644 digit.php:2993
+#, fuzzy
+#| msgid "Button Font Color"
+msgid "Signup Button Border Color"
+msgstr "Butonun Yazı Rengi"
+
+#: digit.php:2652 digit.php:3001
+#, fuzzy
+#| msgid "Button Font Color"
+msgid "Signup Button Text Color"
+msgstr "Butonun Yazı Rengi"
+
+#: digit.php:2747
+msgid "Modal Overlay Color"
+msgstr "Modal Yerleştirme Rengi"
+
+#: digit.php:2758
+msgid "Login Modal Background Image"
+msgstr "Modal Girişi Arkaplan Resmi"
+
+#: digit.php:2792
+#, fuzzy
+#| msgid "Login Box Background Color"
+msgid "Login Box Left Background Color"
+msgstr "Giriş Kutucuğu Arkaplan Rengi"
+
+#: digit.php:2799
+#, fuzzy
+#| msgid "Login Box Shadow"
+msgid "Login Box Left Image"
+msgstr "Giriş Kutucuğı Gölgesi"
+
+#: digit.php:2870
+msgid "Login Modal Background Color"
+msgstr "Modal Girişi Arkaplan Rengi"
+
+#: digit.php:2879
+msgid "Login Modal Shadow"
+msgstr "Modal Girişi Gölgesi"
+
+#: digit.php:2909
+msgid "Login Modal Shadow Color"
+msgstr "Modal Girişi Gölge Rengi"
+
+#: digit.php:2917
+msgid "Login Modal Radius"
+msgstr "Modal Girişi Ovalliği"
+
+#: digit.php:3012
+msgid "Advanced Options"
+msgstr "Gelişmiş Seçenekler"
+
+#: digit.php:3019
+msgid "Custom CSS"
+msgstr "Özel CSS"
+
+#: digit.php:3031 digit.php:7783 digit.php:8431 digit.php:8453 digit.php:8485
+#: digit.php:8543 digit.php:8719
+msgid "Continue"
+msgstr "Devam Et"
+
+#: digit.php:3034 digit.php:7785 digit.php:8285 digit.php:8433 digit.php:8455
+#: digit.php:8487 digit.php:8545
+msgid "Back"
+msgstr "Geri Git"
+
+#: digit.php:3078
+msgid "Basic"
+msgstr ""
+
+#: digit.php:3082
+msgid "Username Generation"
+msgstr ""
+
+#: digit.php:3085
+#, fuzzy
+#| msgid "Email"
+msgid "From Email"
+msgstr "E-Posta"
+
+#: digit.php:3086
+msgid "Random Numbers"
+msgstr ""
+
+#: digit.php:3087
+#, fuzzy
+#| msgid "Mobile Number"
+msgid "From Mobile Number"
+msgstr "Cep Telefonu Numarası"
+
+#: digit.php:3088
+#, fuzzy
+#| msgid "First Name"
+msgid "From Name"
+msgstr "Adınız"
+
+#: digit.php:3095
+#, fuzzy
+#| msgid "Mobile Number and Email"
+msgid "Mobile Number Formatting"
+msgstr "Telefon Numarası veya E-Posta"
+
+#: digit.php:3098
+msgid "Local"
+msgstr ""
+
+#: digit.php:3099
+#, fuzzy
+#| msgid "Transactional"
+msgid "International"
+msgstr "İşlemsel"
+
+#: digit.php:3102 digit.php:3126
+msgid "This function only works on Digits Login/Signup Modal and Page"
+msgstr ""
+"Bu fonksiyon sadece Digits'in Giriş ve Kayıt Olma sayfasında çalışmaktadır."
+
+#: digit.php:3109
+msgid "Enable /wp-login.php Integeration"
+msgstr ""
+
+#: digit.php:3119
+msgid "Enable Forgot Password"
+msgstr "Şifremi Unuttum işlevini etkinleştirin"
+
+#: digit.php:3132
+msgid "Enable Strong Password for Registration"
+msgstr ""
+
+#: digit.php:3144
+msgid "Default User Role"
+msgstr "Varsayılan Kullanıcı Rolü"
+
+#: digit.php:3161
+msgid "The default role which will be assigned to new user created."
+msgstr "Varsayılan Kullanıcı Rolü yeni oluşturulan kullanıcıya uygulanacaktır."
+
+#: digit.php:3165
+msgid "OTP SMS"
+msgstr ""
+
+#: digit.php:3170
+msgid "Default Country Code"
+msgstr "Varsayılan Ülke Kodu"
+
+#: digit.php:3199
+msgid "Country Codes Whitelist"
+msgstr "Ülke Kodu Beyaz Listesi"
+
+#: digit.php:3220
+msgid ""
+"Sign In/Sign Up will be allowed for phone numbers with these country codes. "
+"To allow Sign In/Sign Up for all country codes, leave this blank."
+msgstr ""
+"Giriş yaparken veya Kayıt olurken bu ülke kodlarına sahip telefon "
+"numaralarına izin verilecektir. Tüm ülkeler için izin vermek istiyorsanız "
+"boş bırakın."
+
+#: digit.php:3225
+#, fuzzy
+#| msgid "Country Codes Whitelist"
+msgid "Country Codes Blacklist"
+msgstr "Ülke Kodu Beyaz Listesi"
+
+#: digit.php:3246
+#, fuzzy
+#| msgid ""
+#| "Sign In/Sign Up will be allowed for phone numbers with these country "
+#| "codes. To allow Sign In/Sign Up for all country codes, leave this blank."
+msgid ""
+"Sign In/Sign Up will be not allowed for phone numbers with these country "
+"codes. To allow Sign In/Sign Up for all country codes, leave this blank."
+msgstr ""
+"Giriş yaparken veya Kayıt olurken bu ülke kodlarına sahip telefon "
+"numaralarına izin verilecektir. Tüm ülkeler için izin vermek istiyorsanız "
+"boş bırakın."
+
+#: digit.php:3261
+#, fuzzy
+#| msgid "Invalid Country Code!"
+msgid "Hide Country Code"
+msgstr "Hatalı Ülke Kodu!"
+
+#: digit.php:3273
+msgid "OTP size"
+msgstr "Tek Kullanımlık Şifre (OTP) büyüklüğü"
+
+#: digit.php:3290
+#, fuzzy
+#| msgid "Resend OTP"
+msgid "OTP Resend Time"
+msgstr "Tekrar şifre gönder"
+
+#: digit.php:3295
+msgid "0"
+msgstr ""
+
+#: digit.php:3296
+msgid "Seconds"
+msgstr ""
+
+#: digit.php:3314
+msgid "WooCommerce Settings"
+msgstr "WooCommerce Ayarları"
+
+#: digit.php:3318
+msgid "Redirect WooCommerce account page to Digits login page"
+msgstr ""
+
+#: digit.php:3327
+#, fuzzy
+#| msgid "Create Customer"
+msgid "Create Customer Button"
+msgstr "Müşteri Oluştur"
+
+#: digit.php:3336
+msgid "Add customer on Add Order Page on dashboard using Modal"
+msgstr ""
+
+#: digit.php:3341
+msgid "Required field for billing info"
+msgstr "Faturalandırma bölümünde gereken bölümler"
+
+#: digit.php:3345
+msgid "Mobile Number and Email"
+msgstr "Telefon Numarası veya E-Posta"
+
+#: digit.php:3354
+#, fuzzy
+#| msgid "Redirect"
+msgid "Redirection"
+msgstr "Yönlendirme"
+
+#: digit.php:3358
+msgid "Login Redirect"
+msgstr "Giriş Yaptıktan Sonra Yönlendir"
+
+#: digit.php:3364 digit.php:3372 digit.php:3382 digit.php:3391
+msgid "Leave blank for auto redirect"
+msgstr "Otomatik yönlendirme için boş bırakın"
+
+#: digit.php:3368
+#, fuzzy
+#| msgid "Login Redirect"
+msgid "Signup Redirect"
+msgstr "Giriş Yaptıktan Sonra Yönlendir"
+
+#: digit.php:3376
+msgid "Forgot Password Redirect"
+msgstr "Şifremi Unuttum Bağlantısından Sonra Yönlendir"
+
+#: digit.php:3386
+msgid "Logout Redirect"
+msgstr "Çıkış Yaptıktan Sonra Yönlendir"
+
+#: digit.php:3392
+msgid "Note:"
+msgstr "Not:"
+
+#: digit.php:3392
+#, fuzzy
+#| msgid "Custom Redirect only works on Digits Login/Signup Modal and Page"
+msgid ""
+"Redirect settings only works on Woocommerce, Digits Login/Signup Modal and "
+"Page"
+msgstr ""
+"Özel yönlendirme işlemi sadece Digits'in Giriş ve Kayıt Olma sayfasında "
+"çalışmaktadır."
+
+#: digit.php:3401
+msgid "Settings Export/Import"
+msgstr ""
+
+#: digit.php:3408
+msgid "Export"
+msgstr ""
+
+#: digit.php:3409
+msgid "Import"
+msgstr ""
+
+#: digit.php:3418
+msgid "Paste your import code here..."
+msgstr ""
+
+#: digit.php:3421 digit.php:7672 digit.php:7682 digit.php:7694 digit.php:7706
+#: digit.php:7718 digit.php:7731 digit.php:7744 digit.php:7757 digit.php:7769
+msgid "Copy"
+msgstr "Kopyala"
+
+#: digit.php:3527 digit.php:7620
+msgid ""
+"Please activate your plugin to change the look and feel of your Login page "
+"and Popup"
+msgstr ""
+
+#: digit.php:3528 digit.php:7621
+msgid "Oops! You cannot enable email without password for login"
+msgstr ""
+
+#: digit.php:3529 digit.php:7622
+#, fuzzy
+#| msgid "Forgot Password is disabled"
+msgid "Both Password and OTP cannot be disabled"
+msgstr "Şifremi Unuttum işlevi devre dışıdır"
+
+#: digit.php:3530 digit.php:7623 digit.php:8143
+#, fuzzy
+#| msgid "Select a Image"
+msgid "Select a type"
+msgstr "Bir Resim Seçin"
+
+#: digit.php:3531 digit.php:7624
+msgid "Invalid msg91 sender id!"
+msgstr "msg91 gönderici kimliği (sender id) hatalıdır!"
+
+#: digit.php:3532 digit.php:7625
+msgid "Invalid Purchase Code"
+msgstr "Satın Alma Kodunuz Hatalıdır"
+
+#: digit.php:3534 digit.php:7627
+#, fuzzy
+#| msgid "Please complete your API Settings"
+msgid "Please complete your Settings"
+msgstr "Lütfen API ayarlarınızı tamamlayınız"
+
+#: digit.php:3535 digit.php:7628
+msgid "Please complete your API Settings"
+msgstr "Lütfen API ayarlarınızı tamamlayınız"
+
+#: digit.php:3536 digit.php:7629
+#, fuzzy
+#| msgid "Please complete your API Settings"
+msgid "Please complete your Custom Field Settings"
+msgstr "Lütfen API ayarlarınızı tamamlayınız"
+
+#: digit.php:3537 digit.php:7630
+msgid "Copied to clipboard"
+msgstr "Panoya kopyalandı"
+
+#: digit.php:3540 digit.php:7633
+#, fuzzy
+#| msgid "Email already in use!"
+msgid "Field Already exist"
+msgstr "E-Posta adresi kullanımdadır!"
+
+#: digit.php:3541 digit.php:7634
+msgid "Duplicate Value"
+msgstr ""
+
+#: digit.php:3545 digit.php:3903 digit.php:5558 digit.php:5580 digit.php:7638
+#: digit.php:8085 digit.php:8306 includes/forms.php:227 includes/forms.php:257
+#: includes/forms.php:507 includes/forms.php:538
+#: includes/woocommerce-registration.php:1071
+msgid "Optional"
+msgstr "İsteğe Bağlı"
+
+#: digit.php:3546 digit.php:7639 digit.php:8084 digit.php:8308
+#, fuzzy
+#| msgid "(required)"
+msgid "Required"
+msgstr "(Gerekli Bölüm)"
+
+#: digit.php:3547 digit.php:7640
+#, fuzzy
+#| msgid "Please enter Mobile Number!"
+msgid "Please enter a valid mobile number"
+msgstr "Lütfen Cep Telefonu Numaranızı yazınız!"
+
+#: digit.php:3548 digit.php:7641
+#, fuzzy
+#| msgid "Please enter your Mobile Number/Email"
+msgid "Please enter a valid import code"
+msgstr ""
+"Lütfen sitemiz üzerindeki hesabınıza giriş yapabilmek için kullanacağınız "
+"Cep Telefonu Numaranızı yazınız."
+
+#: digit.php:3845 digit.php:5438 includes/forms.php:126 includes/um.php:156
+#: includes/woocommerce-registration.php:966
+msgid "Login With OTP"
+msgstr "Tek kullanımlık şifre ile Giriş Yapın"
+
+#: digit.php:3875
+msgid "Register With Password"
+msgstr "Şifre ile kaydolun"
+
+#: digit.php:3877
+msgid "Invalid Password"
+msgstr "Hatalı Şifre"
+
+#: digit.php:3885 includes/register.php:810
+msgid "Please try again"
+msgstr "Lütfen Tekrar Deneyin"
+
+#: digit.php:3887
+msgid "Username/Mobile Number"
+msgstr "Kullanıcı Adı / Telefon Numarası"
+
+#: digit.php:3889 digit.php:5439 digit.php:5658 digit.php:5753
+#: digoldaccntmr/digoldaccntmr.php:598 digoneclickls/digoneclickls.php:189
+#: includes/bp.php:132 includes/forms.php:127 includes/forms.php:333
+#: includes/forms.php:412 includes/forms.php:607 includes/um.php:141
+#: includes/um.php:160 includes/woocommerce-registration.php:973
+#: includes/woocommerce-registration.php:1117
+#: includes/woocommerce-registration.php:1170
+#: includes/woocommerce-registration.php:1188
+msgid "Resend OTP"
+msgstr "Tekrar şifre gönder"
+
+#: digit.php:3892 digit.php:5747 includes/forms.php:405
+#: includes/woocommerce-registration.php:1210
+msgid "Confirm Password"
+msgstr "Şifrenizi Tekrar Yazın"
+
+#: digit.php:3894
+msgid "Please enter your Mobile Number/Email"
+msgstr ""
+"Lütfen sitemiz üzerindeki hesabınıza giriş yapabilmek için kullanacağınız "
+"Cep Telefonu Numaranızı yazınız."
+
+#: digit.php:3895
+msgid "Either enter your Mobile Number or use Password!"
+msgstr "Cep Telefonu Numaranızı yazınız veya Şifre kullanınız!"
+
+#: digit.php:3898
+msgid "SIGN UP WITH PASSWORD"
+msgstr "ŞİFRE İLE KAYIT OL"
+
+#: digit.php:3899
+msgid "SIGN UP WITH OTP"
+msgstr "Tek Kullanımlık Şifre ile Kayıt Olun"
+
+#: digit.php:3900
+#, fuzzy
+#| msgid "SIGN UP WITH OTP"
+msgid "SIGN UP"
+msgstr "Tek Kullanımlık Şifre ile Kayıt Olun"
+
+#: digit.php:3901 includes/um.php:155 includes/woocommerce-registration.php:958
+msgid "OR"
+msgstr "VEYA"
+
+#: digit.php:4185 includes/register.php:333 includes/register.php:338
+msgid "Invalid Credentials!"
+msgstr "Hatalı Giriş Bilgileri!"
+
+#: digit.php:4197 includes/register.php:265
+#, fuzzy
+#| msgid "Please enter your Mobile Number/Email"
+msgid "Please enter a valid captcha"
+msgstr ""
+"Lütfen sitemiz üzerindeki hesabınıza giriş yapabilmek için kullanacağınız "
+"Cep Telefonu Numaranızı yazınız."
+
+#: digit.php:4319
+msgid "The email could not be sent."
+msgstr "E-Posta gönderilemedi."
+
+#: digit.php:4319
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr ""
+"Olası Nedenler: Sunucu yapılandırmanız mail() fonksiyonunu devre dışı "
+"bırakmış olabilir."
+
+#: digit.php:4324
+msgid ""
+"Your password reset link appears to be expired or invalid. Please request a "
+"new link."
+msgstr ""
+
+#: digit.php:4381
+msgid ""
+"A password reset email has been sent to the email address, but may take "
+"several minutes to show up in your inbox. Please wait at least 10 minutes "
+"before attempting another reset."
+msgstr ""
+"Şifre sıfırlama maili E-Posta adresinize gönderilmiştir. Fakat gelen "
+"kutunuza düşmesi birkaç dakika kadar sürebilir. Lütfen yeni bir şifre "
+"sıfırlama talebi göndermeden önce en az 10 dakika bekleyiniz."
+
+#: digit.php:4383
+msgid "Invalid e-mail!"
+msgstr "Hatalı E-Posta!"
+
+#: digit.php:4437
+#, fuzzy
+#| msgid "Please re-enter your password."
+msgid "Please use a stronger password!"
+msgstr "Lütfen şifrenizi tekrar giriniz."
+
+#: digit.php:4519
+msgid "Password changed successfully."
+msgstr "Şifreniz başarıyla değiştirildi."
+
+#: digit.php:4523
+msgid "Error! User not found."
+msgstr "Hata! Kullanıcı bulunamadı."
+
+#: digit.php:4586 includes/register.php:435
+msgid "Invalid Name!"
+msgstr "Hatalı İsim"
+
+#: digit.php:4590 digit.php:4850
+#, fuzzy
+#| msgid "Invalid Name!"
+msgid "Invalid Username!"
+msgstr "Hatalı İsim"
+
+#: digit.php:4597 digit.php:4600
+msgid "Invalid Password!"
+msgstr "Hatalı Şifre!"
+
+#: digit.php:4612 digit.php:4617 digit.php:4634 includes/register.php:448
+#: includes/register.php:452 includes/register.php:468
+#: includes/woocommerce-registration.php:345
+#, fuzzy
+#| msgid "Please enter Mobile Number!"
+msgid "Please enter a valid Mobile Number!"
+msgstr "Lütfen Cep Telefonu Numaranızı yazınız!"
+
+#: digit.php:4624 digit.php:4628 includes/register.php:458
+#: includes/register.php:462 includes/woocommerce-registration.php:348
+#, fuzzy
+#| msgid "Please enter your Mobile Number/Email"
+msgid "Please enter a valid Email!"
+msgstr ""
+"Lütfen sitemiz üzerindeki hesabınıza giriş yapabilmek için kullanacağınız "
+"Cep Telefonu Numaranızı yazınız."
+
+#: digit.php:4638 includes/register.php:472
+msgid "Invalid Email or Mobile Number"
+msgstr "Hatalı E-Posta veya Cep Telefonu Numarası"
+
+#: digit.php:4645 includes/register.php:479
+#: includes/woocommerce-registration.php:710
+msgid "Email already in use!"
+msgstr "E-Posta adresi kullanımdadır!"
+
+#: digit.php:4679 digit.php:4807 includes/register.php:672
+msgid "Error while generating username!"
+msgstr ""
+
+#: digit.php:4685 digit.php:4791 includes/register.php:540
+#: includes/register.php:664 includes/register.php:677
+#: includes/register.php:679 includes/um.php:29 includes/um.php:31
+msgid "Mobile number already in use!"
+msgstr "Cep Telefonu Numarası hala kullanımdadır!"
+
+#: digit.php:4724 includes/login.php:289 includes/register.php:503
+#: includes/woocommerce-registration.php:480 includes/wp.php:200
+msgid "Username is already in use!"
+msgstr "Kullanıcı adı zaten kullanımdadır!"
+
+#: digit.php:4804 includes/login.php:1512
+msgid "Invalid Mobile Number"
+msgstr "Hatalı Cep Telefonu Numarası"
+
+#: digit.php:4835 includes/login.php:310 includes/login.php:315
+#: includes/register.php:712
+#, fuzzy
+#| msgid "Email already in use!"
+msgid "Email is already in use!"
+msgstr "E-Posta adresi kullanımdadır!"
+
+#: digit.php:5287
+msgid "BACK"
+msgstr "GERİ GİT"
+
+#: digit.php:5426 includes/forms.php:116
+msgid "Forgot your password?"
+msgstr "Şifrenizi mi unuttunuz?"
+
+#: digit.php:5445 includes/forms.php:133
+msgid "Don't have an account?"
+msgstr "Henüz hesabınız yok mu?"
+
+#: digit.php:5648 includes/forms.php:325 includes/forms.php:598
+#, fuzzy
+#| msgid "Sign Up"
+msgid "Signup"
+msgstr "Kayıt Ol"
+
+#: digit.php:5650 includes/forms.php:327 includes/forms.php:601
+msgid "Signup With OTP"
+msgstr "Tek Kullanımlık Şifre ile Kayıt Olun"
+
+#: digit.php:5664 digit.php:5665 includes/forms.php:339 includes/forms.php:340
+#: includes/forms.php:613 includes/forms.php:614
+msgid "Signup With Password"
+msgstr "Şifre ile Kayıt Ol"
+
+#: digit.php:5675 digit.php:5757 includes/forms.php:347 includes/forms.php:415
+#: includes/forms.php:622
+msgid "Back to login"
+msgstr "Giriş Ekranına Dön"
+
+#: digit.php:5752 includes/forms.php:411
+msgid "Reset Password"
+msgstr "Şifre Sıfırla"
+
+#: digit.php:6179
+#, fuzzy
+#| msgid "Please fill out all password fields."
+msgid "Please fill all the required details!"
+msgstr "Lütfen tüm şifre bölümlerini doldurunuz."
+
+#: digit.php:6188
+#, fuzzy
+#| msgid "Please enter your Mobile Number/Email"
+msgid "Please enter a valid Captcha!"
+msgstr ""
+"Lütfen sitemiz üzerindeki hesabınıza giriş yapabilmek için kullanacağınız "
+"Cep Telefonu Numaranızı yazınız."
+
+#: digit.php:6194
+#, fuzzy
+#| msgid "Please enter your Mobile Number/Email"
+msgid "Please accept terms and condition!"
+msgstr ""
+"Lütfen sitemiz üzerindeki hesabınıza giriş yapabilmek için kullanacağınız "
+"Cep Telefonu Numaranızı yazınız."
+
+#: digit.php:6207 digit.php:6216 digit.php:6220
+#, fuzzy
+#| msgid "Please enter your Mobile Number/Email"
+msgid "Please select a valid option!"
+msgstr ""
+"Lütfen sitemiz üzerindeki hesabınıza giriş yapabilmek için kullanacağınız "
+"Cep Telefonu Numaranızı yazınız."
+
+#: digit.php:6255 digit.php:7897 digit.php:7923
+msgid "Captcha"
+msgstr ""
+
+#: digit.php:6418 digit.php:6450
+msgid "Nothing"
+msgstr ""
+
+#: digit.php:6606
+msgid "Afghanistan"
+msgstr ""
+
+#: digit.php:6606
+msgid "Albania"
+msgstr ""
+
+#: digit.php:6606
+msgid "Algeria"
+msgstr ""
+
+#: digit.php:6606
+msgid "American Samoa"
+msgstr ""
+
+#: digit.php:6606
+msgid "Andorra"
+msgstr ""
+
+#: digit.php:6606
+msgid "Angola"
+msgstr ""
+
+#: digit.php:6606
+msgid "Anguilla"
+msgstr ""
+
+#: digit.php:6606
+msgid "Antigua"
+msgstr ""
+
+#: digit.php:6606
+msgid "Argentina"
+msgstr ""
+
+#: digit.php:6606
+msgid "Armenia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Aruba"
+msgstr ""
+
+#: digit.php:6606
+msgid "Australia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Austria"
+msgstr ""
+
+#: digit.php:6606
+msgid "Azerbaijan"
+msgstr ""
+
+#: digit.php:6606
+msgid "Bahrain"
+msgstr ""
+
+#: digit.php:6606
+msgid "Bangladesh"
+msgstr ""
+
+#: digit.php:6606
+msgid "Barbados"
+msgstr ""
+
+#: digit.php:6606
+msgid "Belarus"
+msgstr ""
+
+#: digit.php:6606
+msgid "Belgium"
+msgstr ""
+
+#: digit.php:6606
+msgid "Belize"
+msgstr ""
+
+#: digit.php:6606
+msgid "Benin"
+msgstr ""
+
+#: digit.php:6606
+msgid "Bermuda"
+msgstr ""
+
+#: digit.php:6606
+msgid "Bhutan"
+msgstr ""
+
+#: digit.php:6606
+msgid "Bolivia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr ""
+
+#: digit.php:6606
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: digit.php:6606
+msgid "Botswana"
+msgstr ""
+
+#: digit.php:6606
+msgid "Brazil"
+msgstr ""
+
+#: digit.php:6606
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: digit.php:6606
+msgid "British Virgin Islands"
+msgstr ""
+
+#: digit.php:6606
+msgid "Brunei"
+msgstr ""
+
+#: digit.php:6606
+msgid "Bulgaria"
+msgstr ""
+
+#: digit.php:6606
+msgid "Burkina Faso"
+msgstr ""
+
+#: digit.php:6606
+msgid "Burundi"
+msgstr ""
+
+#: digit.php:6606
+msgid "Cambodia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Cameroon"
+msgstr ""
+
+#: digit.php:6606
+msgid "Canada"
+msgstr ""
+
+#: digit.php:6606
+msgid "Cape Verde"
+msgstr ""
+
+#: digit.php:6606
+msgid "Cayman Islands"
+msgstr ""
+
+#: digit.php:6606
+msgid "Central African Republic"
+msgstr ""
+
+#: digit.php:6606
+msgid "Chad"
+msgstr ""
+
+#: digit.php:6606
+msgid "Chile"
+msgstr ""
+
+#: digit.php:6606
+msgid "China"
+msgstr ""
+
+#: digit.php:6606
+msgid "Colombia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Comoros"
+msgstr ""
+
+#: digit.php:6606
+msgid "Cook Islands"
+msgstr ""
+
+#: digit.php:6606
+msgid "Costa Rica"
+msgstr ""
+
+#: digit.php:6606
+msgid "Côte d'Ivoire"
+msgstr ""
+
+#: digit.php:6606
+msgid "Croatia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Cuba"
+msgstr ""
+
+#: digit.php:6606
+msgid "Curaçao"
+msgstr ""
+
+#: digit.php:6606
+msgid "Cyprus"
+msgstr ""
+
+#: digit.php:6606
+msgid "Czech Republic"
+msgstr ""
+
+#: digit.php:6606
+msgid "Democratic Republic of the Congo"
+msgstr ""
+
+#: digit.php:6606
+msgid "Denmark"
+msgstr ""
+
+#: digit.php:6606
+msgid "Djibouti"
+msgstr ""
+
+#: digit.php:6606
+msgid "Dominica"
+msgstr ""
+
+#: digit.php:6606
+msgid "Dominican Republic"
+msgstr ""
+
+#: digit.php:6606
+msgid "Ecuador"
+msgstr ""
+
+#: digit.php:6606
+msgid "Egypt"
+msgstr ""
+
+#: digit.php:6606
+msgid "El Salvador"
+msgstr ""
+
+#: digit.php:6606
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: digit.php:6606
+msgid "Eritrea"
+msgstr ""
+
+#: digit.php:6606
+msgid "Estonia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Ethiopia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Falkland Islands"
+msgstr ""
+
+#: digit.php:6606
+msgid "Faroe Islands"
+msgstr ""
+
+#: digit.php:6606
+msgid "Federated States of Micronesia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Fiji"
+msgstr ""
+
+#: digit.php:6606
+msgid "Finland"
+msgstr ""
+
+#: digit.php:6606
+#, fuzzy
+#| msgid "Cancel"
+msgid "France"
+msgstr "Vazgeç"
+
+#: digit.php:6606
+msgid "French Guiana"
+msgstr ""
+
+#: digit.php:6606
+msgid "French Polynesia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Gabon"
+msgstr ""
+
+#: digit.php:6606
+msgid "Georgia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Germany"
+msgstr ""
+
+#: digit.php:6606
+msgid "Ghana"
+msgstr ""
+
+#: digit.php:6606
+msgid "Gibraltar"
+msgstr ""
+
+#: digit.php:6606
+msgid "Greece"
+msgstr ""
+
+#: digit.php:6606
+msgid "Greenland"
+msgstr ""
+
+#: digit.php:6606
+msgid "Grenada"
+msgstr ""
+
+#: digit.php:6606
+msgid "Guadeloupe"
+msgstr ""
+
+#: digit.php:6606
+msgid "Guam"
+msgstr ""
+
+#: digit.php:6606
+msgid "Guatemala"
+msgstr ""
+
+#: digit.php:6606
+msgid "Guernsey"
+msgstr ""
+
+#: digit.php:6606
+msgid "Guinea"
+msgstr ""
+
+#: digit.php:6606
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: digit.php:6606
+msgid "Guyana"
+msgstr ""
+
+#: digit.php:6606
+msgid "Haiti"
+msgstr ""
+
+#: digit.php:6606
+msgid "Honduras"
+msgstr ""
+
+#: digit.php:6606
+#, fuzzy
+#| msgid "Wrong month"
+msgid "Hong Kong"
+msgstr "Hatalı Ay"
+
+#: digit.php:6606
+msgid "Hungary"
+msgstr ""
+
+#: digit.php:6606
+msgid "Iceland"
+msgstr ""
+
+#: digit.php:6606
+msgid "India"
+msgstr ""
+
+#: digit.php:6606
+msgid "Indonesia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Iran"
+msgstr ""
+
+#: digit.php:6606
+msgid "Iraq"
+msgstr ""
+
+#: digit.php:6606
+msgid "Ireland"
+msgstr ""
+
+#: digit.php:6606
+msgid "Isle Of Man"
+msgstr ""
+
+#: digit.php:6606
+msgid "Israel"
+msgstr ""
+
+#: digit.php:6606
+msgid "Italy"
+msgstr ""
+
+#: digit.php:6606
+msgid "Jamaica"
+msgstr ""
+
+#: digit.php:6606
+msgid "Japan"
+msgstr ""
+
+#: digit.php:6606
+msgid "Jersey"
+msgstr ""
+
+#: digit.php:6606
+msgid "Jordan"
+msgstr ""
+
+#: digit.php:6606
+msgid "Kazakhstan"
+msgstr ""
+
+#: digit.php:6606
+msgid "Kenya"
+msgstr ""
+
+#: digit.php:6606
+msgid "Kiribati"
+msgstr ""
+
+#: digit.php:6606
+msgid "Kuwait"
+msgstr ""
+
+#: digit.php:6606
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: digit.php:6606
+msgid "Laos"
+msgstr ""
+
+#: digit.php:6606
+msgid "Latvia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Lebanon"
+msgstr ""
+
+#: digit.php:6606
+msgid "Lesotho"
+msgstr ""
+
+#: digit.php:6606
+msgid "Liberia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Libya"
+msgstr ""
+
+#: digit.php:6606
+msgid "Liechtenstein"
+msgstr ""
+
+#: digit.php:6606
+msgid "Lithuania"
+msgstr ""
+
+#: digit.php:6606
+msgid "Luxembourg"
+msgstr ""
+
+#: digit.php:6606
+msgid "Macau"
+msgstr ""
+
+#: digit.php:6606
+msgid "Macedonia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Madagascar"
+msgstr ""
+
+#: digit.php:6606
+msgid "Malawi"
+msgstr ""
+
+#: digit.php:6606
+msgid "Malaysia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Maldives"
+msgstr ""
+
+#: digit.php:6606
+msgid "Mali"
+msgstr ""
+
+#: digit.php:6606
+msgid "Malta"
+msgstr ""
+
+#: digit.php:6606
+msgid "Marshall Islands"
+msgstr ""
+
+#: digit.php:6606
+msgid "Martinique"
+msgstr ""
+
+#: digit.php:6606
+msgid "Mauritania"
+msgstr ""
+
+#: digit.php:6606
+msgid "Mauritius"
+msgstr ""
+
+#: digit.php:6606
+msgid "Mayotte"
+msgstr ""
+
+#: digit.php:6606
+msgid "Mexico"
+msgstr ""
+
+#: digit.php:6606
+msgid "Moldova"
+msgstr ""
+
+#: digit.php:6606
+msgid "Monaco"
+msgstr ""
+
+#: digit.php:6606
+msgid "Mongolia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Montenegro"
+msgstr ""
+
+#: digit.php:6606
+msgid "Montserrat"
+msgstr ""
+
+#: digit.php:6606
+msgid "Morocco"
+msgstr ""
+
+#: digit.php:6606
+msgid "Mozambique"
+msgstr ""
+
+#: digit.php:6606
+msgid "Myanmar"
+msgstr ""
+
+#: digit.php:6606
+msgid "Namibia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Nauru"
+msgstr ""
+
+#: digit.php:6606
+msgid "Nepal"
+msgstr ""
+
+#: digit.php:6606
+msgid "Netherlands"
+msgstr ""
+
+#: digit.php:6606
+msgid "New Caledonia"
+msgstr ""
+
+#: digit.php:6606
+msgid "New Zealand"
+msgstr ""
+
+#: digit.php:6606
+msgid "Nicaragua"
+msgstr ""
+
+#: digit.php:6606
+msgid "Niger"
+msgstr ""
+
+#: digit.php:6606
+msgid "Nigeria"
+msgstr ""
+
+#: digit.php:6606
+msgid "Niue"
+msgstr ""
+
+#: digit.php:6606
+msgid "Norfolk Island"
+msgstr ""
+
+#: digit.php:6606
+msgid "North Korea"
+msgstr ""
+
+#: digit.php:6606
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: digit.php:6606
+msgid "Norway"
+msgstr ""
+
+#: digit.php:6606
+msgid "Oman"
+msgstr ""
+
+#: digit.php:6606
+msgid "Pakistan"
+msgstr ""
+
+#: digit.php:6606
+msgid "Palau"
+msgstr ""
+
+#: digit.php:6606
+msgid "Palestine"
+msgstr ""
+
+#: digit.php:6606
+msgid "Panama"
+msgstr ""
+
+#: digit.php:6606
+msgid "Papua New Guinea"
+msgstr ""
+
+#: digit.php:6606
+msgid "Paraguay"
+msgstr ""
+
+#: digit.php:6606
+msgid "Peru"
+msgstr ""
+
+#: digit.php:6606
+msgid "Philippines"
+msgstr ""
+
+#: digit.php:6606
+msgid "Poland"
+msgstr ""
+
+#: digit.php:6606
+msgid "Portugal"
+msgstr ""
+
+#: digit.php:6606
+msgid "Puerto Rico"
+msgstr ""
+
+#: digit.php:6606
+msgid "Qatar"
+msgstr ""
+
+#: digit.php:6606
+msgid "Republic of the Congo"
+msgstr ""
+
+#: digit.php:6606
+msgid "Romania"
+msgstr ""
+
+#: digit.php:6606
+msgid "Runion"
+msgstr ""
+
+#: digit.php:6606
+msgid "Russia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Rwanda"
+msgstr ""
+
+#: digit.php:6606
+msgid "Saint Helena"
+msgstr ""
+
+#: digit.php:6606
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: digit.php:6606
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: digit.php:6606
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: digit.php:6606
+msgid "Samoa"
+msgstr ""
+
+#: digit.php:6606
+msgid "San Marino"
+msgstr ""
+
+#: digit.php:6606
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: digit.php:6606
+msgid "Saudi Arabia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Senegal"
+msgstr ""
+
+#: digit.php:6606
+msgid "Serbia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Seychelles"
+msgstr ""
+
+#: digit.php:6606
+msgid "Sierra Leone"
+msgstr ""
+
+#: digit.php:6606
+msgid "Singapore"
+msgstr ""
+
+#: digit.php:6606
+msgid "Sint Maarten"
+msgstr ""
+
+#: digit.php:6606
+msgid "Slovakia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Slovenia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Solomon Islands"
+msgstr ""
+
+#: digit.php:6606
+msgid "Somalia"
+msgstr ""
+
+#: digit.php:6606
+msgid "South Africa"
+msgstr ""
+
+#: digit.php:6606
+msgid "South Korea"
+msgstr ""
+
+#: digit.php:6606
+msgid "South Sudan"
+msgstr ""
+
+#: digit.php:6606
+msgid "Spain"
+msgstr ""
+
+#: digit.php:6606
+msgid "Sri Lanka"
+msgstr ""
+
+#: digit.php:6606
+msgid "St. Lucia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Sudan"
+msgstr ""
+
+#: digit.php:6606
+#, fuzzy
+#| msgid "API Username"
+msgid "Suriname"
+msgstr "API Kullanıcı Adı"
+
+#: digit.php:6606
+msgid "Swaziland"
+msgstr ""
+
+#: digit.php:6606
+msgid "Sweden"
+msgstr ""
+
+#: digit.php:6606
+msgid "Switzerland"
+msgstr ""
+
+#: digit.php:6606
+msgid "Syria"
+msgstr ""
+
+#: digit.php:6606
+msgid "Taiwan"
+msgstr ""
+
+#: digit.php:6606
+msgid "Tajikistan"
+msgstr ""
+
+#: digit.php:6606
+msgid "Tanzania"
+msgstr ""
+
+#: digit.php:6606
+msgid "Thailand"
+msgstr ""
+
+#: digit.php:6606
+msgid "The Bahamas"
+msgstr ""
+
+#: digit.php:6606
+msgid "The Gambia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Timor-Leste"
+msgstr ""
+
+#: digit.php:6606
+msgid "Togo"
+msgstr ""
+
+#: digit.php:6606
+#, fuzzy
+#| msgid "Token"
+msgid "Tokelau"
+msgstr "Token"
+
+#: digit.php:6606
+msgid "Tonga"
+msgstr ""
+
+#: digit.php:6606
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: digit.php:6606
+msgid "Tunisia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Turkey"
+msgstr ""
+
+#: digit.php:6606
+msgid "Turkmenistan"
+msgstr ""
+
+#: digit.php:6606
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: digit.php:6606
+msgid "Tuvalu"
+msgstr ""
+
+#: digit.php:6606
+msgid "U.S. Virgin Islands"
+msgstr ""
+
+#: digit.php:6606
+msgid "Uganda"
+msgstr ""
+
+#: digit.php:6606
+msgid "Ukraine"
+msgstr ""
+
+#: digit.php:6606
+msgid "United Arab Emirates"
+msgstr ""
+
+#: digit.php:6606
+msgid "United Kingdom"
+msgstr ""
+
+#: digit.php:6606
+#, fuzzy
+#| msgid "UnitedOver"
+msgid "United States"
+msgstr "UnitedOver"
+
+#: digit.php:6606
+msgid "Uruguay"
+msgstr ""
+
+#: digit.php:6606
+msgid "Uzbekistan"
+msgstr ""
+
+#: digit.php:6606
+msgid "Vanuatu"
+msgstr ""
+
+#: digit.php:6606
+msgid "Venezuela"
+msgstr ""
+
+#: digit.php:6606
+msgid "Vietnam"
+msgstr ""
+
+#: digit.php:6606
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: digit.php:6606
+msgid "Western Sahara"
+msgstr ""
+
+#: digit.php:6606
+msgid "Yemen"
+msgstr ""
+
+#: digit.php:6606
+msgid "Zambia"
+msgstr ""
+
+#: digit.php:6606
+msgid "Zimbabwe"
+msgstr ""
+
+#: digit.php:7526
+msgid "Setup"
+msgstr "Kurulum"
+
+#: digit.php:7558
+msgid "Welcome"
+msgstr "Hoşgeldiniz"
+
+#: digit.php:7562
+msgid "Activation"
+msgstr "Aktivasyon"
+
+#: digit.php:7566
+msgid "Docs"
+msgstr "Dökümanlar"
+
+#: digit.php:7570 digit.php:8533
+msgid "API Settings"
+msgstr "API Ayarları"
+
+#: digit.php:7578
+msgid "Ready"
+msgstr "Hazır"
+
+#: digit.php:7668 includes/wcs.php:312
+#, fuzzy
+#| msgid "Login Page"
+msgid "Login/Signup Page"
+msgstr "Giriş Sayfası"
+
+#: digit.php:7678 includes/wcs.php:313
+#, fuzzy
+#| msgid "Login Modal"
+msgid "Login/Signup Modal"
+msgstr "Modal Giriş"
+
+#: digit.php:7690 includes/wcs.php:314
+msgid "Login Page"
+msgstr "Giriş Sayfası"
+
+#: digit.php:7701 includes/wcs.php:315
+msgid "Login Modal"
+msgstr "Modal Giriş"
+
+#: digit.php:7713
+#, fuzzy
+#| msgid "Sign Up"
+msgid "Sign Up Page"
+msgstr "Kayıt Ol"
+
+#: digit.php:7726
+#, fuzzy
+#| msgid "Sign Up"
+msgid "Sign Up Modal"
+msgstr "Kayıt Ol"
+
+#: digit.php:7739 includes/wcs.php:318
+#, fuzzy
+#| msgid "Forgot Password"
+msgid "Forgot Password Page"
+msgstr "Şifremi Unuttum"
+
+#: digit.php:7752 includes/wcs.php:319
+#, fuzzy
+#| msgid "Forgot Password"
+msgid "Forgot Password Modal"
+msgstr "Şifremi Unuttum"
+
+#: digit.php:7764
+msgid "Logout Shortcode"
+msgstr "Çıkış Kısakodu (Shortcode)"
+
+#: digit.php:7797
+#, fuzzy
+#| msgid "Menu Item Translations"
+msgid "Menu Items"
+msgstr "Menü Öğesi Çevirileri"
+
+#: digit.php:7800 digit.php:7810 digoneclickls/digoneclickls.php:149
+#, fuzzy
+#| msgid "Register"
+msgid "Login / Register"
+msgstr "Kayıt Ol"
+
+#: digit.php:7802
+msgid "Forgot your Password?"
+msgstr "Şifrenizi mi Unuttunuz?"
+
+#: digit.php:7803 digit.php:7843
+msgid "My Account"
+msgstr "Hesabım"
+
+#: digit.php:7804 digit.php:7851 includes/wcs.php:320
+msgid "Logout"
+msgstr "Çıkış Yap"
+
+#: digit.php:7835
+msgid "Forgot"
+msgstr "Şifre Sıfırlama"
+
+#: digit.php:7863
+msgid ""
+"Transation of whole plugin can be done through POT file present in the "
+"plugin languages folder. You'll need to upload .MO and .PO files to the "
+"languages folder of this plugin. The easiest way to translate is to use Loco "
+"Translate WordPress plugin."
+msgstr ""
+
+#: digit.php:7872 digit.php:7898
+#, fuzzy
+#| msgid "Default User Role"
+msgid "User Role"
+msgstr "Varsayılan Kullanıcı Rolü"
+
+#: digit.php:7873
+#, fuzzy
+#| msgid "First Name"
+msgid "Display Name"
+msgstr "Adınız"
+
+#: digit.php:7874
+msgid "Company"
+msgstr ""
+
+#: digit.php:7875
+msgid "Address Line 1"
+msgstr ""
+
+#: digit.php:7876
+msgid "Address Line 2"
+msgstr ""
+
+#: digit.php:7877
+msgid "City"
+msgstr ""
+
+#: digit.php:7878
+msgid "State"
+msgstr ""
+
+#: digit.php:7879
+#, fuzzy
+#| msgid "Country Code"
+msgid "Country"
+msgstr "Ülke Kodu"
+
+#: digit.php:7880
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: digit.php:7890
+msgid "Text"
+msgstr ""
+
+#: digit.php:7891
+msgid "TextArea"
+msgstr ""
+
+#: digit.php:7892
+#, fuzzy
+#| msgid "Mobile Number"
+msgid "Number"
+msgstr "Cep Telefonu Numarası"
+
+#: digit.php:7893
+msgid "DropDown"
+msgstr ""
+
+#: digit.php:7894
+msgid "CheckBox"
+msgstr ""
+
+#: digit.php:7895
+msgid "Radio"
+msgstr ""
+
+#: digit.php:7896
+#, fuzzy
+#| msgid "Please enter your Mobile Number/Email"
+msgid "Terms & Conditions"
+msgstr ""
+"Lütfen sitemiz üzerindeki hesabınıza giriş yapabilmek için kullanacağınız "
+"Cep Telefonu Numaranızı yazınız."
+
+#: digit.php:7899
+msgid "Date"
+msgstr ""
+
+#: digit.php:7952
+msgid "Name"
+msgstr "İsim"
+
+#: digit.php:7987
+msgid "Enable Registration"
+msgstr ""
+
+#: digit.php:7998
+#, fuzzy
+#| msgid "This is a required field"
+msgid "Show asterisk (*) on required fields"
+msgstr "Bu bölüm gerekli bir bölümdür"
+
+#: digit.php:8012
+msgid "LOGIN FIELDS"
+msgstr ""
+
+#: digit.php:8040 includes/wcs.php:494
+msgid "Remember Me"
+msgstr ""
+
+#: digit.php:8044
+msgid "Always"
+msgstr ""
+
+#: digit.php:8053
+#, fuzzy
+#| msgid "SIGN UP WITH OTP"
+msgid "REGISTRATION FIELDS"
+msgstr "Tek Kullanımlık Şifre ile Kayıt Olun"
+
+#: digit.php:8131
+msgid "ADD FIELD"
+msgstr ""
+
+#: digit.php:8164
+msgid "WordPress / WooCommerce Fields"
+msgstr ""
+
+#: digit.php:8183
+msgid "Label"
+msgstr ""
+
+#: digit.php:8190
+msgid ""
+"Enclose the word(s) between [t] and [/t] for terms and condition and [p] and "
+"[/t] for privacy policy."
+msgstr ""
+
+#: digit.php:8192
+msgid ""
+"For example \"I Agree [t]Terms and Conditions[/t] & [p]Privacy Policy[/t]\""
+msgstr ""
+
+#: digit.php:8199
+#, fuzzy
+#| msgid "(required)"
+msgid "Required Field"
+msgstr "(Gerekli Bölüm)"
+
+#: digit.php:8211
+msgid "Meta Key"
+msgstr ""
+
+#: digit.php:8219
+#, fuzzy
+#| msgid "Custom CSS"
+msgid "Custom Class"
+msgstr "Özel CSS"
+
+#: digit.php:8228
+#, fuzzy
+#| msgid "Optional"
+msgid "Options"
+msgstr "İsteğe Bağlı"
+
+#: digit.php:8234
+#, fuzzy
+#| msgid "Advanced Options"
+msgid "Add a Option"
+msgstr "Gelişmiş Seçenekler"
+
+#: digit.php:8241
+msgid "Terms & Conditions Link"
+msgstr ""
+
+#: digit.php:8250
+msgid "Privacy Link"
+msgstr ""
+
+#: digit.php:8260
+#, fuzzy
+#| msgid "Default User Role"
+msgid "User Roles"
+msgstr "Varsayılan Kullanıcı Rolü"
+
+#: digit.php:8284
+msgid "Add"
+msgstr ""
+
+#: digit.php:8319
+#, fuzzy
+#| msgid "Activate"
+msgid "Activate Digits"
+msgstr "Aktive et"
+
+#: digit.php:8344
+msgid "Is this domain your"
+msgstr ""
+
+#: digit.php:8346
+msgid "Live Server"
+msgstr ""
+
+#: digit.php:8347
+#, fuzzy
+#| msgid "Sender ID"
+msgid "Testing Server"
+msgstr "Gönderici Kimliği (Sender ID)"
+
+#: digit.php:8351
+msgid "Purchase code"
+msgstr "Satın Alma kodu"
+
+#: digit.php:8356
+msgid "Purchase Code"
+msgstr "Satın Alma Kodu"
+
+#: digit.php:8358
+msgid "UNREGISTER"
+msgstr ""
+
+#: digit.php:8372
+#, fuzzy
+#| msgid "Please enter your purchase code to receive automatic updates."
+msgid "Please activate your plugin to receive updates"
+msgstr ""
+"Eklenti güncelleştirmelerini otomatik olarak almak için lütfen Satın Alma "
+"Kodunuzu giriniz."
+
+#: digit.php:8381
+msgid ""
+"If you want to use same purchase code on your live server then please click "
+"the below button to request for it. Our team will take less than 12 hours to "
+"respond to your request, and will notify via email."
+msgstr ""
+
+#: digit.php:8384
+msgid ""
+"If you want to use same purchase code on your testing server then please "
+"click the below button to request for it. Our team will take less than 12 "
+"hours to respond to your request, and will notify via email."
+msgstr ""
+
+#: digit.php:8386
+msgid "Request Live Server Addition"
+msgstr ""
+
+#: digit.php:8387
+msgid "Request Testing Server Addition"
+msgstr ""
+
+#: digit.php:8403
+msgid "Activate"
+msgstr "Aktive et"
+
+#: digit.php:8405
+msgid "Skip"
+msgstr "Bu adımı geç"
+
+#: digit.php:8418
+msgid "Have a look at our documentation"
+msgstr "Dokümantasyonumuza göz atınız."
+
+#: digit.php:8420
+msgid ""
+"Do you feel like you need some help with the setup, go through our detailed "
+"documentation it will guide you through."
+msgstr ""
+"Eğer kurulum aşamasında yardıma ihtiyaç duyuyorsanız lütfen "
+"dökümantasyonumuza göz atınız. Kurulum adımları detaylı bir şekilde "
+"anlatılmaktadır."
+
+#: digit.php:8424
+msgid "Open Documentation"
+msgstr "Dokümantasyonu Aç"
+
+#: digit.php:8427
+msgid ""
+"Having the documentation opened in other tab can help you if you get stuck "
+"somewhere in the middle."
+msgstr ""
+"Dokümantasyonu farklı bir sekmede açarsanız, kurulum aşamasında ihtiyacınız "
+"olan bilgilere daha kolay ulaşabilirsiniz."
+
+#: digit.php:8428
+msgid ""
+"Don't worry, we'll not tell anyone that you went through our documentation "
+"to setup this simple thing."
+msgstr ""
+"Endişelenmeyin. Bu basit kurulumu tamamlamak için dokümantasyona göz "
+"attığınızı hiç kimse ile paylaşmayız :)"
+
+#: digit.php:8445
+msgid "Digits is ready!"
+msgstr "Digits hazır durumdadır!"
+
+#: digit.php:8446
+msgid ""
+"Congratulations! Digits has been activated and your website is ready. Login "
+"to your WordPress\n"
+"        dashboard to make changes and modify any of the content to suit your "
+"needs."
+msgstr ""
+"Tebrikler! Digits eklentiniz aktifleştirilmiştir ve siteniz için hazır "
+"durumdadır. WordPress panelinize giriş yaparak ihtiyacınız olan eklenti "
+"ayarlamalarını ve çeşitli değişiklikleri gerçekleştirebilirsiniz."
+
+#: digit.php:8476
+msgid "Login Page Configuration"
+msgstr "Giriş Sayfası Ayarları"
+
+#: digit.php:8505
+msgid "Select a Image"
+msgstr "Bir Resim Seçin"
+
+#: digit.php:8506
+msgid "Use this Image"
+msgstr "Bu resmi kullan"
+
+#: digit.php:8564
+msgid "Unexpected error occured while getting addons"
+msgstr ""
+
+#: digit.php:8578
+#, fuzzy
+#| msgid "Activation"
+msgid "Active Addons"
+msgstr "Aktivasyon"
+
+#: digit.php:8650
+msgid "New Addons"
+msgstr ""
+
+#: digit.php:8708
+msgid "Welcome to the configuration wizard for DIGITS!"
+msgstr "DIGITS ayarlama sihirbazına hoşgeldiniz!"
+
+#: digit.php:8710
+msgid ""
+"Thank you for choosing Digits. This quick setup wizard will help you to "
+"configure this plugin in a few simple steps."
+msgstr ""
+"Digits'i tercih ettiğiniz için teşekkür ederiz. Bu basit kurulum sihirbazı "
+"size birkaç basit adımda eklentiyi ayarlama imkânı sunacaktır."
+
+#: digit.php:8712
+msgid "It should only take 4-5 minutes."
+msgstr "Bu sadece 4-5 dakikanızı alacaktır."
+
+#: digit.php:8714
+msgid ""
+"Busy right now! If you don't want to go through the wizard, you can skip and "
+"return to the WordPress dashboard and come back anytime."
+msgstr ""
+"Şu anda meşgul olabilirsiniz! Eğer sihirbazı çalıştırmak istemiyorsanız bu "
+"adımı geçerek istediğiniz bir zamanda WordPress paneliniz üzerinden "
+"sihirbaza tekrar geri dönebilirsiniz."
+
+#: digit.php:8733
+msgid "Return to the WordPress Dashboard"
+msgstr "WordPress Panelinize geri dönün"
+
+#: digmergphne/digmergphne.php:71
+#, fuzzy
+#| msgid "Mobile Number"
+msgid "Merge Mobile Number"
+msgstr "Cep Telefonu Numarası"
+
+#: digmergphne/digmergphne.php:76
+#, fuzzy
+#| msgid "Overwrite Billing and Shipping Mobile Fields"
+msgid "Merge Billing and Account Mobile Fields"
+msgstr ""
+"WooCommerce'ın Fatura ve Gönderi bölümünde yer alan Telefon Numarası "
+"bölümünü Digits ile şekillendirin."
+
+#: digmergphne/digmergphne.php:87
+msgid ""
+"This will merge WooCommerce's Billing and Account Phone Number (Digits), "
+"Account phone number field will be removed from checkout and Billing Phone "
+"Number will be used as account phone number."
+msgstr ""
+
+#: digoldaccntmr/digoldaccntmr.php:95
+msgid "Old Account Migrator"
+msgstr ""
+
+#: digoldaccntmr/digoldaccntmr.php:100
+msgid "Show \"Add Phone Number\" Popup to Old Users"
+msgstr ""
+
+#: digoldaccntmr/digoldaccntmr.php:111
+msgid ""
+"This feature will show popup / modal to old users asking them to enter their "
+"mobile number"
+msgstr ""
+
+#: digoldaccntmr/digoldaccntmr.php:117
+msgid "Make it compulsory"
+msgstr ""
+
+#: digoldaccntmr/digoldaccntmr.php:128 digoldaccntmr/digoldaccntmr.php:145
+msgid ""
+"If set to yes, users will not be able to close the popup if they don't enter "
+"the mobile number"
+msgstr ""
+
+#: digoldaccntmr/digoldaccntmr.php:134
+msgid "When to show"
+msgstr ""
+
+#: digoldaccntmr/digoldaccntmr.php:140
+msgid "Only on first login"
+msgstr ""
+
+#: digoldaccntmr/digoldaccntmr.php:143
+msgid "Every login until they enter phone number"
+msgstr ""
+
+#: digoldaccntmr/digoldaccntmr.php:153
+msgid "Database Migrator"
+msgstr ""
+
+#: digoldaccntmr/digoldaccntmr.php:164
+msgid "OPEN PHONE DATABASE MIGRATOR"
+msgstr ""
+
+#: digoldaccntmr/digoldaccntmr.php:176
+msgid "OLD ACCOUNT MIGRATOR"
+msgstr ""
+
+#: digoldaccntmr/digoldaccntmr.php:183
+#, fuzzy
+#| msgid "Country Codes Whitelist"
+msgid "Country of Users"
+msgstr "Ülke Kodu Beyaz Listesi"
+
+#: digoldaccntmr/digoldaccntmr.php:198
+#, fuzzy
+#| msgid "From"
+msgid "Copy From"
+msgstr "Gönderen"
+
+#: digoldaccntmr/digoldaccntmr.php:201
+#, fuzzy
+#| msgid "WooCommerce Settings"
+msgid "WooCommerce Billing Phone"
+msgstr "WooCommerce Ayarları"
+
+#: digoldaccntmr/digoldaccntmr.php:202
+#, fuzzy
+#| msgid "Enter all fields!"
+msgid "Another Field"
+msgstr "Tüm bölümleri doldurun!"
+
+#: digoldaccntmr/digoldaccntmr.php:208
+msgid "Meta Key of Existing Phone Numbers"
+msgstr ""
+
+#: digoldaccntmr/digoldaccntmr.php:221
+msgid "MIGRATION SUCCESSFUL"
+msgstr ""
+
+#: digoldaccntmr/digoldaccntmr.php:228
+msgid "ACCOUNT DETAILS"
+msgstr ""
+
+#: digoldaccntmr/digoldaccntmr.php:229
+msgid "REASON"
+msgstr ""
+
+#: digoldaccntmr/digoldaccntmr.php:239
+msgid "RUN MIGRATOR"
+msgstr ""
+
+#: digoldaccntmr/digoldaccntmr.php:540
+#, fuzzy
+#| msgid "Add new user"
+msgid "Add Phone Number"
+msgstr "Yeni kullanıcı ekle"
+
+#: digoldaccntmr/digoldaccntmr.php:543
+msgid ""
+"You will be able to login using this mobile number and OTP passcode from "
+"next time."
+msgstr ""
+
+#: digoldaccntmr/digoldaccntmr.php:545
+#, fuzzy
+#| msgid "Please re-enter your password."
+msgid "No need to remember your password."
+msgstr "Lütfen şifrenizi tekrar giriniz."
+
+#: digoldaccntmr/digoldaccntmr.php:597
+msgid "ADD"
+msgstr ""
+
+#: digoneclickls/digoneclickls.php:70 digoneclickls/digoneclickls.php:75
+msgid "One Click Login-Signup"
+msgstr ""
+
+#: digoneclickls/digoneclickls.php:151
+msgid "A verification code will be sent to your number"
+msgstr ""
+
+#: digoneclickls/digoneclickls.php:188
+msgid "Proceed"
+msgstr ""
+
+#: digoneclickls/digoneclickls.php:236 includes/login.php:266
+#, fuzzy
+#| msgid "Please enter your Mobile Number/Email"
+msgid "Please enter a valid captcha!"
+msgstr ""
+"Lütfen sitemiz üzerindeki hesabınıza giriş yapabilmek için kullanacağınız "
+"Cep Telefonu Numaranızı yazınız."
+
+#: digpagelock/digpagelock.php:100
+msgid "Forced Login"
+msgstr ""
+
+#: digpagelock/digpagelock.php:105
+msgid "Lock Full Website"
+msgstr ""
+
+#: digpagelock/digpagelock.php:116
+msgid ""
+"This will lock the whole website so that it can only be accessed by logged "
+"in users."
+msgstr ""
+
+#: digpagelock/digpagelock.php:122
+#, fuzzy
+#| msgid "WooCommerce Settings"
+msgid "Lock WooCommerce Checkout Page"
+msgstr "WooCommerce Ayarları"
+
+#: digpagelock/digpagelock.php:133
+msgid ""
+"This will lock the checkout page so that it can only be accessed by logged "
+"in users."
+msgstr ""
+
+#: digpagelock/digpagelock.php:139
+msgid "Lock Method"
+msgstr ""
+
+#: digpagelock/digpagelock.php:346
+msgid "Page Lock"
+msgstr ""
+
+#: digpagelock/digpagelock.php:372
+#, fuzzy
+#| msgid "Use this Image"
+msgid "Lock this page"
+msgstr "Bu resmi kullan"
+
+#: digpagelock/digpagelock.php:380
+msgid "Method"
+msgstr ""
+
+#: includes/bp.php:49
+msgid "(required)"
+msgstr "(Gerekli Bölüm)"
+
+#: includes/ihu.php:24 includes/wcs.php:386 includes/wp.php:210
+#: includes/wp.php:223
+#, fuzzy
+#| msgid "Please enter Mobile Number!"
+msgid "Please enter a valid Mobile Number"
+msgstr "Lütfen Cep Telefonu Numaranızı yazınız!"
+
+#: includes/ihu.php:29 includes/wp.php:228
+#, fuzzy
+#| msgid "Mobile number verification failed!"
+msgid "Mobile Number verification failed"
+msgstr "Cep Telefonu Numarası doğrulaması başarısız oldu!"
+
+#: includes/ihu.php:59 includes/wcs.php:392 includes/wcs.php:424
+#: includes/wp.php:258
+#, fuzzy
+#| msgid "Please enter your Mobile Number/Email"
+msgid "Please enter a valid OTP"
+msgstr ""
+"Lütfen sitemiz üzerindeki hesabınıza giriş yapabilmek için kullanacağınız "
+"Cep Telefonu Numaranızı yazınız."
+
+#: includes/phandler.php:44
+#, fuzzy
+#| msgid "Please enter your Mobile Number/Email"
+msgid "Please enter a valid purchase code"
+msgstr ""
+"Lütfen sitemiz üzerindeki hesabınıza giriş yapabilmek için kullanacağınız "
+"Cep Telefonu Numaranızı yazınız."
+
+#: includes/phandler.php:54
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+
+#: includes/phandler.php:68
+msgid "Error while verifying your addon license."
+msgstr ""
+
+#: includes/phandler.php:90
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: includes/register.php:111
+msgid "is a required field."
+msgstr "bölümü gereklidir."
+
+#: includes/register.php:145
+msgid "This Mobile number is already registered."
+msgstr "Bu Cep Telefonu Numarası numarası ile daha önce kayıt olunmuştur."
+
+#: includes/register.php:170
+msgid "Please provide a valid email address/Mobile number."
+msgstr "Lütfen geçerli bir E-Posta adresi veya Cep Telefonu numarası yazınız."
+
+#: includes/register.php:176 includes/woocommerce-registration.php:392
+#: includes/woocommerce-registration.php:398
+msgid "Please provide a valid email address."
+msgstr "Lütfen geçerli bir E-Posta adresi yazınız."
+
+#: includes/register.php:178
+msgid "This email address is already registered."
+msgstr "Bu E-Posta adresi ile daha önce kayıt olunmuştur."
+
+#: includes/register.php:187
+msgid "Please fill out all password fields."
+msgstr "Lütfen tüm şifre bölümlerini doldurunuz."
+
+#: includes/register.php:190
+msgid "Please enter your current password."
+msgstr "Lütfen şu anki şifrenizi yazınız."
+
+#: includes/register.php:193
+msgid "Please re-enter your password."
+msgstr "Lütfen şifrenizi tekrar giriniz."
+
+#: includes/register.php:196
+msgid "New passwords do not match."
+msgstr "Yeni şlifreler birbiri ile eşleşmiyor."
+
+#: includes/register.php:199
+msgid "Your current password is incorrect."
+msgstr "Şu anki şifrenizi hatalı girdiniz."
+
+#: includes/register.php:220
+msgid "Account details changed successfully."
+msgstr "Hesap detaylarınız başarıyla güncellenmiştir."
+
+#: includes/register.php:706
+msgid "Invalid password"
+msgstr "Hatalı Şifre"
+
+#: includes/register.php:735
+#, fuzzy
+#| msgid "Error"
+msgid "Error:"
+msgstr "Hata"
+
+#: includes/um.php:36
+msgid "Please enter Mobile Number."
+msgstr "Lütfen Cep Telefonu Numarası giriniz."
+
+#: includes/um.php:43 includes/um.php:54 includes/um.php:64 includes/um.php:72
+msgid "Unable to verify Mobile number"
+msgstr "Cep Telefonu Numarası doğrulanamadı"
+
+#: includes/wcs.php:34
+#, php-format
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr ""
+
+#: includes/wcs.php:84
+msgid "Verification Code"
+msgstr ""
+
+#: includes/wcs.php:85
+#, fuzzy, php-format
+#| msgid "Please enter the expiration date in the MMYY format"
+msgid "Please type the verification code sent to %s."
+msgstr "Lütfen son kullanım tarihini MMYY formatında yazınız"
+
+#: includes/wcs.php:96
+msgid "SUBMIT"
+msgstr ""
+
+#: includes/wcs.php:233
+#, fuzzy
+#| msgid "Please enter your purchase code to receive automatic updates."
+msgid ""
+"<b>Digits:</b> Please register digits with purchase code to enable automatic "
+"updates. Click <a href=\""
+msgstr ""
+"Eklenti güncelleştirmelerini otomatik olarak almak için lütfen Satın Alma "
+"Kodunuzu giriniz."
+
+#: includes/wcs.php:285
+#, fuzzy
+#| msgid "Menu Item Translations"
+msgid "Digits Menu Items"
+msgstr "Menü Öğesi Çevirileri"
+
+#: includes/wcs.php:316
+#, fuzzy
+#| msgid "Sign Up"
+msgid "Signup Page"
+msgstr "Kayıt Ol"
+
+#: includes/wcs.php:317
+#, fuzzy
+#| msgid "Login Modal"
+msgid "Signup Modal"
+msgstr "Modal Giriş"
+
+#: includes/wcs.php:347
+#, fuzzy
+#| msgid "Select a logo"
+msgid "Select all"
+msgstr "Logo Seçin"
+
+#: includes/wcs.php:350
+#, fuzzy
+#| msgid "Advanced Options"
+msgid "Add to menu"
+msgstr "Gelişmiş Seçenekler"
+
+#: includes/wcs.php:390
+#, fuzzy
+#| msgid "Mobile number is already in use!"
+msgid "Mobile Number is already in use"
+msgstr "Cep Telefonu Numarası zaten kullanımdadır!"
+
+#: includes/woocommerce-registration.php:70
+msgid "Extra Profile Information"
+msgstr ""
+
+#: includes/woocommerce-registration.php:82
+#, fuzzy
+#| msgid "Please enter Mobile Number."
+msgid "Please enter your Mobile Number."
+msgstr "Lütfen Cep Telefonu Numarası giriniz."
+
+#: includes/woocommerce-registration.php:182
+#, fuzzy
+#| msgid "Please enter Mobile Number."
+msgid "Please enter your email or Mobile Number!"
+msgstr "Lütfen Cep Telefonu Numarası giriniz."
+
+#: includes/woocommerce-registration.php:252
+msgid "Billing Email"
+msgstr ""
+
+#: includes/woocommerce-registration.php:253
+#, fuzzy
+#| msgid "Mobile Number"
+msgid "Billing Mobile Number"
+msgstr "Cep Telefonu Numarası"
+
+#: includes/woocommerce-registration.php:361
+#, fuzzy
+#| msgid "Please signup before logging in."
+msgid "Please signup before placing order!"
+msgstr "Giriş yapmadan önce kayıt olmanız gereklidir."
+
+#: includes/woocommerce-registration.php:384
+msgid "Unable to verify OTP!"
+msgstr "Tek Kullanımlık Şifre doğrulanamadı!"
+
+#: includes/woocommerce-registration.php:403
+msgid "An account is already registered with your email address. Please login."
+msgstr ""
+"E-Posta adresiniz ile kayıtlı bir hesap zaten bulunmaktadır. Lütfen giriş "
+"yapınız."
+
+#: includes/woocommerce-registration.php:437
+msgid "Invalid Mobile Number or email"
+msgstr "Hatalı Cep Telefonu Numarası veya E-Posta"
+
+#: includes/woocommerce-registration.php:520
+#: includes/woocommerce-registration.php:528
+msgid "Error verifying Mobile Number"
+msgstr "Cep Telefonu Numarası doğrulanırken hata meydana geldi"
+
+#: includes/woocommerce-registration.php:559
+msgid "Mobile number verification failed!"
+msgstr "Cep Telefonu Numarası doğrulaması başarısız oldu!"
+
+#: includes/woocommerce-registration.php:583
+msgid "ERROR"
+msgstr "HATA"
+
+#: includes/woocommerce-registration.php:583
+msgid ""
+"Couldn&#8217;t register you&hellip; please contact us if you continue to "
+"have problems."
+msgstr ""
+"Kaydınızı gerçekleştiremedik. Lütfen tekrar deneyiniz. Sorun devam ediyorsa "
+"lütfen bizimle iletişime geçiniz."
+
+#: includes/woocommerce-registration.php:686
+msgid "Invalid country code!"
+msgstr "Hatalı ülke kodu!"
+
+#: includes/woocommerce-registration.php:696
+msgid "Please enter Mobile Number!"
+msgstr "Lütfen Cep Telefonu Numaranızı yazınız!"
+
+#: includes/woocommerce-registration.php:699
+msgid "Please enter country code!"
+msgstr "Lütfen ülke kodunu seçiniz!"
+
+#: includes/woocommerce-registration.php:706
+msgid "Invalid  Email!"
+msgstr "Hatalı E-Posta"
+
+#: includes/woocommerce-registration.php:1069
+msgid "*"
+msgstr ""
+
+#: includes/woocommerce-registration.php:1184
+#, fuzzy
+msgid "Register with OTP"
+msgstr "Şifre ile kaydolun"
+
+#: includes/woocommerce-registration.php:1228
+msgid "Mobile Number is required!"
+msgstr "Cep Telefonu Numarası gereklidir"
+
+#: includes/woocommerce-registration.php:1244
+msgid ""
+"Lost your password? Please enter your mobile number to receive OTP or email "
+"address to get a link to create a new password."
+msgstr ""
+
+#: includes/woocommerce-registration.php:1252
+msgid "Digits"
+msgstr ""
+
+#: includes/woocommerce-registration.php:1308
+#, fuzzy
+#| msgid "API Username"
+msgid "User"
+msgstr "API Kullanıcı Adı"
+
+#: includes/woocommerce-registration.php:1323
+msgid "Digits Data Eraser"
+msgstr ""
+
+#: includes/woocommerce-registration.php:1358
+#: includes/woocommerce-registration.php:1371
+#, fuzzy
+#| msgid "Remove Image"
+msgid "Removed"
+msgstr "Resimi Sil"
+
+#: includes/wp.php:277
+#, fuzzy
+#| msgid "Mobile number is already in use!"
+msgid "Mobile Number is already in use!"
+msgstr "Cep Telefonu Numarası zaten kullanımdadır!"
+
+#. Plugin Name of the plugin/theme
+msgid "DIGITS: Wordpress Mobile Number Signup and Login"
+msgstr "DIGITS: Wordpress Mobile Number Signup and Login"
+
+#. Plugin URI of the plugin/theme
+msgid "https://digits.unitedover.com"
+msgstr "https://digits.unitedover.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Expand your website dimensions by providing signup and login using mobile "
+"number. User can register himself/herself with just a mobile number."
+msgstr ""
+"Cep Telefonu Numarası ile giriş yapma ve kayıt olma fonksiyonunu web "
+"sitenize kazandırarak sitenizi geliştirin. Kullanıcılarınız kendisini Cep "
+"Telefonu Numarası ile sisteme kayıt edebilir."
+
+#. Author of the plugin/theme
+msgid "UnitedOver"
+msgstr "UnitedOver"
+
+#. Author URI of the plugin/theme
+msgid "https://www.unitedover.com/"
+msgstr "https://www.unitedover.com/"
+
+#, fuzzy
+#~| msgid "Auth ID"
+#~ msgid "Auth Domain"
+#~ msgstr "Auth Kimliği (Auth ID)"
+
+#, fuzzy
+#~| msgid "Sender ID"
+#~ msgid "Messaging Sender ID"
+#~ msgstr "Gönderici Kimliği (Sender ID)"
+
+#~ msgid "Register Redirect"
+#~ msgstr "Kayıt Olduktan Sonra Yönlendir"
+
+#~ msgid "Clockwork SMS"
+#~ msgstr "Clockwork SMS"
+
+#~ msgid "Clockwork Options"
+#~ msgstr "Clockwork Seçenekleri"
+
+#, fuzzy
+#~| msgid "Please enter Mobile Number!"
+#~ msgid "Please enter as valid Mobile Number!"
+#~ msgstr "Lütfen Cep Telefonu Numaranızı yazınız!"
+
+#~ msgid "Please check the Pop-up."
+#~ msgstr "Lütfen Açılır Pencere'yi kontrol edin."
+
+#~ msgid "Powered by <span>Digits</span>"
+#~ msgstr "<span>Digits</span> kullanılarak güçlendirilmiştir"
+
+#~ msgid "Use Mobile Number as Username"
+#~ msgstr "Müşterinin Kullanıcı Adı olarak Cep Telefonu Numarasını kullanın."
+
+#, fuzzy
+#~| msgid "Mobile number verification failed!"
+#~ msgid "Mobile verification during checkout"
+#~ msgstr "Cep Telefonu Numarası doğrulaması başarısız oldu!"
+
+#, fuzzy
+#~| msgid "Mobile number is already in use!"
+#~ msgid "Mobile/Email is already in use!"
+#~ msgstr "Cep Telefonu Numarası zaten kullanımdadır!"
+
+#, fuzzy
+#~| msgid "Please provide a valid email address."
+#~ msgid "Enter a username or email address."
+#~ msgstr "Lütfen geçerli bir E-Posta adresi yazınız."
+
+#, fuzzy
+#~| msgid "Invalid Mobile Number or email"
+#~ msgid "Invalid username or email."
+#~ msgstr "Hatalı Cep Telefonu Numarası veya E-Posta"
+
+#~ msgid "Please verify your Mobile Number!"
+#~ msgstr "Lütfen Cep Telefonu Numaranızı doğrulayınız!"
+
+#~ msgid "Please enter OTP!"
+#~ msgstr "Lütfen tek kullanımlık doğrulama şifrenizi giriniz!"
+
+#~ msgctxt "the plugin title"
+#~ msgid ""
+#~ "A new version of the %s plugin is available. Please enter purchase code "
+#~ "<a href=\"%s\">here</a> to enable automatic updates."
+#~ msgstr ""
+#~ "%s eklentisinin yeni versiyonu mevcuttur. Lütfen Satın Alma Kodunuzu <a "
+#~ "href=\"%s\">BURAYA</a> girerek otomatik güncelleştirmeyi etkinleştiriniz."
+
+#, fuzzy
+#~| msgid "Registration Page Shortcode"
+#~ msgid "Registration Page"
+#~ msgstr "Kayıt Sayfası Kısakodu (Shortcode)"
+
+#, fuzzy
+#~| msgid "Registration is disabled"
+#~ msgid "Registration Modal"
+#~ msgstr "Kayıt işlevi devre dışıdır"
+
+#~ msgid "Invalid Email or Mobile number"
+#~ msgstr "Hatalı E-Posta veya Cep Telefonu Numarası"
+
+#~ msgid "This is a required field"
+#~ msgstr "Bu bölüm gerekli bir bölümdür"
+
+#~ msgid "Choose a Password"
+#~ msgstr "Şifrenizi Belirleyin"
+
+#~ msgid "Sign Up With OTP"
+#~ msgstr "Tek Kullanımlık Şifre ile Kayıt Olun"
+
+#~ msgid "Sign Up With Password"
+#~ msgstr "Şifre İle Kayıt Olun"
+
+#~ msgid "Please enter the expiration date in the MMYY format"
+#~ msgstr "Lütfen son kullanım tarihini MMYY formatında yazınız"
+
+#~ msgid "Invalid card number"
+#~ msgstr "Hatalı kart numarası"
+
+#~ msgid "Name field can only contain letters"
+#~ msgstr "İsim bölümü sadece harflerden oluşmalıdır."
+
+#~ msgid "Wrong year"
+#~ msgstr "Hatalı yıl"
+
+#~ msgid "Your Invitation Code is wrong."
+#~ msgstr "Davetiye Kodunuz hatalıdır"
+
+#~ msgid "Bank Transfer Payment: Start process."
+#~ msgstr "Banka Transferi Ödemesi: İşlemi başlat."
+
+#~ msgid " chose Level "
+#~ msgstr "Seviye seçin"
+
+#~ msgid " become active for "
+#~ msgstr " için aktif olun"
+
+#~ msgid "Error, Please try again later!"
+#~ msgstr "Hata, Lütfen daha sonra tekrar deneyin!"
+
+#~ msgid "Mobile number is already in use!"
+#~ msgstr "Cep Telefonu Numarası zaten kullanımdadır!"
+
+#~ msgid "Knowledgebase"
+#~ msgstr "Bilgi Tabanı"
+
+#~ msgid ""
+#~ "Having issues while setting up this plugin. Get help from our extensive "
+#~ "knowledgebase."
+#~ msgstr ""
+#~ "Eğer bu eklentiyi yapılandırırken sorun yaşamaktaysanız, Geniş bilgi "
+#~ "tabanımızı inceleyerek yardım alabilirsiniz."
+
+#~ msgid "Get Help"
+#~ msgstr "Yardım Al"
+
+#~ msgid "Any Questions?"
+#~ msgstr "Sorusu Olan?"
+
+#~ msgid ""
+#~ "Submit your query. Our team will be more than happy to help you out with "
+#~ "that."
+#~ msgstr ""
+#~ "Sorgunuzu gönderin. Ekibimiz size yardımcı olmaktan mutlu olacaktır."
+
+#~ msgid "Open Ticket"
+#~ msgstr "Ticket Aç"
+
+#~ msgid "Open Simple Wizard"
+#~ msgstr "Basit Sihirbazı Aç"
+
+#~ msgid "Someone has requested a password reset for the following account:"
+#~ msgstr "Birisi bu hesap için şifre sıfırlama talebinde bulundu:"
+
+#, fuzzy
+#~| msgid "Site Name"
+#~ msgid "Site Name: %s"
+#~ msgstr "Site Adı"
+
+#~ msgid "Username: %s"
+#~ msgstr "Kullanıcı Adı: %s"
+
+#~ msgid ""
+#~ "If this was a mistake, just ignore this email and nothing will happen."
+#~ msgstr ""
+#~ "Bu sadece bir hataydı. Bu E-Postayı görmezden gelin ve herhangi bir işlem "
+#~ "yapmayın."
+
+#~ msgid "To reset your password, visit the following address:"
+#~ msgstr "Şifrenizi sıfırlamak için, aşağıdaki bağlantıya gidiniz:"
+
+#~ msgid "[%s] Password Reset"
+#~ msgstr "[%s] Şifre Sıfırlama"
+
+#, fuzzy
+#~| msgid "Choose a Password"
+#~ msgid "Choose an option"
+#~ msgstr "Şifrenizi Belirleyin"
+
+#~ msgid "Enter Purchase code"
+#~ msgstr "Satın Alma Kodununuzu giriniz"
+
+#~ msgid "Gateway Settings"
+#~ msgstr "Gateway Ayarları"
+
+#~ msgid "Configure"
+#~ msgstr "Yapılandır"
+
+#, fuzzy
+#~| msgid "Custom CSS"
+#~ msgid "Custom Fields"
+#~ msgstr "Özel CSS"
+
+#~ msgid "Basic Settings"
+#~ msgstr "Basit Seçenekler"
+
+#~ msgid "Minimum User Role"
+#~ msgstr "En düşük kullanıcı yetkisi"
+
+#, fuzzy
+#~| msgid ""
+#~| "Minimum user level required to a customer on new order page (back-end)."
+#~ msgid ""
+#~ "Minimum user level required to add a customer on new order page (back-"
+#~ "end)."
+#~ msgstr ""
+#~ "Siparişler sayfasındaki bir siparişten kullanıcı oluşturmak için gereken "
+#~ "en düşük yetki."
+
+#~ msgid "Login Form Shortcode"
+#~ msgstr "Giriş Sayfası Kısakodu (Shortcode)"
+
+#~ msgid "Registration Form Shortcode"
+#~ msgstr "Kayıt Formu Kısakodu (Shortcode)"
+
+#~ msgid "Modal Login Shortcode"
+#~ msgstr "Modal Girişi Kısakodu (Shortcode)"
+
+#~ msgid "Login Shortcode"
+#~ msgstr "Giriş Kısakodu (Shortcode)"
+
+#~ msgid "Registration Only Modal Shortcode"
+#~ msgstr "Modal Kayıt Sayfası Kısakodu (Shortcode)"
+
+#~ msgid "Forgot Password Page Shortcode"
+#~ msgstr "Şifremi Unuttum Sayfası Kısakodu (Shortcode)"
+
+#~ msgid "Forgot Password Only Modal Shortcode"
+#~ msgstr "Modal Şifremi Unuttum Sayfası Kısakodu (Shortcode)"
+
+#~ msgid "Password do not match!"
+#~ msgstr "Şifreler birbirleri ile uyuşmuyor!"
+
+#~ msgid ""
+#~ "All you need is a working Facebook account and the next step will teach "
+#~ "you about the further steps."
+#~ msgstr ""
+#~ "İhtiyacınız olan tek şey; çalışan bir Facebook hesabıdır ve sonraki "
+#~ "adımda size diğer aşamalar hakkında bilgi verilecektir."
+
+#, fuzzy
+#~| msgid "Enable email on Sign In/Sign Up"
+#~ msgid "Email on Sign In/Sign Up"
+#~ msgstr "Giriş yaparken veya Kayıt olurken E-Posta kullanımını etkinleştirin"
+
+#, fuzzy
+#~| msgid "This function only works on Digits Login/Signup Modal and Page"
+#~ msgid ""
+#~ "This function only works on WooCommerce and Digits Login/Signup Modal and "
+#~ "Page"
+#~ msgstr ""
+#~ "Bu fonksiyon sadece Digits'in Giriş ve Kayıt Olma sayfasında "
+#~ "çalışmaktadır."
+
+#~ msgid "Enable password on Sign In/Sign Up"
+#~ msgstr "Giriş yaparken veya Kayıt olurken şifre kullanımını etkinleştirin"
+
+#~ msgid "Create Customer On Order"
+#~ msgstr "Siparişi Görüntülerken Müşteri Oluştur"
+
+#~ msgid "Email/Mobile number"
+#~ msgstr "Hesabınıza Giriş İçin Kullanacağınız Cep Telefonu Numaranız"
