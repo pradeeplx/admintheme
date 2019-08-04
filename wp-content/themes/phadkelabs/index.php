@@ -139,9 +139,9 @@ get_header();
 								<h5>Rs. <?php $price = get_post_meta( get_the_ID(), '_regular_price', true); echo $price;?>/-</h5>
 								<div class="package-meta">
 									<ul>
-										<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/service/home2.png" alt="">home visit <?php if(get_field('home_visit')): ?> (<?php echo get_field('home_visit');?>)<?php endif; ?></a>
+										<li><a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/service/home2.png" alt="">home visit <?php if(get_field('home_visit')): ?> (<?php echo get_field('home_visit');?>)<?php endif; ?></a>
 										</li>
-										<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/service/lab2.png" alt="">lab visit <?php if(get_field('lab_visit')): ?>(<?php echo get_field('lab_visit');?>)<?php endif; ?></a></li>
+										<li><a href="/contact-us/"><img src="<?php echo get_template_directory_uri(); ?>/images/service/lab2.png" alt="">lab visit <?php if(get_field('lab_visit')): ?>(<?php echo get_field('lab_visit');?>)<?php endif; ?></a></li>
 									</ul>
 									<div class="cart">
 										<?php $in_cart = woo_is_already_in_cart(get_the_ID()); ?>
@@ -190,9 +190,9 @@ get_header();
 											<h5>Rs. <?php $price = get_post_meta( get_the_ID(), '_regular_price', true); echo $price;?>/-</h5>
 											<div class="package-meta">
 												<ul>
-													<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/service/home2.png" alt="">home visit <?php if(get_field('home_visit')): ?>(<?php echo get_field('home_visit');?>)<?php endif; ?></a>
+													<li><a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/service/home2.png" alt="">home visit <?php if(get_field('home_visit')): ?>(<?php echo get_field('home_visit');?>)<?php endif; ?></a>
 													</li>
-													<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/service/lab2.png" alt="">lab visit <?php if(get_field('lab_visit')): ?>(<?php echo get_field('lab_visit');?>)<?php endif; ?></a></li>
+													<li><a href="/contact-us/"><img src="<?php echo get_template_directory_uri(); ?>/images/service/lab2.png" alt="">lab visit <?php if(get_field('lab_visit')): ?>(<?php echo get_field('lab_visit');?>)<?php endif; ?></a></li>
 												</ul>
 												<div class="cart">
 													<?php $in_cart = woo_is_already_in_cart(get_the_ID()); ?>

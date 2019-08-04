@@ -811,9 +811,9 @@
 								<h5>Rs. 2,000/-</h5>
 								<div class="package-meta">
 									<ul>
-										<li><a href="#"><img src="<?php echo get_template_directory_uri();?>/images/service/home2.png" alt="">home visit (2)</a>
+										<li><a href="/"><img src="<?php echo get_template_directory_uri();?>/images/service/home2.png" alt="">home visit</a>
 										</li>
-										<li><a href="#"><img src="<?php echo get_template_directory_uri();?>/images/service/lab2.png" alt="">lab visit</a></li>
+										<li><a href="/contact-us/"><img src="<?php echo get_template_directory_uri();?>/images/service/lab2.png" alt="">lab visit</a></li>
 									</ul>
 									<div class="cart"><a href="#"><i class="material-icons">add_shopping_cart</i></a>
 									</div>
@@ -829,9 +829,9 @@
 								<h5>Rs. 2,000/-</h5>
 								<div class="package-meta">
 									<ul>
-										<li><a href="#"><img src="<?php echo get_template_directory_uri();?>/images/service/home2.png" alt="">home visit (2)</a>
+										<li><a href="/"><img src="<?php echo get_template_directory_uri();?>/images/service/home2.png" alt="">home visit</a>
 										</li>
-										<li><a href="#"><img src="<?php echo get_template_directory_uri();?>/images/service/lab2.png" alt="">lab visit</a></li>
+										<li><a href="/contact-us/"><img src="<?php echo get_template_directory_uri();?>/images/service/lab2.png" alt="">lab visit</a></li>
 									</ul>
 									<div class="cart"><a href="#"><i class="material-icons">add_shopping_cart</i></a>
 									</div>
@@ -848,9 +848,9 @@
 								<h5>Rs. 2,000/-</h5>
 								<div class="package-meta">
 									<ul>
-										<li><a href="#"><img src="<?php echo get_template_directory_uri();?>/images/service/home2.png" alt="">home visit (2)</a>
+										<li><a href="/"><img src="<?php echo get_template_directory_uri();?>/images/service/home2.png" alt="">home visit</a>
 										</li>
-										<li><a href="#"><img src="<?php echo get_template_directory_uri();?>/images/service/lab2.png" alt="">lab visit</a></li>
+										<li><a href="/contact-us/"><img src="<?php echo get_template_directory_uri();?>/images/service/lab2.png" alt="">lab visit</a></li>
 									</ul>
 									<div class="cart"><a href="#"><i class="material-icons">add_shopping_cart</i></a>
 									</div>
@@ -866,9 +866,9 @@
 								<h5>Rs. 2,000/-</h5>
 								<div class="package-meta">
 									<ul>
-										<li><a href="#"><img src="<?php echo get_template_directory_uri();?>/images/service/home2.png" alt="">home visit (2)</a>
+										<li><a href="/"><img src="<?php echo get_template_directory_uri();?>/images/service/home2.png" alt="">home visit</a>
 										</li>
-										<li><a href="#"><img src="<?php echo get_template_directory_uri();?>/images/service/lab2.png" alt="">lab visit</a></li>
+										<li><a href="/contact-us/"><img src="<?php echo get_template_directory_uri();?>/images/service/lab2.png" alt="">lab visit</a></li>
 									</ul>
 									<div class="cart"><a href="#"><i class="material-icons">add_shopping_cart</i></a>
 									</div>

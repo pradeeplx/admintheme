@@ -50,9 +50,9 @@ function get_single_product_package($product_id){
 		<h5>Rs. <?php $price = get_post_meta( get_the_ID(), '_regular_price', true); echo $price;?>/-</h5>
 		<div class="package-meta">
 			<ul>
-				<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/service/home2.png" alt="">home visit (2)</a>
+				<li><a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/service/home2.png" alt="">home visit</a>
 				</li>
-				<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/service/lab2.png" alt="">lab visit</a></li>
+				<li><a href="/contact-us/"><img src="<?php echo get_template_directory_uri(); ?>/images/service/lab2.png" alt="">lab visit</a></li>
 			</ul>
 			<div class="cart">
 				<a class="product_type_simple add_to_cart add_to_cart add_to_cart_button ajax_add_to_cart"  data-product_id="<?php the_ID(); ?>" href="<?php the_permalink(); ?>?add-to-cart=<?php the_ID(); ?>"><i class="material-icons">add_shopping_cart</i></a>
