@@ -187,6 +187,7 @@ form.search-form button[type="submit"]:hover, form.search-form button[type="subm
 }
 .whatsapp-connect p {
     font-weight: 600;
+    margin-top: 1em;
 }
 .canvas-menu ul.menu li:last-child a {
     background: #fff;

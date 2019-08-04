@@ -53,8 +53,8 @@ if ( ! comments_open() ) {
 					apply_filters(
 						'woocommerce_comment_pagination_args',
 						array(
-							'prev_text' => '&larr;',
-							'next_text' => '&rarr;',
+							'prev_text' => 'Prievious',
+							'next_text' => 'Next',
 							'type'      => 'list',
 						)
 					)

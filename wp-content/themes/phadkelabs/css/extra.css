@@ -72,7 +72,7 @@ ul.page-numbers li{
 ul.page-numbers li:hover {
 	background: #fff;
 	border-color: #007BFF;
-	color: #007BFF!important;
+	color: #007BFF;
 }
 
 ul.page-numbers li:hover a {
@@ -554,4 +554,9 @@ ul.page-numbers li  .prev:parent, ul.page-numbers li  .next:parent{
 /*Team member*/
 .single-member-award {
 	width: 48%;
+}
+@media (min-width: 1200px) {
+	.container {
+		max-width: calc(100% - 140px);
+	}
 }

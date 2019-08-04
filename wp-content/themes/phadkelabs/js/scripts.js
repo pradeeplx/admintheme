@@ -67,7 +67,27 @@ jQuery(document).ready(function($){
     return false;
   });
 
-  $('ul.page-numbers li .current').parents('li').css({color: '#007BFF', borderColor: '#007BFF',background: '#fff'});
+  $('ul.page-numbers li .current').parents('li').css({color: '#007BFF', background: '#fff', borderColor: '#007BFF'});
+  $('ul.page-numbers li .prev').parents('li').css({border: 'none', width: 'fit-content'});
+  $('ul.page-numbers li .prev').parents('li').hover(function(){
+    $(this).css({backgroundColor: 'none',border: 'none', background: 'none'});
+  }, function(){
+    $(this).css({backgroundColor: 'none',border: 'none', background: 'none'});
+  });
+  
+  $('ul.page-numbers li .dots').parents('li').css({border: 'none', width: 'fit-content'});
+  $('ul.page-numbers li .dots').parents('li').hover(function(){
+    $(this).css({backgroundColor: 'none',border: 'none', background: 'none', color: '#9a9a9a'});
+  }, function(){
+    $(this).css({backgroundColor: 'none',border: 'none', background: 'none', color: '#9a9a9a'});
+  });
+
+  $('ul.page-numbers li .next').parents('li').css({border: 'none'});
+  $('ul.page-numbers li .next').parents('li').hover(function(){
+    $(this).css({backgroundColor: 'none',border: 'none', background: 'none'});
+    }, function(){
+    $(this).css({backgroundColor: 'none',border: 'none', background: 'none'});
+  });
   
  $('#login-tap').click(function(){
     $('.staps').hide();
