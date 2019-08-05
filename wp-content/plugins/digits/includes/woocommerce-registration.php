@@ -1145,7 +1145,7 @@ function wc_edit_act() {
 
     <p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide">
 
-        <label for="account_email"><?php _e( "Mobile Number", "digits" ); ?></label>
+        <label for="account_email"><?php _e( "Contact", "digits" ); ?></label>
         <input type="text" class="woocommerce-Input woocommerce-Input--email input-text dig_wc_nw_phone"
                name="account_email" id="username" mob="1"
                countryCode="<?php echo esc_attr( get_the_author_meta( 'digt_countrycode', $user->ID ) ); ?>"
