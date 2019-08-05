@@ -114,7 +114,7 @@ get_header();
 					<a href="<?php echo $term_link; ?>">view all</a>
 				</div>
 				<div class="package-details">
-					<div class="row">
+					<div class="row jusify-content-center">
 					
 					
 				<?php
@@ -167,7 +167,7 @@ get_header();
 					<a href="<?php echo $term_link; ?>">view all</a>
 				</div>
 				<div class="package-details">
-					<div class="row">
+					<div class="row jusify-content-center">
 						<?php
 							$pro_query = new WP_Query(array(
 								'post_type' => 'product',

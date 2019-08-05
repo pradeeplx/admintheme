@@ -801,7 +801,7 @@
 					<h2>Users who booked this test also booked</h2>
 				</div>
 				<div class="package-details">
-					<div class="row">
+					<div class="row jusify-content-center">
 						<!-- Single Package -->
 						<div class="col-lg-3 col-md-6">
 							<div class="single-package">

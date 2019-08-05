@@ -64,7 +64,7 @@ get_header();
 					<h2><?php echo get_term_name_by_id($single_term_id,'product_cat'); ?></h2>
 				</div>
 				<div class="package-details">
-					<div class="row">
+					<div class="row jusify-content-center">
 						
 						<?php 	while($p_query->have_posts()): $p_query->the_post(); ?>
 						

@@ -345,11 +345,35 @@
 	<!-- Add To Cart Area Start -->
 
 	<div class="add-to-cart-area">
+			<?php 
+			$cartVal = $woocommerce->cart->cart_contents_total; 
+			if($cartVal == '0') { 
+				echo '<div class="add-to-cart-head empty-cart-head">';
+				echo '<h2 class="empty-cart">Hey, Your cart is empty.</h2><button class="canvas-close bg-none text-right"><i class="material-icons">close</i></button>
+				</div>
+				<div class="add-to-cart-details  cart-table-info woocommerce-cart-form__cart-item ">
+					
+					<div class="cart-info">
+						
+					</div>
+				</div>
+				</div>
+				</div> ';
+			}
+			else { ?>
 			<div class="add-to-cart-head">
-				<p class="text-center mt-0"><?php $cartVal = $woocommerce->cart->cart_contents_total; if($cartVal == '0') { echo 'Hey, Your cart is empty.';} ?></p>	
-				<a href="<?php echo esc_url(home_url('/cart')); ?>"> <i class="material-icons">add_shopping_cart</i> <span class="badge"><?php  echo $woocommerce->cart->cart_contents_count; ?></span></a><button class="canvas-close cartClose bg-none text-right"><i class="material-icons">close</i></button>
+
+				<a href="<?php echo esc_url(home_url('/cart')); ?>"> <i class="material-icons">add_shopping_cart</i> <span class="badge"><?php  echo $woocommerce->cart->cart_contents_count; ?></span></a><button class="canvas-close bg-none text-right"><i class="material-icons">close</i></button>
 				<p>Cart Total: <span>Rs. <?php $totalamount = $woocommerce->cart->cart_contents_total;echo $totalamount; ?>/-</span></p>
-			</div>
+			<?php 
+			} 
+			echo '</div>';
+			?>
+			<?php
+			if($cartVal == '0') { ?>
+				<div class="add-to-cart-body"></div>
+			<?php }
+			else { ?>
 				<div class="add-to-cart-body">
 			
 				<?php
@@ -395,9 +419,11 @@
 				</div>
 				
 				<?php } ?>
-			</div>
-			<a class="checkout" href="<?php echo wc_get_page_permalink( 'checkout' ); ?>">Check Out</a>
-		</div> <!-- Add To Cart Area End -->
+				</div>
+				<a class="checkout" href="<?php echo wc_get_page_permalink( 'checkout' ); ?>">Check Out</a>
+				</div> 
+				<?php } ?>
+				<!-- Add To Cart Area End -->
 
 	<!--==============================================-->
 	<!--============== Header Area End ===============-->

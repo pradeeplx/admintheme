@@ -355,6 +355,19 @@ jQuery(document).ready(function($){
   $(window).scroll(function() {
     var scrollbarLocation = $(this).scrollTop();
     
+    if (scrollbarLocation > 5) {
+      $(".canvas-menu-area").removeClass("canvas-show");
+      $(".canvas-overlay").removeClass("show-overlay");
+      $(".header-login ul li a.bars").css("color","#000");
+      $( ".header-login ul li a.bars" ).hover(
+        function() {
+          $( this ).css("color","#2680eb");
+        }, function() {
+          $( this ).css("color","#000");
+        }
+      );
+
+    }
     $('.menu-area ul li a').each(function() {
       
       var sectionOffset = jQuery(this.hash).offset().top -500;
@@ -368,7 +381,6 @@ jQuery(document).ready(function($){
   });
   
 });
-
 
 //*********************************************//
 //*********** JQuery Load Function ************//                 

@@ -420,7 +420,7 @@ img {
 	right: -100%;
 	z-index: 1000;
 	padding: 50px 50px 50px 60px;
-	width: 435px;
+	width: 450px!important;
 	height: 100%;
 	transition: 1s;
 	-webkit-transition: 1s;
@@ -430,6 +430,7 @@ img {
 }
 .canvas-show {
 	right: 0;
+	overflow-y: hidden!important;
 }
 .canvas-menu-area .canvas-close {
 	background: transparent;
@@ -451,7 +452,23 @@ img {
 }
 .canvas-menu ul li {
 	display: block;
-	margin-bottom: 15px;
+	margin-bottom: 22px!important;
+}
+
+@media (max-width: 575px) {
+	.canvas-menu ul li {
+		display: block;
+		margin-bottom: 16px!important;
+	}
+}
+
+.canvas-menu ul #menu-item-2143 {
+	margin: 40px 0 !important;
+}
+@media (max-width: 575px) {
+	.canvas-menu ul #menu-item-2143 {
+		margin: 30px 0 !important;
+	}
 }
 .canvas-menu ul li a {
 	color: #C5D0E6;
@@ -471,8 +488,12 @@ img {
 	color: #2f446e;
 	margin: 20px 0;
 }
+.canvas-menu-area .footer-newsletter p {
+	width: 80%;
+}
 .canvas-menu-area .footer-newsletter h6 {
 	font-size: 16px;
+	margin-bottom: 20px;
 }
 .canvas-menu-area .footer-newsletter form input {
 	border: none;
@@ -487,6 +508,14 @@ img {
 	border: none;
 	border-top-right-radius: 6px;
 	border-bottom-right-radius: 6px;
+}
+.canvas-menu-area .footer-social {
+	margin-top: 50px !important;
+}
+@media (max-width: 575px) {
+	.canvas-menu-area .footer-social {
+		margin-top: 20px!important;
+	}
 }
 .canvas-menu-area .footer-social h5 {
 	color: #fff;
@@ -1658,6 +1687,14 @@ form.search-form  button i {
 .home-visiting {
 	overflow: hidden;
 	position: relative;
+	padding: 180px 0;
+}
+
+@media screen and (max-width: 1200) {
+	
+	.home-visiting {
+		padding: 0;
+	}
 }
 .home-visiting::before {
 	content: '';
@@ -4682,4 +4719,20 @@ button.popup-search {
 
 }
 
+.empty-cart-head {
+	height: 245px;
+	border: none;
+	color: #fff;
+	display: flex;
+  justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 22px;
+}
+.empty-cart-head .canvas-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
 /*========== END FIRST PROJECT PAGES CSS============ */

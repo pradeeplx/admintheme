@@ -95,7 +95,7 @@ global $phadkelabs;
 			<!-- Package Offer -->
 			<div class="service-package-area">
 				<div class="package-details">
-					<div class="row">
+					<div class="row jusify-content-center">
 						
 						<?php
 							/* $post_query = new WP_Query(array(
