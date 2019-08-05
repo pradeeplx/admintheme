@@ -399,7 +399,7 @@
 					<a href="#"><?php echo $_product->get_title(); ?></a>
 					<div class="cart-info">
 						<h6>Rs. <?php echo $price; ?>/-</h6>
-						<p>Quantity: <span><?php echo $values['quantity']; ?></span></p>
+						<p>Quantity: <span><?php //echo $values['quantity']; ?></span></p>
 					</div>
 					<button><i class="material-icons">
 

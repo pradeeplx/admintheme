@@ -89,8 +89,8 @@ ul.page-numbers li a {
 }
 .add-to-cart-details button i {
     font-size: 14px;
-    position: relative;
-    top: -2px;
+    /* position: relative;
+    top: -2px; */
 }
 .add-to-cart-area a.checkout {
     background: #2680EB;
@@ -173,7 +173,7 @@ p.woocommerce-FormRow.woocommerce-FormRow--wide.form-row.form-row-wide label {
     color: #2680EB;
 }
 .header-area .search-header form.search-form input {
-    padding: 11px 60px 9px 50px
+    padding: 14px 60px 13px 50px
 }
 form.search-form button[type="submit"]:hover, form.search-form button[type="submit"]:focus {
     background: #2680EB;
