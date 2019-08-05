@@ -420,7 +420,7 @@
 				
 				<?php } ?>
 				</div>
-				<a class="checkout" href="<?php echo wc_get_page_permalink( 'checkout' ); ?>">Check Out</a>
+				<a class="checkout" href="<?php echo wc_get_page_permalink( 'checkout' ); ?>">PREOCEED</a>
 				</div> 
 				<?php } ?>
 				<!-- Add To Cart Area End -->
