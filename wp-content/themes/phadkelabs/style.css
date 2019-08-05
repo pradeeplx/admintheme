@@ -428,6 +428,13 @@ img {
 	-ms-transition: 1s;
 	-o-transition: 1s;
 }
+@media only screen and (max-width: 767px) {
+.canvas-menu-area {
+    padding: 25px;
+		width: 100%!important;
+	}
+}
+		
 .canvas-show {
 	right: 0;
 	overflow-y: hidden!important;

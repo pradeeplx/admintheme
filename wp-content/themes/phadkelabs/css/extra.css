@@ -521,6 +521,7 @@ body .woocommerce .product-name a {
 }
 .footer-newsletter form .submit_button {
 	padding: 0px 10px!important;
+	padding-bottom: 5px !important;
     cursor: pointer!important;
     background-color: #fff!important;
     color: navy!important;
@@ -555,7 +556,7 @@ ul.page-numbers li  .prev:parent, ul.page-numbers li  .next:parent{
 .single-member-award {
 	width: 48%;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1281px) and (min-width: 1920px) {
 	.container {
 		max-width: calc(100% - 140px);
 	}
