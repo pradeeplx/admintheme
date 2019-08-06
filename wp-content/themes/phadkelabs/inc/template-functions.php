@@ -417,8 +417,8 @@ function home_visiting(){
 					$home_visiting_section_details = $phadkelabs['home_visiting_section_details'];
 				?>
 			
-				<p><?php if($home_visiting_section_subtitle) echo $home_visiting_section_subtitle; ?></p>
 				<h2><?php if($home_visiting_section_caption) echo $home_visiting_section_caption; ?></h2>
+				<p><?php if($home_visiting_section_subtitle) echo $home_visiting_section_subtitle; ?></p>
 				<?php if($home_visiting_section_details) echo $home_visiting_section_details; ?>
 			</div>
 		</div>

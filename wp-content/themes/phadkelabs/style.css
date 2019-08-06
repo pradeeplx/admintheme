@@ -894,6 +894,12 @@ form.search-form  button i {
 .single-package:hover h5 {
 	color: #2F446E;
 }
+.single-package:hover h2{
+	color: #2F446E;
+}
+.single-package:hover a{
+	color: #2F446E;
+}
 
 
 .single-package h4 {
@@ -1393,6 +1399,9 @@ form.search-form  button i {
 	margin-bottom: 40px;
 	text-align: center;
 }
+.form-area form p {
+	margin-bottom: 1em;
+}
 .form-area form input {
 	width: 100%;
 	border: 1px solid #839BB7;
@@ -1698,20 +1707,20 @@ form.search-form  button i {
  /******** 1.Book A Test Banner Area Start ********/
 /*************************************************/
 .home-visiting {
+	padding: 100px 0;
 	overflow: hidden;
 	position: relative;
+}
+@media screen and (min-width: 1200) {
+.home-visiting {
 	padding: 180px 0;
 }
-
-@media screen and (max-width: 1200) {
-	
-	.home-visiting {
-		padding: 0;
-	}
 }
+
+	
 .home-visiting::before {
 	content: '';
-	background: url(images/book-a-test/home-visit/bg.jpg);
+	background: url(images/book-a-test/home-visit/bg.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
@@ -2442,7 +2451,9 @@ form.search-form  button i {
 }
 .banner-member-info h3 {
 	font-size: 30px;
-	font-weight: 700;
+	font-weight: bold !important;
+	color: #1B1F27;
+	font-family: 'Open Sans'; 
 	margin-bottom: 30px;
 	text-transform: capitalize;
 }
