@@ -153,7 +153,7 @@
 								<?php else: ?>
 								<li><a href="<?php echo esc_url(home_url('/my-account')); ?>">My Account</a></li>
 								<?php endif; ?>
-								<li class="d-md-inline-block d-lg-none">
+								<li class="d-md-inline-block d-lg-none mob-popup-search">
 									<button class="popup-search show" type="submit">
 										<i class="material-icons">search</i>
 									</button>

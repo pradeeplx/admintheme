@@ -348,7 +348,7 @@ get_header();
 				</div>
 			</div>
 		</div>
-		<img class="collection-mockup" src="<?php echo get_template_directory_uri(); ?>/images/blood-collection/mockup.jpg" alt="">
+		<img class="collection-mockup" src="<?php echo get_template_directory_uri(); ?>/images/blood-collection/First Lab in the city 1x.png" alt="">
 	</section>
 
 	<!--==============================================-->
@@ -364,7 +364,7 @@ get_header();
 	<div class="award-section section-padding">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-7 offset-lg-1 col-12">
+				<div class="col-lg-7 col-12">
 					<div class="award-info">
 						<h6>Dr. Avinash Phadke Labs has recievied NABL Accreditation from the Govt. of India.</h6>
 						<p>This accreditation is given on the basis of participation in international quality control

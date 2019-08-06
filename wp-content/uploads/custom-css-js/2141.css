@@ -15,10 +15,10 @@ End of comment */
     padding: 12px 60px 12px 50px;
 }
 .search-header .header-login ul li:first-child {
-    margin-right: 30px;
+    margin-right: 50px;
 }
 .search-header .header-login ul li {
-    margin-right: 30px;
+    margin-right: 40px;
 }
 .search-header .header-login ul li:last-child {
     margin-right: 0;
@@ -42,6 +42,13 @@ End of comment */
 }
 .home section.testimonial-area.section-padding {
     padding-bottom: 120px;
+}
+@media only screen and (min-width: 1500px)  {
+
+    .home section.testimonial-area.section-padding {
+        padding-bottom: 200px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    }
 }
 .testimonial.owl-carousel .owl-dots {
     margin-top: 30px;
@@ -118,7 +125,7 @@ input:focus {
     background-position: center right;
 }
 form.search-form input {
-    padding: 14px 60px 13px 50px;
+    padding: 13px 60px 13px 50px;
 }
 .package-head a:hover, .package-head a:focus, .collection-info a:hover, .collection-info a:focus,
 .form-area form button[type="submit"]:hover{
@@ -209,12 +216,17 @@ form.search-form button[type="submit"]:hover, form.search-form button[type="subm
     border: 2px solid #2680EB;
 }
 input.wpcf7-form-control.wpcf7-submit {
+
+}
+.contact-area input.wpcf7-form-control.wpcf7-submit {
     cursor: pointer;
     background: #2F446E;
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
     border: 0;
+    width: 200px;
+    border-radius: 30px;
 }
 input.wpcf7-form-control.wpcf7-submit:hover {
     background: #2680EB;

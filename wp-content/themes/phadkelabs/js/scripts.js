@@ -82,6 +82,7 @@ jQuery(document).ready(function($){
     $(this).css({backgroundColor: 'none',border: 'none', background: 'none', color: '#9a9a9a'});
   });
 
+  $('input.wpcf7-form-control.wpcf7-submit').parents('p').css({textAlign: 'center'});
   $('ul.page-numbers li .next').parents('li').css({border: 'none'});
   $('ul.page-numbers li .next').parents('li').hover(function(){
     $(this).css({backgroundColor: 'none',border: 'none', background: 'none'});
@@ -355,19 +356,19 @@ jQuery(document).ready(function($){
   $(window).scroll(function() {
     var scrollbarLocation = $(this).scrollTop();
     
-    if (scrollbarLocation > 5) {
-      $(".canvas-menu-area").removeClass("canvas-show");
-      $(".canvas-overlay").removeClass("show-overlay");
-      $(".header-login ul li a.bars").css("color","#000");
-      $( ".header-login ul li a.bars" ).hover(
-        function() {
-          $( this ).css("color","#2680eb");
-        }, function() {
-          $( this ).css("color","#000");
-        }
-      );
+    // if (scrollbarLocation > 5) {
+    //   $(".canvas-menu-area").removeClass("canvas-show");
+    //   $(".canvas-overlay").removeClass("show-overlay");
+    //   $(".header-login ul li a.bars").css("color","#000");
+    //   $( ".header-login ul li a.bars" ).hover(
+    //     function() {
+    //       $( this ).css("color","#2680eb");
+    //     }, function() {
+    //       $( this ).css("color","#000");
+    //     }
+    //   );
 
-    }
+    // }
     $('.menu-area ul li a').each(function() {
       
       var sectionOffset = jQuery(this.hash).offset().top -500;

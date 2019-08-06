@@ -230,7 +230,8 @@ img {
 }
 .menu-area ul li a {
 	background: #fff;
-	padding: 14px 60px;
+	padding: 15px 0;
+	width: 256px;
 	border-radius: 30px;
 	-webkit-box-shadow: 0 2px 17px -6px #000;
 	        box-shadow: 0 2px 17px -6px #000;
@@ -1048,7 +1049,7 @@ form.search-form  button i {
 }
 .single-info .info-img {
 	margin-right: 25px;
-	height: 96px;
+	height: 110px;
 	width: 21%;
 	background: #fff;
 	border-radius: 50%;
@@ -1061,6 +1062,11 @@ form.search-form  button i {
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
+}
+@media (max-width: 1300px){
+	.single-info .info-img {
+		height: 100px;
+	}
 }
 .why-choose-us .col-lg-6:nth-child(1) .single-info {
 	margin-bottom: 30px;
@@ -1227,7 +1233,7 @@ form.search-form  button i {
 }
 .single-collection p {
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 600;
 	color: #2680EB;
 }
 .collection-mockup {
@@ -4741,5 +4747,18 @@ button.popup-search {
 	top: 0;
 	right: 0;
 
+}
+@media screen and (min-width: 1500px) {
+	.banner-info .product-search-box {
+		width: 80%;
+	}
+	.banner-info .product-search-box {
+		width: 500px;
+	}
+}
+@media screen and (max-width: 1500px) {
+	.product-search-box {
+		width: 80%;
+	}
 }
 /*========== END FIRST PROJECT PAGES CSS============ */

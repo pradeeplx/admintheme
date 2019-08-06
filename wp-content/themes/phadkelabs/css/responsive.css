@@ -2582,3 +2582,41 @@
     
 }
 
+.home section.testimonial-area.section-padding {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+@media only screen and (max-width: 767px) {
+    .mob-popup-search {
+        display: none;
+    }
+    .package-tag {
+        right: 15px;
+    }
+}
+/* for 1920 */
+@media only screen and (min-width: 1200px)  {
+    .banner-area {
+        margin-top: 200px;
+    }
+}
+@media only screen and (min-width: 1500px)  {
+    .banner-info {
+        margin: 200px 0;
+    }
+    .single-info .info-img {
+	height: 150px;
+    }
+
+    .banner-area {
+        margin-top: 200px;
+    }
+    .single-offer {
+        width: 850px;
+        height: 300px;
+    }
+    .home section.testimonial-area.section-padding {
+        padding-bottom: 200px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    }
+}
